@@ -1256,7 +1256,7 @@ Connection ~ 1900 -2300
 Wire Wire Line
 	1900 -2300 1600 -2300
 Text GLabel 1600 -2300 0    50   Input ~ 0
-ROW1
+ROW2
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX33
 U 1 1 6062F193
@@ -1634,7 +1634,7 @@ Connection ~ 1900 -1700
 Wire Wire Line
 	1900 -1700 1600 -1700
 Text GLabel 1600 -1700 0    50   Input ~ 0
-ROW1
+ROW3
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX48
 U 1 1 6064A115
@@ -2087,7 +2087,7 @@ Connection ~ 1900 -1100
 Wire Wire Line
 	1900 -1100 1600 -1100
 Text GLabel 1600 -1100 0    50   Input ~ 0
-ROW1
+ROW4
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX63
 U 1 1 6070387A
@@ -2550,4 +2550,49 @@ Wire Wire Line
 	10050 -2100 10050 -1500
 Wire Wire Line
 	9700 -1100 9100 -1100
+Text GLabel -500 -3500 2    50   Input ~ 0
+D-
+Text GLabel -500 -3400 2    50   Input ~ 0
+D+
+$Comp
+L power:GND #PWR?
+U 1 1 607822F8
+P -400 -3200
+F 0 "#PWR?" H -400 -3450 50  0001 C CNN
+F 1 "GND" H -395 -3373 50  0000 C CNN
+F 2 "" H -400 -3200 50  0001 C CNN
+F 3 "" H -400 -3200 50  0001 C CNN
+	1    -400 -3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-500 -3200 -400 -3200
+Text GLabel 2250 -4200 1    50   Input ~ 0
+COL0
+Text GLabel 2850 -4200 1    50   Input ~ 0
+COL1
+Text GLabel 3450 -4200 1    50   Input ~ 0
+COL2
+Text GLabel 4050 -4200 1    50   Input ~ 0
+COL3
+Text GLabel 4650 -4200 1    50   Input ~ 0
+COL4
+Text GLabel 5250 -4200 1    50   Input ~ 0
+COL5
+Text GLabel 5850 -4200 1    50   Input ~ 0
+COL6
+Text GLabel 6450 -4200 1    50   Input ~ 0
+COL7
+Text GLabel 7050 -4200 1    50   Input ~ 0
+COL8
+Text GLabel 7650 -4200 1    50   Input ~ 0
+COL9
+Text GLabel 8250 -4200 1    50   Input ~ 0
+COL10
+Text GLabel 8850 -4200 1    50   Input ~ 0
+COL11
+Text GLabel 9450 -4200 1    50   Input ~ 0
+COL12
+Text GLabel 10050 -4200 1    50   Input ~ 0
+COL13
 $EndSCHEMATC
