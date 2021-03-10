@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name kbd)(type Legacy)(uri D:/Git/custom-mech/libraries/kbd/kicad-symbols/kbd.lib)(options "")(descr ""))
+  (lib (name Arduino)(type Legacy)(uri D:/Git/custom-mech/libraries/kicad-lib-arduino-main/Arduino.lib)(options "")(descr ""))
+  (lib (name MX_Alps_Hybrid)(type Legacy)(uri "D:/Git/custom-mech/libraries/MX_Alps_Hybrid.pretty/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type Legacy)(uri "D:/Git/custom-mech/libraries/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
+)
