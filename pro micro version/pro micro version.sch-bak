@@ -89,7 +89,7 @@ $EndComp
 Wire Wire Line
 	2400 950  2850 950 
 $Comp
-L kbd:ProMicro L_U1
+L pro-micro-version-rescue:ProMicro-kbd L_U1
 U 1 1 60481D58
 P 1700 1400
 F 0 "L_U1" H 1700 2237 60  0000 C CNN
@@ -182,7 +182,7 @@ $EndComp
 Wire Wire Line
 	8200 950  8650 950 
 $Comp
-L kbd:ProMicro U1
+L pro-micro-version-rescue:ProMicro-kbd U1
 U 1 1 60641E3C
 P 7500 1400
 F 0 "U1" H 7500 2237 60  0000 C CNN
@@ -193,7 +193,7 @@ F 3 "" H 7600 350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH SW1
+L pro-micro-version-rescue:SW_PUSH-kbd SW1
 U 1 1 60641E42
 P 7450 2500
 F 0 "SW1" H 7450 2755 50  0000 C CNN
@@ -442,7 +442,7 @@ SCL
 Text GLabel 11250 2000 3    50   Input ~ 0
 SDA
 $Comp
-L kbd:OLED OL1
+L pro-micro-version-rescue:OLED-kbd OL1
 U 1 1 60641EC9
 P 11500 1250
 F 0 "OL1" V 11461 922 51  0000 R CNN
@@ -460,7 +460,7 @@ Connection ~ 950  1100
 Wire Wire Line
 	950  1100 950  1150
 $Comp
-L kbd:OLED L_OL1
+L pro-micro-version-rescue:OLED-kbd L_OL1
 U 1 1 604EB2C3
 P 5650 1300
 F 0 "L_OL1" V 5611 972 51  0000 R CNN
@@ -471,9 +471,9 @@ F 3 "" H 5650 1400 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 5400 2050 3    50   Input ~ 0
-SDA
+L_SDA
 Text GLabel 5550 2050 3    50   Input ~ 0
-SCL
+L_SCL
 $Comp
 L power:VCC #PWR08
 U 1 1 604F22B6
@@ -1077,364 +1077,364 @@ F 3 "~" V 2650 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_B1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_B1
 U 1 1 6053AF20
 P 4200 5400
 F 0 "K_B1" H 4233 5623 60  0000 C CNN
 F 1 "MX-NoLED" H 4233 5549 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3575 5375 60  0001 C CNN
+F 2 "" H 3575 5375 60  0001 C CNN
 F 3 "" H 3575 5375 60  0001 C CNN
 	1    4200 5400
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_G1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_G1
 U 1 1 6053AF14
 P 4200 4750
 F 0 "K_G1" H 4233 4973 60  0000 C CNN
 F 1 "MX-NoLED" H 4233 4899 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3575 4725 60  0001 C CNN
+F 2 "" H 3575 4725 60  0001 C CNN
 F 3 "" H 3575 4725 60  0001 C CNN
 	1    4200 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_T1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_T1
 U 1 1 6053AF08
 P 4200 4100
 F 0 "K_T1" H 4233 4323 60  0000 C CNN
 F 1 "MX-NoLED" H 4233 4249 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3575 4075 60  0001 C CNN
+F 2 "" H 3575 4075 60  0001 C CNN
 F 3 "" H 3575 4075 60  0001 C CNN
 	1    4200 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_V1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_V1
 U 1 1 60537DFB
 P 3700 5400
 F 0 "K_V1" H 3733 5623 60  0000 C CNN
 F 1 "MX-NoLED" H 3733 5549 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3075 5375 60  0001 C CNN
+F 2 "" H 3075 5375 60  0001 C CNN
 F 3 "" H 3075 5375 60  0001 C CNN
 	1    3700 5400
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_F1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_F1
 U 1 1 60537DEF
 P 3700 4750
 F 0 "K_F1" H 3733 4973 60  0000 C CNN
 F 1 "MX-NoLED" H 3733 4899 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3075 4725 60  0001 C CNN
+F 2 "" H 3075 4725 60  0001 C CNN
 F 3 "" H 3075 4725 60  0001 C CNN
 	1    3700 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_R1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_R1
 U 1 1 60537DE3
 P 3700 4100
 F 0 "K_R1" H 3733 4323 60  0000 C CNN
 F 1 "MX-NoLED" H 3733 4249 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3075 4075 60  0001 C CNN
+F 2 "" H 3075 4075 60  0001 C CNN
 F 3 "" H 3075 4075 60  0001 C CNN
 	1    3700 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Space_2
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Space_2
 U 1 1 60533F2A
 P 3200 6050
 F 0 "K_Space_2" H 3233 6273 60  0000 C CNN
 F 1 "MX-NoLED" H 3233 6199 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2575 6025 60  0001 C CNN
+F 2 "" H 2575 6025 60  0001 C CNN
 F 3 "" H 2575 6025 60  0001 C CNN
 	1    3200 6050
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_C1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_C1
 U 1 1 60533F1E
 P 3200 5400
 F 0 "K_C1" H 3233 5623 60  0000 C CNN
 F 1 "MX-NoLED" H 3233 5549 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2575 5375 60  0001 C CNN
+F 2 "" H 2575 5375 60  0001 C CNN
 F 3 "" H 2575 5375 60  0001 C CNN
 	1    3200 5400
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_D1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_D1
 U 1 1 60533F12
 P 3200 4750
 F 0 "K_D1" H 3233 4973 60  0000 C CNN
 F 1 "MX-NoLED" H 3233 4899 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2575 4725 60  0001 C CNN
+F 2 "" H 2575 4725 60  0001 C CNN
 F 3 "" H 2575 4725 60  0001 C CNN
 	1    3200 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_E1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_E1
 U 1 1 60533F06
 P 3200 4100
 F 0 "K_E1" H 3233 4323 60  0000 C CNN
 F 1 "MX-NoLED" H 3233 4249 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2575 4075 60  0001 C CNN
+F 2 "" H 2575 4075 60  0001 C CNN
 F 3 "" H 2575 4075 60  0001 C CNN
 	1    3200 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Space1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Space1
 U 1 1 6052E853
 P 2700 6050
 F 0 "K_Space1" H 2733 6273 60  0000 C CNN
 F 1 "MX-NoLED" H 2733 6199 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2075 6025 60  0001 C CNN
+F 2 "" H 2075 6025 60  0001 C CNN
 F 3 "" H 2075 6025 60  0001 C CNN
 	1    2700 6050
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_X1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_X1
 U 1 1 6052E847
 P 2700 5400
 F 0 "K_X1" H 2733 5623 60  0000 C CNN
 F 1 "MX-NoLED" H 2733 5549 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2075 5375 60  0001 C CNN
+F 2 "" H 2075 5375 60  0001 C CNN
 F 3 "" H 2075 5375 60  0001 C CNN
 	1    2700 5400
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_S1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_S1
 U 1 1 6052E83B
 P 2700 4750
 F 0 "K_S1" H 2733 4973 60  0000 C CNN
 F 1 "MX-NoLED" H 2733 4899 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2075 4725 60  0001 C CNN
+F 2 "" H 2075 4725 60  0001 C CNN
 F 3 "" H 2075 4725 60  0001 C CNN
 	1    2700 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_W1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_W1
 U 1 1 6052E82F
 P 2700 4100
 F 0 "K_W1" H 2733 4323 60  0000 C CNN
 F 1 "MX-NoLED" H 2733 4249 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2075 4075 60  0001 C CNN
+F 2 "" H 2075 4075 60  0001 C CNN
 F 3 "" H 2075 4075 60  0001 C CNN
 	1    2700 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Alt1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Alt1
 U 1 1 6052B7EA
 P 2200 6050
 F 0 "K_Alt1" H 2233 6273 60  0000 C CNN
 F 1 "MX-NoLED" H 2233 6199 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1575 6025 60  0001 C CNN
+F 2 "" H 1575 6025 60  0001 C CNN
 F 3 "" H 1575 6025 60  0001 C CNN
 	1    2200 6050
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Z1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Z1
 U 1 1 6052B7DE
 P 2200 5400
 F 0 "K_Z1" H 2233 5623 60  0000 C CNN
 F 1 "MX-NoLED" H 2233 5549 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1575 5375 60  0001 C CNN
+F 2 "" H 1575 5375 60  0001 C CNN
 F 3 "" H 1575 5375 60  0001 C CNN
 	1    2200 5400
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_A1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_A1
 U 1 1 6052B7D2
 P 2200 4750
 F 0 "K_A1" H 2233 4973 60  0000 C CNN
 F 1 "MX-NoLED" H 2233 4899 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1575 4725 60  0001 C CNN
+F 2 "" H 1575 4725 60  0001 C CNN
 F 3 "" H 1575 4725 60  0001 C CNN
 	1    2200 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Q1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Q1
 U 1 1 6052B7C6
 P 2200 4100
 F 0 "K_Q1" H 2233 4323 60  0000 C CNN
 F 1 "MX-NoLED" H 2233 4249 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1575 4075 60  0001 C CNN
+F 2 "" H 1575 4075 60  0001 C CNN
 F 3 "" H 1575 4075 60  0001 C CNN
 	1    2200 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Ctrl1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Ctrl1
 U 1 1 60525C35
 P 1700 6050
 F 0 "K_Ctrl1" H 1733 6273 60  0000 C CNN
 F 1 "MX-NoLED" H 1733 6199 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1075 6025 60  0001 C CNN
+F 2 "" H 1075 6025 60  0001 C CNN
 F 3 "" H 1075 6025 60  0001 C CNN
 	1    1700 6050
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Shift1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Shift1
 U 1 1 60524846
 P 1700 5400
 F 0 "K_Shift1" H 1733 5623 60  0000 C CNN
 F 1 "MX-NoLED" H 1733 5549 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1075 5375 60  0001 C CNN
+F 2 "" H 1075 5375 60  0001 C CNN
 F 3 "" H 1075 5375 60  0001 C CNN
 	1    1700 5400
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Caps1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Caps1
 U 1 1 60523089
 P 1700 4750
 F 0 "K_Caps1" H 1733 4973 60  0000 C CNN
 F 1 "MX-NoLED" H 1733 4899 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1075 4725 60  0001 C CNN
+F 2 "" H 1075 4725 60  0001 C CNN
 F 3 "" H 1075 4725 60  0001 C CNN
 	1    1700 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Tab1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Tab1
 U 1 1 6051F717
 P 1700 4100
 F 0 "K_Tab1" H 1733 4323 60  0000 C CNN
 F 1 "MX-NoLED" H 1733 4249 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1075 4075 60  0001 C CNN
+F 2 "" H 1075 4075 60  0001 C CNN
 F 3 "" H 1075 4075 60  0001 C CNN
 	1    1700 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_F16
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_F16
 U 1 1 6051E41A
 P 1200 6050
 F 0 "K_F16" H 1233 6273 60  0000 C CNN
 F 1 "MX-NoLED" H 1233 6199 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 575 6025 60  0001 C CNN
+F 2 "" H 575 6025 60  0001 C CNN
 F 3 "" H 575 6025 60  0001 C CNN
 	1    1200 6050
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_F15
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_F15
 U 1 1 6051D0AF
 P 1200 5400
 F 0 "K_F15" H 1233 5623 60  0000 C CNN
 F 1 "MX-NoLED" H 1233 5549 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 575 5375 60  0001 C CNN
+F 2 "" H 575 5375 60  0001 C CNN
 F 3 "" H 575 5375 60  0001 C CNN
 	1    1200 5400
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_F14
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_F14
 U 1 1 6051BA88
 P 1200 4750
 F 0 "K_F14" H 1233 4973 60  0000 C CNN
 F 1 "MX-NoLED" H 1233 4899 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 575 4725 60  0001 C CNN
+F 2 "" H 575 4725 60  0001 C CNN
 F 3 "" H 575 4725 60  0001 C CNN
 	1    1200 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_F13
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_F13
 U 1 1 60515FE0
 P 1200 4100
 F 0 "K_F13" H 1233 4323 60  0000 C CNN
 F 1 "MX-NoLED" H 1233 4249 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 575 4075 60  0001 C CNN
+F 2 "" H 575 4075 60  0001 C CNN
 F 3 "" H 575 4075 60  0001 C CNN
 	1    1200 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Y1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Y1
 U 1 1 60514367
 P 4700 4100
 F 0 "K_Y1" H 4733 4323 60  0000 C CNN
 F 1 "MX-NoLED" H 4733 4249 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4075 4075 60  0001 C CNN
+F 2 "" H 4075 4075 60  0001 C CNN
 F 3 "" H 4075 4075 60  0001 C CNN
 	1    4700 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Num6
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Num6
 U 1 1 60513550
 P 4700 3450
 F 0 "K_Num6" H 4733 3673 60  0000 C CNN
 F 1 "MX-NoLED" H 4733 3599 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4075 3425 60  0001 C CNN
+F 2 "" H 4075 3425 60  0001 C CNN
 F 3 "" H 4075 3425 60  0001 C CNN
 	1    4700 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Num5
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Num5
 U 1 1 60511D58
 P 4200 3450
 F 0 "K_Num5" H 4233 3673 60  0000 C CNN
 F 1 "MX-NoLED" H 4233 3599 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3575 3425 60  0001 C CNN
+F 2 "" H 3575 3425 60  0001 C CNN
 F 3 "" H 3575 3425 60  0001 C CNN
 	1    4200 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Num4
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Num4
 U 1 1 6051100B
 P 3700 3450
 F 0 "K_Num4" H 3733 3673 60  0000 C CNN
 F 1 "MX-NoLED" H 3733 3599 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3075 3425 60  0001 C CNN
+F 2 "" H 3075 3425 60  0001 C CNN
 F 3 "" H 3075 3425 60  0001 C CNN
 	1    3700 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Num3
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Num3
 U 1 1 605103C6
 P 3200 3450
 F 0 "K_Num3" H 3233 3673 60  0000 C CNN
 F 1 "MX-NoLED" H 3233 3599 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2575 3425 60  0001 C CNN
+F 2 "" H 2575 3425 60  0001 C CNN
 F 3 "" H 2575 3425 60  0001 C CNN
 	1    3200 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Num2
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Num2
 U 1 1 6050E027
 P 2700 3450
 F 0 "K_Num2" H 2733 3673 60  0000 C CNN
 F 1 "MX-NoLED" H 2733 3599 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2075 3425 60  0001 C CNN
+F 2 "" H 2075 3425 60  0001 C CNN
 F 3 "" H 2075 3425 60  0001 C CNN
 	1    2700 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Num1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Num1
 U 1 1 6050C509
 P 2200 3450
 F 0 "K_Num1" H 2233 3673 60  0000 C CNN
 F 1 "MX-NoLED" H 2233 3599 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1575 3425 60  0001 C CNN
+F 2 "" H 1575 3425 60  0001 C CNN
 F 3 "" H 1575 3425 60  0001 C CNN
 	1    2200 3450
 	1    0    0    -1  
@@ -1451,12 +1451,12 @@ F 3 "~" V 1650 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Esc1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Esc1
 U 1 1 60503859
 P 1700 3450
 F 0 "K_Esc1" H 1733 3673 60  0000 C CNN
 F 1 "MX-NoLED" H 1733 3599 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1075 3425 60  0001 C CNN
+F 2 "" H 1075 3425 60  0001 C CNN
 F 3 "" H 1075 3425 60  0001 C CNN
 	1    1700 3450
 	1    0    0    -1  
@@ -1477,7 +1477,7 @@ $EndComp
 Wire Wire Line
 	1950 2500 2150 2500
 $Comp
-L kbd:SW_PUSH L_SW1
+L pro-micro-version-rescue:SW_PUSH-kbd L_SW1
 U 1 1 60494D71
 P 1650 2500
 F 0 "L_SW1" H 1650 2755 50  0000 C CNN
@@ -1700,12 +1700,12 @@ F 3 "~" V 7050 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Num7
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Num7
 U 1 1 608EEED4
 P 7100 3450
 F 0 "K_Num7" H 7133 3673 60  0000 C CNN
 F 1 "MX-NoLED" H 7133 3599 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6475 3425 60  0001 C CNN
+F 2 "" H 6475 3425 60  0001 C CNN
 F 3 "" H 6475 3425 60  0001 C CNN
 	1    7100 3450
 	1    0    0    -1  
@@ -1722,12 +1722,12 @@ F 3 "~" V 7050 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_U1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_U1
 U 1 1 6090DAB5
 P 7100 4100
 F 0 "K_U1" H 7133 4323 60  0000 C CNN
 F 1 "MX-NoLED" H 7133 4249 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6475 4075 60  0001 C CNN
+F 2 "" H 6475 4075 60  0001 C CNN
 F 3 "" H 6475 4075 60  0001 C CNN
 	1    7100 4100
 	1    0    0    -1  
@@ -1744,12 +1744,12 @@ F 3 "~" V 7050 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_H1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_H1
 U 1 1 60919D45
 P 7100 4750
 F 0 "K_H1" H 7133 4973 60  0000 C CNN
 F 1 "MX-NoLED" H 7133 4899 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6475 4725 60  0001 C CNN
+F 2 "" H 6475 4725 60  0001 C CNN
 F 3 "" H 6475 4725 60  0001 C CNN
 	1    7100 4750
 	1    0    0    -1  
@@ -1766,12 +1766,12 @@ F 3 "~" V 7050 5650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_N1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_N1
 U 1 1 60920690
 P 7100 5400
 F 0 "K_N1" H 7133 5623 60  0000 C CNN
 F 1 "MX-NoLED" H 7133 5549 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6475 5375 60  0001 C CNN
+F 2 "" H 6475 5375 60  0001 C CNN
 F 3 "" H 6475 5375 60  0001 C CNN
 	1    7100 5400
 	1    0    0    -1  
@@ -1788,12 +1788,12 @@ F 3 "~" V 7050 6300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Space_3
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Space_3
 U 1 1 60926D05
 P 7100 6050
 F 0 "K_Space_3" H 7133 6273 60  0000 C CNN
 F 1 "MX-NoLED" H 7133 6199 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6475 6025 60  0001 C CNN
+F 2 "" H 6475 6025 60  0001 C CNN
 F 3 "" H 6475 6025 60  0001 C CNN
 	1    7100 6050
 	1    0    0    -1  
@@ -1810,12 +1810,12 @@ F 3 "~" V 7550 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Num8
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Num8
 U 1 1 609341AE
 P 7600 3450
 F 0 "K_Num8" H 7633 3673 60  0000 C CNN
 F 1 "MX-NoLED" H 7633 3599 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6975 3425 60  0001 C CNN
+F 2 "" H 6975 3425 60  0001 C CNN
 F 3 "" H 6975 3425 60  0001 C CNN
 	1    7600 3450
 	1    0    0    -1  
@@ -1832,12 +1832,12 @@ F 3 "~" V 7550 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_I1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_I1
 U 1 1 609341BA
 P 7600 4100
 F 0 "K_I1" H 7633 4323 60  0000 C CNN
 F 1 "MX-NoLED" H 7633 4249 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6975 4075 60  0001 C CNN
+F 2 "" H 6975 4075 60  0001 C CNN
 F 3 "" H 6975 4075 60  0001 C CNN
 	1    7600 4100
 	1    0    0    -1  
@@ -1854,12 +1854,12 @@ F 3 "~" V 7550 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_J1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_J1
 U 1 1 609341C6
 P 7600 4750
 F 0 "K_J1" H 7633 4973 60  0000 C CNN
 F 1 "MX-NoLED" H 7633 4899 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6975 4725 60  0001 C CNN
+F 2 "" H 6975 4725 60  0001 C CNN
 F 3 "" H 6975 4725 60  0001 C CNN
 	1    7600 4750
 	1    0    0    -1  
@@ -1876,12 +1876,12 @@ F 3 "~" V 7550 5650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_M1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_M1
 U 1 1 609341D2
 P 7600 5400
 F 0 "K_M1" H 7633 5623 60  0000 C CNN
 F 1 "MX-NoLED" H 7633 5549 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6975 5375 60  0001 C CNN
+F 2 "" H 6975 5375 60  0001 C CNN
 F 3 "" H 6975 5375 60  0001 C CNN
 	1    7600 5400
 	1    0    0    -1  
@@ -1898,12 +1898,12 @@ F 3 "~" V 7550 6300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Space_4
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Space_4
 U 1 1 609341DE
 P 7600 6050
 F 0 "K_Space_4" H 7633 6273 60  0000 C CNN
 F 1 "MX-NoLED" H 7633 6199 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6975 6025 60  0001 C CNN
+F 2 "" H 6975 6025 60  0001 C CNN
 F 3 "" H 6975 6025 60  0001 C CNN
 	1    7600 6050
 	1    0    0    -1  
@@ -1920,12 +1920,12 @@ F 3 "~" V 8050 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Num9
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Num9
 U 1 1 6094ADBE
 P 8100 3450
 F 0 "K_Num9" H 8133 3673 60  0000 C CNN
 F 1 "MX-NoLED" H 8133 3599 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7475 3425 60  0001 C CNN
+F 2 "" H 7475 3425 60  0001 C CNN
 F 3 "" H 7475 3425 60  0001 C CNN
 	1    8100 3450
 	1    0    0    -1  
@@ -1942,12 +1942,12 @@ F 3 "~" V 8050 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_O1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_O1
 U 1 1 6094ADCA
 P 8100 4100
 F 0 "K_O1" H 8133 4323 60  0000 C CNN
 F 1 "MX-NoLED" H 8133 4249 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7475 4075 60  0001 C CNN
+F 2 "" H 7475 4075 60  0001 C CNN
 F 3 "" H 7475 4075 60  0001 C CNN
 	1    8100 4100
 	1    0    0    -1  
@@ -1964,12 +1964,12 @@ F 3 "~" V 8050 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_K1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_K1
 U 1 1 6094ADD6
 P 8100 4750
 F 0 "K_K1" H 8133 4973 60  0000 C CNN
 F 1 "MX-NoLED" H 8133 4899 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7475 4725 60  0001 C CNN
+F 2 "" H 7475 4725 60  0001 C CNN
 F 3 "" H 7475 4725 60  0001 C CNN
 	1    8100 4750
 	1    0    0    -1  
@@ -1986,12 +1986,12 @@ F 3 "~" V 8050 5650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_LThan1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_LThan1
 U 1 1 6094ADE2
 P 8100 5400
 F 0 "K_LThan1" H 8133 5623 60  0000 C CNN
 F 1 "MX-NoLED" H 8133 5549 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7475 5375 60  0001 C CNN
+F 2 "" H 7475 5375 60  0001 C CNN
 F 3 "" H 7475 5375 60  0001 C CNN
 	1    8100 5400
 	1    0    0    -1  
@@ -2008,12 +2008,12 @@ F 3 "~" V 8050 6300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Alt2
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Alt2
 U 1 1 6094ADEE
 P 8100 6050
 F 0 "K_Alt2" H 8133 6273 60  0000 C CNN
 F 1 "MX-NoLED" H 8133 6199 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7475 6025 60  0001 C CNN
+F 2 "" H 7475 6025 60  0001 C CNN
 F 3 "" H 7475 6025 60  0001 C CNN
 	1    8100 6050
 	1    0    0    -1  
@@ -2030,12 +2030,12 @@ F 3 "~" V 8550 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Num0
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Num0
 U 1 1 60975BA6
 P 8600 3450
 F 0 "K_Num0" H 8633 3673 60  0000 C CNN
 F 1 "MX-NoLED" H 8633 3599 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7975 3425 60  0001 C CNN
+F 2 "" H 7975 3425 60  0001 C CNN
 F 3 "" H 7975 3425 60  0001 C CNN
 	1    8600 3450
 	1    0    0    -1  
@@ -2052,12 +2052,12 @@ F 3 "~" V 8550 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_P1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_P1
 U 1 1 60975BB2
 P 8600 4100
 F 0 "K_P1" H 8633 4323 60  0000 C CNN
 F 1 "MX-NoLED" H 8633 4249 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7975 4075 60  0001 C CNN
+F 2 "" H 7975 4075 60  0001 C CNN
 F 3 "" H 7975 4075 60  0001 C CNN
 	1    8600 4100
 	1    0    0    -1  
@@ -2074,12 +2074,12 @@ F 3 "~" V 8550 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_L1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_L1
 U 1 1 60975BBE
 P 8600 4750
 F 0 "K_L1" H 8633 4973 60  0000 C CNN
 F 1 "MX-NoLED" H 8633 4899 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7975 4725 60  0001 C CNN
+F 2 "" H 7975 4725 60  0001 C CNN
 F 3 "" H 7975 4725 60  0001 C CNN
 	1    8600 4750
 	1    0    0    -1  
@@ -2096,12 +2096,12 @@ F 3 "~" V 8550 5650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_RThan1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_RThan1
 U 1 1 60975BCA
 P 8600 5400
 F 0 "K_RThan1" H 8633 5623 60  0000 C CNN
 F 1 "MX-NoLED" H 8633 5549 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7975 5375 60  0001 C CNN
+F 2 "" H 7975 5375 60  0001 C CNN
 F 3 "" H 7975 5375 60  0001 C CNN
 	1    8600 5400
 	1    0    0    -1  
@@ -2118,12 +2118,12 @@ F 3 "~" V 8550 6300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Fn1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Fn1
 U 1 1 60975BD6
 P 8600 6050
 F 0 "K_Fn1" H 8633 6273 60  0000 C CNN
 F 1 "MX-NoLED" H 8633 6199 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7975 6025 60  0001 C CNN
+F 2 "" H 7975 6025 60  0001 C CNN
 F 3 "" H 7975 6025 60  0001 C CNN
 	1    8600 6050
 	1    0    0    -1  
@@ -2140,12 +2140,12 @@ F 3 "~" V 9050 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Minus1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Minus1
 U 1 1 60975BE2
 P 9100 3450
 F 0 "K_Minus1" H 9133 3673 60  0000 C CNN
 F 1 "MX-NoLED" H 9133 3599 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8475 3425 60  0001 C CNN
+F 2 "" H 8475 3425 60  0001 C CNN
 F 3 "" H 8475 3425 60  0001 C CNN
 	1    9100 3450
 	1    0    0    -1  
@@ -2162,12 +2162,12 @@ F 3 "~" V 9050 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_LBrace1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_LBrace1
 U 1 1 60975BEE
 P 9100 4100
 F 0 "K_LBrace1" H 9133 4323 60  0000 C CNN
 F 1 "MX-NoLED" H 9133 4249 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8475 4075 60  0001 C CNN
+F 2 "" H 8475 4075 60  0001 C CNN
 F 3 "" H 8475 4075 60  0001 C CNN
 	1    9100 4100
 	1    0    0    -1  
@@ -2184,12 +2184,12 @@ F 3 "~" V 9050 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Colon1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Colon1
 U 1 1 60975BFA
 P 9100 4750
 F 0 "K_Colon1" H 9133 4973 60  0000 C CNN
 F 1 "MX-NoLED" H 9133 4899 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8475 4725 60  0001 C CNN
+F 2 "" H 8475 4725 60  0001 C CNN
 F 3 "" H 8475 4725 60  0001 C CNN
 	1    9100 4750
 	1    0    0    -1  
@@ -2206,12 +2206,12 @@ F 3 "~" V 9050 5650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Slash1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Slash1
 U 1 1 60975C06
 P 9100 5400
 F 0 "K_Slash1" H 9133 5623 60  0000 C CNN
 F 1 "MX-NoLED" H 9133 5549 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8475 5375 60  0001 C CNN
+F 2 "" H 8475 5375 60  0001 C CNN
 F 3 "" H 8475 5375 60  0001 C CNN
 	1    9100 5400
 	1    0    0    -1  
@@ -2228,12 +2228,12 @@ F 3 "~" V 9050 6300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Ctrl2
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Ctrl2
 U 1 1 60975C12
 P 9100 6050
 F 0 "K_Ctrl2" H 9133 6273 60  0000 C CNN
 F 1 "MX-NoLED" H 9133 6199 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8475 6025 60  0001 C CNN
+F 2 "" H 8475 6025 60  0001 C CNN
 F 3 "" H 8475 6025 60  0001 C CNN
 	1    9100 6050
 	1    0    0    -1  
@@ -2250,12 +2250,12 @@ F 3 "~" V 9550 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Plus1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Plus1
 U 1 1 60975C1E
 P 9600 3450
 F 0 "K_Plus1" H 9633 3673 60  0000 C CNN
 F 1 "MX-NoLED" H 9633 3599 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8975 3425 60  0001 C CNN
+F 2 "" H 8975 3425 60  0001 C CNN
 F 3 "" H 8975 3425 60  0001 C CNN
 	1    9600 3450
 	1    0    0    -1  
@@ -2272,12 +2272,12 @@ F 3 "~" V 9550 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_RBrace1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_RBrace1
 U 1 1 60975C2A
 P 9600 4100
 F 0 "K_RBrace1" H 9633 4323 60  0000 C CNN
 F 1 "MX-NoLED" H 9633 4249 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8975 4075 60  0001 C CNN
+F 2 "" H 8975 4075 60  0001 C CNN
 F 3 "" H 8975 4075 60  0001 C CNN
 	1    9600 4100
 	1    0    0    -1  
@@ -2294,12 +2294,12 @@ F 3 "~" V 9550 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Apostrophe1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Apostrophe1
 U 1 1 60975C36
 P 9600 4750
 F 0 "K_Apostrophe1" H 9633 4973 60  0000 C CNN
 F 1 "MX-NoLED" H 9633 4899 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8975 4725 60  0001 C CNN
+F 2 "" H 8975 4725 60  0001 C CNN
 F 3 "" H 8975 4725 60  0001 C CNN
 	1    9600 4750
 	1    0    0    -1  
@@ -2316,12 +2316,12 @@ F 3 "~" V 9550 5650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Shift2
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Shift2
 U 1 1 60975C42
 P 9600 5400
 F 0 "K_Shift2" H 9633 5623 60  0000 C CNN
 F 1 "MX-NoLED" H 9633 5549 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8975 5375 60  0001 C CNN
+F 2 "" H 8975 5375 60  0001 C CNN
 F 3 "" H 8975 5375 60  0001 C CNN
 	1    9600 5400
 	1    0    0    -1  
@@ -2338,12 +2338,12 @@ F 3 "~" V 9550 6300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_LArrow1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_LArrow1
 U 1 1 60975C4E
 P 9600 6050
 F 0 "K_LArrow1" H 9633 6273 60  0000 C CNN
 F 1 "MX-NoLED" H 9633 6199 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8975 6025 60  0001 C CNN
+F 2 "" H 8975 6025 60  0001 C CNN
 F 3 "" H 8975 6025 60  0001 C CNN
 	1    9600 6050
 	1    0    0    -1  
@@ -2360,12 +2360,12 @@ F 3 "~" V 10050 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Backspace1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Backspace1
 U 1 1 60983217
 P 10100 3450
 F 0 "K_Backspace1" H 10133 3673 60  0000 C CNN
 F 1 "MX-NoLED" H 10133 3599 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9475 3425 60  0001 C CNN
+F 2 "" H 9475 3425 60  0001 C CNN
 F 3 "" H 9475 3425 60  0001 C CNN
 	1    10100 3450
 	1    0    0    -1  
@@ -2382,12 +2382,12 @@ F 3 "~" V 10050 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_BSlash1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_BSlash1
 U 1 1 60983223
 P 10100 4100
 F 0 "K_BSlash1" H 10133 4323 60  0000 C CNN
 F 1 "MX-NoLED" H 10133 4249 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9475 4075 60  0001 C CNN
+F 2 "" H 9475 4075 60  0001 C CNN
 F 3 "" H 9475 4075 60  0001 C CNN
 	1    10100 4100
 	1    0    0    -1  
@@ -2404,12 +2404,12 @@ F 3 "~" V 10050 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Enter1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Enter1
 U 1 1 6098322F
 P 10100 4750
 F 0 "K_Enter1" H 10133 4973 60  0000 C CNN
 F 1 "MX-NoLED" H 10133 4899 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9475 4725 60  0001 C CNN
+F 2 "" H 9475 4725 60  0001 C CNN
 F 3 "" H 9475 4725 60  0001 C CNN
 	1    10100 4750
 	1    0    0    -1  
@@ -2426,12 +2426,12 @@ F 3 "~" V 10050 5650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_UArrow1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_UArrow1
 U 1 1 6098323B
 P 10100 5400
 F 0 "K_UArrow1" H 10133 5623 60  0000 C CNN
 F 1 "MX-NoLED" H 10133 5549 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9475 5375 60  0001 C CNN
+F 2 "" H 9475 5375 60  0001 C CNN
 F 3 "" H 9475 5375 60  0001 C CNN
 	1    10100 5400
 	1    0    0    -1  
@@ -2448,12 +2448,12 @@ F 3 "~" V 10050 6300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_DArrow1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_DArrow1
 U 1 1 60983247
 P 10100 6050
 F 0 "K_DArrow1" H 10133 6273 60  0000 C CNN
 F 1 "MX-NoLED" H 10133 6199 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9475 6025 60  0001 C CNN
+F 2 "" H 9475 6025 60  0001 C CNN
 F 3 "" H 9475 6025 60  0001 C CNN
 	1    10100 6050
 	1    0    0    -1  
@@ -2470,12 +2470,12 @@ F 3 "~" V 10550 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_F17
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_F17
 U 1 1 6098F4F6
 P 10600 4100
 F 0 "K_F17" H 10633 4323 60  0000 C CNN
 F 1 "MX-NoLED" H 10633 4249 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9975 4075 60  0001 C CNN
+F 2 "" H 9975 4075 60  0001 C CNN
 F 3 "" H 9975 4075 60  0001 C CNN
 	1    10600 4100
 	1    0    0    -1  
@@ -2492,12 +2492,12 @@ F 3 "~" V 10550 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_F18
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_F18
 U 1 1 6098F502
 P 10600 4750
 F 0 "K_F18" H 10633 4973 60  0000 C CNN
 F 1 "MX-NoLED" H 10633 4899 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9975 4725 60  0001 C CNN
+F 2 "" H 9975 4725 60  0001 C CNN
 F 3 "" H 9975 4725 60  0001 C CNN
 	1    10600 4750
 	1    0    0    -1  
@@ -2514,12 +2514,12 @@ F 3 "~" V 10550 5650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_Win1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_Win1
 U 1 1 6098F50E
 P 10600 5400
 F 0 "K_Win1" H 10633 5623 60  0000 C CNN
 F 1 "MX-NoLED" H 10633 5549 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9975 5375 60  0001 C CNN
+F 2 "" H 9975 5375 60  0001 C CNN
 F 3 "" H 9975 5375 60  0001 C CNN
 	1    10600 5400
 	1    0    0    -1  
@@ -2536,12 +2536,12 @@ F 3 "~" V 10550 6300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_RArrow1
+L pro-micro-version-rescue:MX-NoLED-MX_Alps_Hybrid K_RArrow1
 U 1 1 6098F51A
 P 10600 6050
 F 0 "K_RArrow1" H 10633 6273 60  0000 C CNN
 F 1 "MX-NoLED" H 10633 6199 20  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9975 6025 60  0001 C CNN
+F 2 "" H 9975 6025 60  0001 C CNN
 F 3 "" H 9975 6025 60  0001 C CNN
 	1    10600 6050
 	1    0    0    -1  
