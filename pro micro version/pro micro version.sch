@@ -38,31 +38,31 @@ Text GLabel 1000 850  0    50   Input ~ 0
 L_ROT_A
 Text GLabel 1000 950  0    50   Input ~ 0
 L_ROT_B
-Text GLabel 1000 1550 0    50   Input ~ 0
+Text GLabel 1000 1950 0    50   Input ~ 0
 L_ROW0
-Text GLabel 1000 1650 0    50   Input ~ 0
+Text GLabel 1000 1850 0    50   Input ~ 0
 L_ROW1
 Text GLabel 1000 1750 0    50   Input ~ 0
 L_ROW2
-Text GLabel 1000 1850 0    50   Input ~ 0
+Text GLabel 1000 1650 0    50   Input ~ 0
 L_ROW3
-Text GLabel 1000 1950 0    50   Input ~ 0
+Text GLabel 1000 1550 0    50   Input ~ 0
 L_ROW4
-Text GLabel 2400 1250 2    50   Input ~ 0
-L_COL0
-Text GLabel 2400 1350 2    50   Input ~ 0
-L_COL1
-Text GLabel 2400 1450 2    50   Input ~ 0
-L_COL2
-Text GLabel 2400 1550 2    50   Input ~ 0
-L_COL3
-Text GLabel 2400 1650 2    50   Input ~ 0
-L_COL4
-Text GLabel 2400 1750 2    50   Input ~ 0
-L_COL5
-Text GLabel 2400 1850 2    50   Input ~ 0
-L_COL6
 Text GLabel 2400 1950 2    50   Input ~ 0
+L_COL0
+Text GLabel 2400 1850 2    50   Input ~ 0
+L_COL1
+Text GLabel 2400 1750 2    50   Input ~ 0
+L_COL2
+Text GLabel 2400 1650 2    50   Input ~ 0
+L_COL3
+Text GLabel 2400 1550 2    50   Input ~ 0
+L_COL4
+Text GLabel 2400 1450 2    50   Input ~ 0
+L_COL5
+Text GLabel 2400 1350 2    50   Input ~ 0
+L_COL6
+Text GLabel 2400 1250 2    50   Input ~ 0
 L_COL7
 $Comp
 L power:GND #PWR05
@@ -124,15 +124,15 @@ Text GLabel 6800 850  0    50   Input ~ 0
 ROT_A
 Text GLabel 6800 950  0    50   Input ~ 0
 ROT_B
-Text GLabel 6800 1550 0    50   Input ~ 0
+Text GLabel 6800 1950 0    50   Input ~ 0
 ROW0
-Text GLabel 6800 1650 0    50   Input ~ 0
+Text GLabel 6800 1850 0    50   Input ~ 0
 ROW1
 Text GLabel 6800 1750 0    50   Input ~ 0
 ROW2
-Text GLabel 6800 1850 0    50   Input ~ 0
+Text GLabel 6800 1650 0    50   Input ~ 0
 ROW3
-Text GLabel 6800 1950 0    50   Input ~ 0
+Text GLabel 6800 1550 0    50   Input ~ 0
 ROW4
 Text GLabel 8200 1250 2    50   Input ~ 0
 COL0
@@ -1291,7 +1291,7 @@ U 1 1 60523089
 P 1700 4750
 F 0 "K_Caps1" H 1733 4973 60  0000 C CNN
 F 1 "MX-NoLED" H 1733 4899 20  0000 C CNN
-F 2 "KeyboardMasterList:MX-1.25U" H 1075 4725 60  0001 C CNN
+F 2 "KeyboardMasterList:MX-1.75U" H 1075 4725 60  0001 C CNN
 F 3 "" H 1075 4725 60  0001 C CNN
 	1    1700 4750
 	1    0    0    -1  
