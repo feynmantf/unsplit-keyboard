@@ -38,6 +38,12 @@ Text GLabel 1000 850  0    50   Input ~ 0
 L_ROT_A
 Text GLabel 1000 950  0    50   Input ~ 0
 L_ROT_B
+Text GLabel 1000 1650 0    50   Input ~ 0
+L_ROW1
+Text GLabel 1000 1750 0    50   Input ~ 0
+L_ROW2
+Text GLabel 1000 1850 0    50   Input ~ 0
+L_ROW3
 Text GLabel 2400 1950 2    50   Input ~ 0
 L_COL0
 Text GLabel 2400 1850 2    50   Input ~ 0
@@ -114,6 +120,16 @@ Text GLabel 6800 850  0    50   Input ~ 0
 ROT_A
 Text GLabel 6800 950  0    50   Input ~ 0
 ROT_B
+Text GLabel 6800 1550 0    50   Input ~ 0
+ROW0
+Text GLabel 6800 1650 0    50   Input ~ 0
+ROW1
+Text GLabel 6800 1750 0    50   Input ~ 0
+ROW2
+Text GLabel 6800 1850 0    50   Input ~ 0
+ROW3
+Text GLabel 6800 1950 0    50   Input ~ 0
+ROW4
 Text GLabel 8200 1250 2    50   Input ~ 0
 COL0
 Text GLabel 8200 1350 2    50   Input ~ 0
@@ -2778,23 +2794,15 @@ F 3 "~" V 3650 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 1000 1550 0    50   Input ~ 0
-L_ROW4
-Text GLabel 1000 1950 0    50   Input ~ 0
 L_ROW0
-Text GLabel 1000 1650 0    50   Input ~ 0
-L_ROW3
-Text GLabel 1000 1750 0    50   Input ~ 0
-L_ROW2
-Text GLabel 1000 1850 0    50   Input ~ 0
-L_ROW1
-Text GLabel 6800 1550 0    50   Input ~ 0
-ROW4
-Text GLabel 6800 1650 0    50   Input ~ 0
-ROW3
-Text GLabel 6800 1750 0    50   Input ~ 0
-ROW2
-Text GLabel 6800 1850 0    50   Input ~ 0
-ROW1
-Text GLabel 6800 1950 0    50   Input ~ 0
-ROW0
+Text GLabel 1000 1950 0    50   Input ~ 0
+L_ROW4
+NoConn ~ 1000 1450
+NoConn ~ 2400 850 
+NoConn ~ 6800 1450
+NoConn ~ 8200 850 
+Text GLabel 3500 1450 0    50   Input ~ 0
+L_K_ENC
+Text GLabel 9300 1350 0    50   Input ~ 0
+K_ENC
 $EndSCHEMATC

@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# MX-NoLED-MX_Alps_Hybrid-pro-micro-version-rescue
+# MX-NoLED-MX_Alps_Hybrid-pro-micro-version-rescue-pro-micro-version-rescue
 #
-DEF MX-NoLED-MX_Alps_Hybrid-pro-micro-version-rescue MX 0 40 Y Y 1 F N
+DEF MX-NoLED-MX_Alps_Hybrid-pro-micro-version-rescue-pro-micro-version-rescue MX 0 40 Y Y 1 F N
 F0 "MX" -25 150 60 H V C CNN
-F1 "MX-NoLED-MX_Alps_Hybrid-pro-micro-version-rescue" -25 50 20 H V C CNN
+F1 "MX-NoLED-MX_Alps_Hybrid-pro-micro-version-rescue-pro-micro-version-rescue" -25 50 20 H V C CNN
 F2 "" -625 -25 60 H I C CNN
 F3 "" -625 -25 60 H I C CNN
 DRAW
@@ -19,11 +19,11 @@ X ROW 2 -50 -150 100 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OLED-kbd-pro-micro-version-rescue
+# OLED-kbd-pro-micro-version-rescue-pro-micro-version-rescue
 #
-DEF OLED-kbd-pro-micro-version-rescue OL 0 40 Y Y 1 F N
+DEF OLED-kbd-pro-micro-version-rescue-pro-micro-version-rescue OL 0 40 Y Y 1 F N
 F0 "OL" 0 100 51 H V C CNN
-F1 "OLED-kbd-pro-micro-version-rescue" 0 -50 47 H V C CNN
+F1 "OLED-kbd-pro-micro-version-rescue-pro-micro-version-rescue" 0 -50 47 H V C CNN
 F2 "" 0 100 60 H I C CNN
 F3 "" 0 100 60 H I C CNN
 DRAW
@@ -35,11 +35,11 @@ X GND 4 -750 -200 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# ProMicro-kbd-pro-micro-version-rescue
+# ProMicro-kbd-pro-micro-version-rescue-pro-micro-version-rescue
 #
-DEF ProMicro-kbd-pro-micro-version-rescue U 0 40 Y Y 1 F N
+DEF ProMicro-kbd-pro-micro-version-rescue-pro-micro-version-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 750 60 H V C CNN
-F1 "ProMicro-kbd-pro-micro-version-rescue" 0 -750 60 H V C CNN
+F1 "ProMicro-kbd-pro-micro-version-rescue-pro-micro-version-rescue" 0 -750 60 H V C CNN
 F2 "" 100 -1050 60 H V C CNN
 F3 "" 100 -1050 60 H V C CNN
 DRAW
@@ -71,11 +71,11 @@ X 6/D7 9 -700 -250 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# SW_PUSH-kbd-pro-micro-version-rescue
+# SW_PUSH-kbd-pro-micro-version-rescue-pro-micro-version-rescue
 #
-DEF SW_PUSH-kbd-pro-micro-version-rescue SW 0 40 N N 1 F N
+DEF SW_PUSH-kbd-pro-micro-version-rescue-pro-micro-version-rescue SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "SW_PUSH-kbd-pro-micro-version-rescue" 0 -80 50 H V C CNN
+F1 "SW_PUSH-kbd-pro-micro-version-rescue-pro-micro-version-rescue" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW

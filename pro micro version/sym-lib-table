@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name KeyboardMasterList)(type Legacy)(uri "D:/Git/Keyboard Master List/KeyboardMasterList.lib")(options "")(descr ""))
+  (lib (name pro-micro-version-rescue)(type Legacy)(uri "${KIPRJMOD}/pro micro version-rescue.lib")(options "")(descr ""))
 )
