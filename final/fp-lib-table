@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Keyboard Master List")(type KiCad)(uri "D:/Git/custom-mech/libraries/Keyboard Master List")(options "")(descr ""))
+)

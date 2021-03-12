@@ -7243,8 +7243,8 @@
     )
   )
 
-  (gr_text "Designed by Vaibhav Srivastava" (at 28.575 88.10625 -90) (layer F.SilkS) (tstamp 604C3F27)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  (gr_text U.S.K.B. (at 28.575 75.692 -90) (layer F.SilkS) (tstamp 604C3F27)
+    (effects (font (size 1.905 1.905) (thickness 0.3)))
   )
   (gr_text "Designed by Vaibhav Srivastava" (at 25.4 88.10625 -90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
