@@ -2805,4 +2805,12 @@ F 3 "" H 7975 6025 60  0001 C CNN
 	1    8600 6050
 	1    0    0    -1  
 $EndComp
+Text Notes 12160 10960 0    98   ~ 20
+U.S.K.B.
+Text Notes 15390 11070 0    59   ~ 0
+2
+Text Notes 12220 10670 0    50   ~ 0
+unsplit keyboard
+Text Notes 12950 11070 0    50   ~ 0
+3/12/2021
 $EndSCHEMATC
