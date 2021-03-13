@@ -1,5 +1,0 @@
-switches
-switch diodes
-encoder
-oled
-pro micro

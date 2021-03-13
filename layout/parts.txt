@@ -1,0 +1,5 @@
+switches
+switch diodes (smt from jlcpcb)
+encoder (ec11 with switch)
+oled (0.91 inch)
+pro micro (bitc)
