@@ -1,5 +1,18 @@
-switches
+switches (nk kailh cream)  (58.50 x2)
+keycaps (pitta dsa / flighter pbt) (79.00 / 59.90)
+stabilizers (gmk screw in) (14.00 x2)
 switch diodes (smt from jlcpcb)
-encoder (ec11 with switch)
-oled (0.91 inch)
-pro micro (bitc)
+knob (aliexpress.com/item/33004945608.html) (2.75 x2)
+encoder (ec11 with switch) (aliexpress.com/item/32686607634.html) (1.92)
+oled (0.91 inch) (aliexpress.com/item/32798439084.html) (1.37 x2)
+pro micro (bitc) (19.99)
+
+pcb (jlcpcb) (40.90)
+
+
+10.75
+308.35
+40.90
+43.68
+
+
