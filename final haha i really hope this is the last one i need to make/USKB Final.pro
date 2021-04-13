@@ -1,4 +1,4 @@
-update=3/12/2021 14:24:43
+update=4/13/2021 10:04:27
 version=1
 last_client=eeschema
 [general]
@@ -37,7 +37,7 @@ PageLayoutDescrFile=
 PlotDirectoryName=D:/Git/unsplit-keyboard/final/
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
