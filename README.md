@@ -7,9 +7,11 @@ I wanted to make a split keyboard, but it was overly ambitious (considering the 
 ## sample images
 **in progress !!**
 
+### case images/renders
+
 I have yet to render images of the plate and case (which is a sandwich design, so it's really 4 or 5 gasket mounted plates with the pcb in the middle).
 
-### PCB images/renders:
+### pcb images/renders:
 ![pcb front render](https://github.com/feynmantf/unsplit-keyboard/blob/main/final%20haha%20i%20really%20hope%20this%20is%20the%20last%20one%20i%20need%20to%20make/images/USKB%20Final%20front.png?raw=true "PCB Front Render")
 ![pcb back render](https://github.com/feynmantf/unsplit-keyboard/blob/main/final%20haha%20i%20really%20hope%20this%20is%20the%20last%20one%20i%20need%20to%20make/images/USKB%20Final%20back.png?raw=true "PCB Back Render")
 ![pcb svg](https://raw.githubusercontent.com/feynmantf/unsplit-keyboard/0e5d883f28690f599ca962b77fef69d1419cf67a/final%20haha%20i%20really%20hope%20this%20is%20the%20last%20one%20i%20need%20to%20make/images/USKB%20Final%20no%20copper.svg "PCB SVG")
@@ -29,7 +31,7 @@ I have yet to render images of the plate and case (which is a sandwich design, s
 - m4 x 0.7 tap (if you don't have one)
 - tap wrench (optional but highly recommended if you don't have one)
 
-## to build the board
+## basic instructions
 **in progress !!**
 
 - buy all the parts listed above
