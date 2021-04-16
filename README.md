@@ -12,9 +12,9 @@ I wanted to make a split keyboard, but it was overly ambitious (considering the 
 I have yet to render images of the plate and case (which is a sandwich design, so it's really 4 or 5 gasket mounted plates with the pcb in the middle).
 
 ### pcb images/renders:
-![pcb front render](https://github.com/feynmantf/unsplit-keyboard/blob/main/final%20haha%20i%20really%20hope%20this%20is%20the%20last%20one%20i%20need%20to%20make/images/USKB%20Final%20front.png?raw=true "PCB Front Render")
-![pcb back render](https://github.com/feynmantf/unsplit-keyboard/blob/main/final%20haha%20i%20really%20hope%20this%20is%20the%20last%20one%20i%20need%20to%20make/images/USKB%20Final%20back.png?raw=true "PCB Back Render")
-![pcb svg](https://raw.githubusercontent.com/feynmantf/unsplit-keyboard/0e5d883f28690f599ca962b77fef69d1419cf67a/final%20haha%20i%20really%20hope%20this%20is%20the%20last%20one%20i%20need%20to%20make/images/USKB%20Final%20no%20copper.svg "PCB SVG")
+<img src="https://raw.githubusercontent.com/feynmantf/unsplit-keyboard/main/final%20haha%20i%20really%20hope%20this%20is%20the%20last%20one%20i%20need%20to%20make/images/USKB%20Final%20front.png" alt="pcb front render"  height="250">
+<img src="https://raw.githubusercontent.com/feynmantf/unsplit-keyboard/main/final%20haha%20i%20really%20hope%20this%20is%20the%20last%20one%20i%20need%20to%20make/images/USKB%20Final%20back.png" alt="pcb back render"  height="250">
+<img src="https://raw.githubusercontent.com/feynmantf/unsplit-keyboard/0e5d883f28690f599ca962b77fef69d1419cf67a/final%20haha%20i%20really%20hope%20this%20is%20the%20last%20one%20i%20need%20to%20make/images/USKB%20Final%20no%20copper.svg" alt="pcb svg"  height="250">
 
 ## parts needed to build the board (not included in these files)
 - keyswitches (x79)
@@ -27,8 +27,10 @@ I have yet to render images of the plate and case (which is a sandwich design, s
 - rotary encoder (ec11 with switch) (x2)
 - oled (0.91 inch, SSD1306) (x2)
 - sparkfun pro micro (i used a bitc from nullbits) (x2)
-- 0.7cm x 40mm screws (x12)
-- m4 x 0.7 tap (if you don't have one)
+- screws (m4 0.7 x 6mm) (x12)
+- spacers (m4 0.7 x 5mm+6mm) (x50)
+- hex nuts (m4 0.7) (x12)
+- m4 0.7 tap (if you don't have one)
 - tap wrench (optional but highly recommended if you don't have one)
 
 ## basic instructions
@@ -47,7 +49,6 @@ I have yet to render images of the plate and case (which is a sandwich design, s
 - clip switches into place and slot them into the pcb
 - solder switches to the pcb
 - flash firmware to make sure the board works
-- align all the case files (bottom -> closed -> switch -> open -> top)
-- screw them together in the provided holes
+- align one case file on top of another, screwing spacers into each hole as you go (bottom -> closed -> switch -> open -> top)
 - put keycaps and knobs onto switches and encoder
 - you should be done now !!
