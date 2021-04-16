@@ -6,6 +6,9 @@ knob (aliexpress.com/item/33004945608.html) (2.75 x2)
 encoder (ec11 with switch) (aliexpress.com/item/32686607634.html) (1.92)
 oled (0.91 inch) (aliexpress.com/item/32798439084.html) (1.37 x2)
 pro micro (bitc) (19.99)
-
+screws (m4 0.7 x 6mm x 25) (amazon.com/d/B07D5TKSPQ) (6.29)
+spacers (m4 0.7 x 5mm+6mm x 50) (amazon.com/d/B07WJGHHJY) (7.79)
+hex nuts (m4 0.7 x 50) (amazon.com/d/B07H3VF3BF) (5.99)
+tap (m4 x 0.7) (amazon.com/d/B07KT2YSJ5) (8.09)
+tap wrench (amazon.com/d/B001DZ6YS) (21.11)
 pcb (jlcpcb) (40.90)
-
