@@ -38,7 +38,7 @@ I have yet to render images of the plate and case (which is a sandwich design, s
 
 - buy all the parts listed above
 - get the pcb printed (from jlcpcb or some other service)
-- get the plate and case files printed (bottom layer, closed layer, switch layer, open layer and top layer)
+- get the plate and case files printed (bottom layer, closed layer, switch layer, open layer and top layer, i used sendcutsend, but any service works)
 - surface mount all of the diodes, resistors, and capacitors at their respective slots (CPL file provided)
 - solder rotary encoders onto pcb (locations marked on silkscreen layer)
 - solder oled panels onto pcb (locations marked on silkscreen layer)
