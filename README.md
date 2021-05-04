@@ -12,8 +12,8 @@ I wanted to make a split keyboard, but it was overly ambitious (considering the 
 I have yet to render images of the plate and case (which is a sandwich design, so it's really 4 or 5 gasket mounted plates with the pcb in the middle).
 
 ### pcb images/renders:
-<img src="https://raw.githubusercontent.com/feynmantf/unsplit-keyboard/main/final%20haha%20i%20really%20hope%20this%20is%20the%20last%20one%20i%20need%20to%20make/images/USKB%20Final%20front.png" alt="pcb front render"  height="250">
-<img src="https://raw.githubusercontent.com/feynmantf/unsplit-keyboard/main/final%20haha%20i%20really%20hope%20this%20is%20the%20last%20one%20i%20need%20to%20make/images/USKB%20Final%20back.png" alt="pcb back render"  height="250">
+<img src="https://github.com/feynmantf/unsplit-keyboard/blob/main/final/images/USKB%20Final%20back.png?raw=true" alt="pcb front render"  height="250">
+<img src="https://github.com/feynmantf/unsplit-keyboard/blob/main/final/images/USKB%20Final%20back.png?raw=true" alt="pcb back render"  height="250">
 <img src="https://raw.githubusercontent.com/feynmantf/unsplit-keyboard/0e5d883f28690f599ca962b77fef69d1419cf67a/final%20haha%20i%20really%20hope%20this%20is%20the%20last%20one%20i%20need%20to%20make/images/USKB%20Final%20no%20copper.svg" alt="pcb svg"  height="250">
 
 ## parts needed to build the board (not included in these files)
@@ -38,7 +38,7 @@ I have yet to render images of the plate and case (which is a sandwich design, s
 
 - buy all the parts listed above
 - get the pcb printed (from jlcpcb or some other service)
-- get the plate and case files printed (bottom layer, closed layer, switch layer, open layer and top layer)
+- get the plate and case files printed (bottom layer, closed layer, switch layer, open layer and top layer, i used sendcutsend, but any service works)
 - surface mount all of the diodes, resistors, and capacitors at their respective slots (CPL file provided)
 - solder rotary encoders onto pcb (locations marked on silkscreen layer)
 - solder oled panels onto pcb (locations marked on silkscreen layer)
