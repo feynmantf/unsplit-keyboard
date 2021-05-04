@@ -26,6 +26,7 @@ I have yet to render images of the plate and case (which is a sandwich design, s
 - rotary knob (x2)
 - rotary encoder (ec11 with switch) (x2)
 - oled (0.91 inch, SSD1306) (x2)
+- reset switch (6mm x 6mm x 4.3mm) (x2)
 - sparkfun pro micro (i used a bitc from nullbits) (x2)
 - screws (m4 0.7 x 6mm) (x12)
 - spacers (m4 0.7 x 5mm+6mm) (x50)
@@ -42,6 +43,7 @@ I have yet to render images of the plate and case (which is a sandwich design, s
 - surface mount all of the diodes, resistors, and capacitors at their respective slots (CPL file provided)
 - solder rotary encoders onto pcb (locations marked on silkscreen layer)
 - solder oled panels onto pcb (locations marked on silkscreen layer)
+- solder reset switches onto pcb (locations marked on silkscreen layer)
 - solder/slot pro micros onto pcb (locations marked on silkscreen layer)
 - tap each of the holes in the plate and case layers
 - clip stabilizers into plate or screw them into pcb as necessary
