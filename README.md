@@ -12,7 +12,7 @@ I wanted to make a split keyboard, but it was overly ambitious (considering the 
 I have yet to render images of the plate and case (which is a sandwich design, so it's really 4 or 5 gasket mounted plates with the pcb in the middle).
 
 ### pcb images/renders:
-<img src="https://github.com/feynmantf/unsplit-keyboard/blob/main/final/images/USKB%20Final%20back.png?raw=true" alt="pcb front render"  height="250">
+<img src="https://github.com/feynmantf/unsplit-keyboard/blob/main/final/images/USKB%20Final%20front.png?raw=true" alt="pcb front render"  height="250">
 <img src="https://github.com/feynmantf/unsplit-keyboard/blob/main/final/images/USKB%20Final%20back.png?raw=true" alt="pcb back render"  height="250">
 <img src="https://raw.githubusercontent.com/feynmantf/unsplit-keyboard/0e5d883f28690f599ca962b77fef69d1419cf67a/final%20haha%20i%20really%20hope%20this%20is%20the%20last%20one%20i%20need%20to%20make/images/USKB%20Final%20no%20copper.svg" alt="pcb svg"  height="250">
 
