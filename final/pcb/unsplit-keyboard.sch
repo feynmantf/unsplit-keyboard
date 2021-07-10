@@ -209,17 +209,6 @@ Text GLabel 3310 5370 0    50   Input ~ 0
 GND
 Text GLabel 3310 5170 0    50   Input ~ 0
 VCC
-$Comp
-L KeyboardMasterList:OLED-kbd OL1
-U 1 1 60EDA0A7
-P 9460 5880
-F 0 "OL1" H 9330 6390 51  0000 L CNN
-F 1 "OLED-kbd" H 9300 6300 47  0000 L CNN
-F 2 "Keyboard Master List:OLED" H 9460 5980 60  0001 C CNN
-F 3 "" H 9460 5980 60  0001 C CNN
-	1    9460 5880
-	1    0    0    -1  
-$EndComp
 Text GLabel 8710 5930 0    50   Input ~ 0
 VCC
 Text GLabel 8710 6080 0    50   Input ~ 0
@@ -385,10 +374,8 @@ Wire Wire Line
 Connection ~ 1160 3530
 Wire Wire Line
 	1160 3530 1460 3530
-Text GLabel 8710 5780 0    50   Input ~ 0
+Text GLabel 8490 5530 0    50   Input ~ 0
 SCL
-Text GLabel 8710 5630 0    50   Input ~ 0
-SDA
 $Comp
 L Device:R R2
 U 1 1 60EAFEC7
@@ -2651,4 +2638,51 @@ Text GLabel 7290 5010 1    50   Input ~ 0
 R_ENC
 NoConn ~ 2450 7550
 NoConn ~ 4050 6350
+Text GLabel 9010 5440 2    50   Input ~ 0
+VCC
+Text GLabel 9010 5170 2    50   Input ~ 0
+VCC
+Text GLabel 8710 5530 0    50   Input ~ 0
+SDA
+$Comp
+L Device:R R9
+U 1 1 620F1605
+P 8860 5440
+F 0 "R9" V 9010 5450 50  0000 C CNN
+F 1 "4.7k" V 8940 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8790 5440 50  0001 C CNN
+F 3 "~" H 8860 5440 50  0001 C CNN
+	1    8860 5440
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8490 5170 8710 5170
+Wire Wire Line
+	8490 5780 8710 5780
+$Comp
+L Device:R R8
+U 1 1 62139DB6
+P 8860 5170
+F 0 "R8" V 9010 5180 50  0000 C CNN
+F 1 "4.7k" V 8940 5180 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8790 5170 50  0001 C CNN
+F 3 "~" H 8860 5170 50  0001 C CNN
+	1    8860 5170
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8490 5170 8490 5780
+Wire Wire Line
+	8710 5630 8710 5440
+$Comp
+L KeyboardMasterList:OLED-kbd OL1
+U 1 1 60EDA0A7
+P 9460 5880
+F 0 "OL1" H 9330 6390 51  0000 L CNN
+F 1 "OLED-kbd" H 9300 6300 47  0000 L CNN
+F 2 "Keyboard Master List:OLED" H 9460 5980 60  0001 C CNN
+F 3 "" H 9460 5980 60  0001 C CNN
+	1    9460 5880
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
