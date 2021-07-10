@@ -1,0 +1,2688 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "unsplit keyboard"
+Date "2021-07-09"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C_Small C1
+U 1 1 60E87F02
+P 860 3430
+F 0 "C1" H 952 3476 50  0000 L CNN
+F 1 "22p" H 952 3385 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 860 3430 50  0001 C CNN
+F 3 "~" H 860 3430 50  0001 C CNN
+	1    860  3430
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 60E88568
+P 1460 3430
+F 0 "C2" H 1552 3476 50  0000 L CNN
+F 1 "22p" H 1552 3385 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1460 3430 50  0001 C CNN
+F 3 "~" H 1460 3430 50  0001 C CNN
+	1    1460 3430
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 60E952CF
+P 3310 5270
+F 0 "C4" H 3402 5316 50  0000 L CNN
+F 1 "0.1u" H 3402 5225 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3310 5270 50  0001 C CNN
+F 3 "~" H 3310 5270 50  0001 C CNN
+	1    3310 5270
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 60E98228
+P 4000 5270
+F 0 "C6" H 4092 5316 50  0000 L CNN
+F 1 "0.1u" H 4092 5225 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4000 5270 50  0001 C CNN
+F 3 "~" H 4000 5270 50  0001 C CNN
+	1    4000 5270
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 60E9886B
+P 4340 5270
+F 0 "C7" H 4432 5316 50  0000 L CNN
+F 1 "0.1u" H 4432 5225 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4340 5270 50  0001 C CNN
+F 3 "~" H 4340 5270 50  0001 C CNN
+	1    4340 5270
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4340 5170 4000 5170
+Connection ~ 3660 5170
+Wire Wire Line
+	3660 5170 3310 5170
+Connection ~ 4000 5170
+Wire Wire Line
+	4000 5170 3660 5170
+Wire Wire Line
+	3310 5370 3660 5370
+Connection ~ 3660 5370
+Wire Wire Line
+	3660 5370 4000 5370
+Connection ~ 4000 5370
+Wire Wire Line
+	4000 5370 4340 5370
+$Comp
+L Device:C_Small C8
+U 1 1 60E99F5F
+P 4680 5270
+F 0 "C8" H 4772 5316 50  0000 L CNN
+F 1 "4.7u" H 4772 5225 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4680 5270 50  0001 C CNN
+F 3 "~" H 4680 5270 50  0001 C CNN
+	1    4680 5270
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4340 5170 4680 5170
+Connection ~ 4340 5170
+Wire Wire Line
+	4680 5370 4340 5370
+Connection ~ 4340 5370
+$Comp
+L KeyboardMasterList:SW_PUSH SW1
+U 1 1 60EA0751
+P 1250 1960
+F 0 "SW1" H 1250 2215 50  0000 C CNN
+F 1 "SW_PUSH" H 1250 2124 50  0000 C CNN
+F 2 "Keyboard Master List:SKQG-1155865" H 1250 1960 60  0001 C CNN
+F 3 "" H 1250 1960 60  0000 C CNN
+	1    1250 1960
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 60EA0DEA
+P 980 1110
+F 0 "#PWR02" H 980 860 50  0001 C CNN
+F 1 "GND" H 985 937 50  0000 C CNN
+F 2 "" H 980 1110 50  0001 C CNN
+F 3 "" H 980 1110 50  0001 C CNN
+	1    980  1110
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 60EA2F2C
+P 1400 2270
+F 0 "R1" V 1193 2270 50  0000 C CNN
+F 1 "10k" V 1284 2270 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1330 2270 50  0001 C CNN
+F 3 "~" H 1400 2270 50  0001 C CNN
+	1    1400 2270
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 1960 1550 2270
+Text GLabel 1550 2110 2    50   Input ~ 0
+RESET
+Text GLabel 1850 7550 3    50   Input ~ 0
+RESET
+Text GLabel 1110 1110 2    50   Input ~ 0
+GND
+Text GLabel 1110 970  2    50   Input ~ 0
+VCC
+$Comp
+L power:VCC #PWR01
+U 1 1 60EC49E9
+P 980 970
+F 0 "#PWR01" H 980 820 50  0001 C CNN
+F 1 "VCC" H 995 1143 50  0000 C CNN
+F 2 "" H 980 970 50  0001 C CNN
+F 3 "" H 980 970 50  0001 C CNN
+	1    980  970 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1110 970  980  970 
+Wire Wire Line
+	1110 1110 980  1110
+Text GLabel 2650 7550 3    50   Input ~ 0
+VCC
+Text GLabel 1550 6950 0    50   Input ~ 0
+VCC
+Text GLabel 1550 6850 0    50   Input ~ 0
+VCC
+Text GLabel 5150 7050 2    50   Input ~ 0
+GND
+Text GLabel 5150 6950 2    50   Input ~ 0
+GND
+Text GLabel 2120 5040 2    50   Input ~ 0
+D-
+Text GLabel 2120 5250 2    50   Input ~ 0
+D+
+$Comp
+L Device:R R7
+U 1 1 60ECB4E2
+P 3950 6200
+F 0 "R7" H 3840 6400 50  0000 C CNN
+F 1 "10k" H 3830 6310 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3880 6200 50  0001 C CNN
+F 3 "~" H 3950 6200 50  0001 C CNN
+	1    3950 6200
+	1    0    0    -1  
+$EndComp
+Text GLabel 3950 6050 1    50   Input ~ 0
+GND
+$Comp
+L Device:C_Small C11
+U 1 1 60ECF502
+P 3150 7650
+F 0 "C11" H 3010 7610 50  0000 C CNN
+F 1 "1u" H 3010 7690 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3150 7650 50  0001 C CNN
+F 3 "~" H 3150 7650 50  0001 C CNN
+	1    3150 7650
+	-1   0    0    1   
+$EndComp
+Text GLabel 3150 7750 3    50   Input ~ 0
+GND
+Text GLabel 950  1960 0    50   Input ~ 0
+GND
+Text GLabel 1250 2270 0    50   Input ~ 0
+VCC
+Text GLabel 1160 3530 3    50   Input ~ 0
+GND
+Text GLabel 3310 5370 0    50   Input ~ 0
+GND
+Text GLabel 3310 5170 0    50   Input ~ 0
+VCC
+Text GLabel 8710 5930 0    50   Input ~ 0
+VCC
+Text GLabel 8710 6080 0    50   Input ~ 0
+GND
+$Comp
+L Device:R R4
+U 1 1 60E8A2C6
+P 6650 5310
+F 0 "R4" V 6490 5310 50  0000 C CNN
+F 1 "10k" V 6560 5310 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6580 5310 50  0001 C CNN
+F 3 "~" H 6650 5310 50  0001 C CNN
+	1    6650 5310
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 60E8B54F
+P 6700 4800
+F 0 "C3" V 6650 4950 50  0000 L CNN
+F 1 "0.1u" V 6760 4950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6700 4800 50  0001 C CNN
+F 3 "~" H 6700 4800 50  0001 C CNN
+	1    6700 4800
+	0    1    1    0   
+$EndComp
+Text GLabel 6600 4800 0    50   Input ~ 0
+GND
+Text GLabel 6500 5310 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	6800 4800 6800 5010
+Connection ~ 6800 5010
+Wire Wire Line
+	6800 5010 6640 5010
+Wire Wire Line
+	6800 5310 6800 5010
+Text GLabel 7610 6120 0    50   Input ~ 0
+ROT_B
+Text GLabel 7190 6220 3    50   Input ~ 0
+GND
+Wire Wire Line
+	7190 5610 7190 6010
+Wire Wire Line
+	7090 5610 7090 5740
+Wire Wire Line
+	7090 5740 6740 5740
+Wire Wire Line
+	6740 5740 6740 5810
+Wire Wire Line
+	7290 5610 7290 5740
+Wire Wire Line
+	7290 5740 7610 5740
+$Comp
+L Device:C_Small C10
+U 1 1 60E9C9BD
+P 7350 5910
+F 0 "C10" H 7110 5870 50  0000 L CNN
+F 1 "0.1u" H 7100 5940 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7350 5910 50  0001 C CNN
+F 3 "~" H 7350 5910 50  0001 C CNN
+	1    7350 5910
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 60E9CF1C
+P 6580 5960
+F 0 "R5" H 6690 5930 50  0000 C CNN
+F 1 "10k" H 6700 6020 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6510 5960 50  0001 C CNN
+F 3 "~" H 6580 5960 50  0001 C CNN
+	1    6580 5960
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 60E9DCDB
+P 7790 5960
+F 0 "R6" H 7900 6000 50  0000 C CNN
+F 1 "10k" H 7920 5910 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7720 5960 50  0001 C CNN
+F 3 "~" H 7790 5960 50  0001 C CNN
+	1    7790 5960
+	1    0    0    -1  
+$EndComp
+Text GLabel 7190 6510 3    50   Input ~ 0
+VCC
+Wire Wire Line
+	7040 5810 6740 5810
+Connection ~ 6740 5810
+Wire Wire Line
+	6740 5810 6740 6120
+Wire Wire Line
+	6740 5810 6580 5810
+Wire Wire Line
+	6580 6110 6580 6510
+Wire Wire Line
+	7790 6110 7790 6510
+Wire Wire Line
+	6580 6510 7790 6510
+Wire Wire Line
+	7610 5740 7610 5810
+Wire Wire Line
+	7350 5810 7610 5810
+Connection ~ 7610 5810
+Wire Wire Line
+	7610 5810 7610 6120
+Wire Wire Line
+	7040 6010 7190 6010
+Connection ~ 7190 6010
+Wire Wire Line
+	7190 6010 7190 6220
+Wire Wire Line
+	7350 6010 7190 6010
+Wire Wire Line
+	7610 5810 7790 5810
+$Comp
+L Device:C_Small C9
+U 1 1 60E9A224
+P 7040 5910
+F 0 "C9" H 6810 5950 50  0000 L CNN
+F 1 "0.1u" H 6800 5880 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7040 5910 50  0001 C CNN
+F 3 "~" H 7040 5910 50  0001 C CNN
+	1    7040 5910
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch ENC1
+U 1 1 60E86AC5
+P 7190 5310
+F 0 "ENC1" V 7180 5010 50  0000 R CNN
+F 1 "Rotary_Encoder_Switch" V 7090 5060 50  0000 R CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 7040 5470 50  0001 C CNN
+F 3 "~" H 7190 5570 50  0001 C CNN
+	1    7190 5310
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 5010 7090 5010
+$Comp
+L KeyboardMasterList:XTAL_GND X1
+U 1 1 60E7F71D
+P 1160 3330
+F 0 "X1" H 1160 3622 60  0000 C CNN
+F 1 "XTAL_GND" H 1160 3516 60  0000 C CNN
+F 2 "Keebio Parts:Crystal_SMD_3225-4pin_3.2x2.5mm" H 1160 3330 60  0001 C CNN
+F 3 "" H 1160 3330 60  0000 C CNN
+	1    1160 3330
+	1    0    0    -1  
+$EndComp
+Text GLabel 1460 3330 1    50   Input ~ 0
+XTAL2
+Text GLabel 860  3330 1    50   Input ~ 0
+XTAL1
+Text GLabel 2050 7550 3    50   Input ~ 0
+XTAL1
+Text GLabel 2250 7550 3    50   Input ~ 0
+XTAL2
+Wire Wire Line
+	860  3530 1160 3530
+Connection ~ 1160 3530
+Wire Wire Line
+	1160 3530 1460 3530
+Text GLabel 8490 5530 0    50   Input ~ 0
+SCL
+$Comp
+L Device:R R2
+U 1 1 60EAFEC7
+P 1970 5040
+F 0 "R2" V 1810 5040 50  0000 C CNN
+F 1 "22" V 1880 5040 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1900 5040 50  0001 C CNN
+F 3 "~" H 1970 5040 50  0001 C CNN
+	1    1970 5040
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 60EB09D8
+P 1970 5250
+F 0 "R3" V 2060 5250 50  0000 C CNN
+F 1 "22" V 2140 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1900 5250 50  0001 C CNN
+F 3 "~" H 1970 5250 50  0001 C CNN
+	1    1970 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1470 5300 1640 5300
+Wire Wire Line
+	1640 5300 1640 5250
+Wire Wire Line
+	1640 5250 1820 5250
+$Comp
+L keebio:HRO-TYPE-C-31-M-12 USB1
+U 1 1 60EC290D
+P 1370 5150
+F 0 "USB1" H 1203 5947 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" H 1203 5841 60  0000 C CNN
+F 2 "Keebio Parts:USB-C-12-Pin-MidMount" H 1370 5150 60  0001 C CNN
+F 3 "" H 1370 5150 60  0001 C CNN
+	1    1370 5150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1470 4700 2    50   Input ~ 0
+VCC
+Wire Wire Line
+	1640 5250 1640 5100
+Wire Wire Line
+	1640 5100 1470 5100
+Connection ~ 1640 5250
+Wire Wire Line
+	1470 5200 1740 5200
+Wire Wire Line
+	1740 5200 1740 5040
+Wire Wire Line
+	1740 5040 1820 5040
+Wire Wire Line
+	1470 5000 1740 5000
+Wire Wire Line
+	1740 5000 1740 5040
+Connection ~ 1740 5040
+Text GLabel 1470 5600 2    50   Input ~ 0
+VCC
+Text GLabel 1470 5800 2    50   Input ~ 0
+GND
+Text GLabel 1470 5700 2    50   Input ~ 0
+GND
+NoConn ~ 1470 4800
+NoConn ~ 1470 4900
+NoConn ~ 1470 5400
+NoConn ~ 1470 5500
+Text GLabel 4250 6350 1    50   Input ~ 0
+ROW0
+Text GLabel 4350 6350 1    50   Input ~ 0
+ROW1
+Text GLabel 4450 6350 1    50   Input ~ 0
+ROW2
+Text GLabel 4550 6350 1    50   Input ~ 0
+ROW3
+Text GLabel 3650 6350 1    50   Input ~ 0
+COL14
+Text GLabel 3550 6350 1    50   Input ~ 0
+COL13
+Text GLabel 3450 6350 1    50   Input ~ 0
+COL12
+Text GLabel 2550 6350 1    50   Input ~ 0
+COL7
+Text GLabel 3350 6350 1    50   Input ~ 0
+COL11
+Text GLabel 3250 6350 1    50   Input ~ 0
+COL10
+Text GLabel 3150 6350 1    50   Input ~ 0
+COL9
+Text GLabel 3050 6350 1    50   Input ~ 0
+COL8
+Text GLabel 4650 6350 1    50   Input ~ 0
+ROW4
+Text GLabel 3750 6350 1    50   Input ~ 0
+SDA
+Text GLabel 4750 6350 1    50   Input ~ 0
+SCL
+Text GLabel 6740 6120 2    50   Input ~ 0
+ROT_A
+Text GLabel 2750 6350 1    50   Input ~ 0
+ROT_A
+Text GLabel 2850 6350 1    50   Input ~ 0
+ROT_B
+Text GLabel 2850 7550 3    50   Input ~ 0
+D+
+Text GLabel 2950 7550 3    50   Input ~ 0
+D-
+Text GLabel 1550 7050 0    50   Input ~ 0
+VCC
+Text GLabel 2450 6350 1    50   Input ~ 0
+COL6
+Text GLabel 2350 6350 1    50   Input ~ 0
+COL5
+Text GLabel 2250 6350 1    50   Input ~ 0
+COL4
+Text GLabel 2150 6350 1    50   Input ~ 0
+COL3
+Text GLabel 2050 6350 1    50   Input ~ 0
+COL2
+Text GLabel 1950 6350 1    50   Input ~ 0
+COL1
+Text GLabel 1850 6350 1    50   Input ~ 0
+COL0
+Text GLabel 1470 4600 2    50   Input ~ 0
+GND
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX63
+U 1 1 6182EA7E
+P 5900 4170
+F 0 "MX63" H 5933 4393 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 5933 4319 20  0000 C CNN
+F 2 "Keyboard Master List:MX-6.25U" H 5275 4145 60  0001 C CNN
+F 3 "" H 5275 4145 60  0001 C CNN
+	1    5900 4170
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D63
+U 1 1 6182EA84
+P 5850 4370
+F 0 "D63" H 5978 4320 60  0000 L CNN
+F 1 "D" V 6000 4320 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 5850 4370 60  0001 C CNN
+F 3 "" H 5850 4370 60  0000 C CNN
+	1    5850 4370
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX62
+U 1 1 618465EE
+P 4310 4170
+F 0 "MX62" H 4343 4393 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 4343 4319 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1.25U" H 3685 4145 60  0001 C CNN
+F 3 "" H 3685 4145 60  0001 C CNN
+	1    4310 4170
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D62
+U 1 1 618465F4
+P 4260 4370
+F 0 "D62" H 4388 4320 60  0000 L CNN
+F 1 "D" V 4410 4320 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4260 4370 60  0001 C CNN
+F 3 "" H 4260 4370 60  0000 C CNN
+	1    4260 4370
+	1    0    0    -1  
+$EndComp
+Text Notes 4040 3980 0    50   ~ 0
+Alt
+Wire Wire Line
+	4460 3440 4460 4120
+Connection ~ 4260 4520
+Connection ~ 3200 4520
+Wire Wire Line
+	2670 4520 3200 4520
+Wire Wire Line
+	3400 3440 3400 4120
+Text Notes 2980 3980 0    50   ~ 0
+Ctrl
+$Comp
+L KeyboardMasterList:D D61
+U 1 1 61846629
+P 3200 4370
+F 0 "D61" H 3328 4320 60  0000 L CNN
+F 1 "D" V 3350 4320 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3200 4370 60  0001 C CNN
+F 3 "" H 3200 4370 60  0000 C CNN
+	1    3200 4370
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX61
+U 1 1 6184662F
+P 3250 4170
+F 0 "MX61" H 3283 4393 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 3283 4319 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1.25U" H 2625 4145 60  0001 C CNN
+F 3 "" H 2625 4145 60  0001 C CNN
+	1    3250 4170
+	1    0    0    -1  
+$EndComp
+Connection ~ 2670 4520
+Wire Wire Line
+	2140 4520 2670 4520
+Wire Wire Line
+	2870 3440 2870 4120
+Text Notes 2450 3980 0    50   ~ 0
+F17
+$Comp
+L KeyboardMasterList:D D60
+U 1 1 6184663B
+P 2670 4370
+F 0 "D60" H 2798 4320 60  0000 L CNN
+F 1 "D" V 2820 4320 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2670 4370 60  0001 C CNN
+F 3 "" H 2670 4370 60  0000 C CNN
+	1    2670 4370
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX60
+U 1 1 61846641
+P 2720 4170
+F 0 "MX60" H 2753 4393 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 2753 4319 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 2095 4145 60  0001 C CNN
+F 3 "" H 2095 4145 60  0001 C CNN
+	1    2720 4170
+	1    0    0    -1  
+$EndComp
+Text Notes 9320 3980 0    50   ~ 0
+Down
+Wire Wire Line
+	9760 3440 9760 4120
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX66
+U 1 1 61851976
+P 8550 4170
+F 0 "MX66" H 8583 4393 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 8583 4319 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 7925 4145 60  0001 C CNN
+F 3 "" H 7925 4145 60  0001 C CNN
+	1    8550 4170
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D66
+U 1 1 6185197C
+P 8500 4370
+F 0 "D66" H 8628 4320 60  0000 L CNN
+F 1 "D" V 8650 4320 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 8500 4370 60  0001 C CNN
+F 3 "" H 8500 4370 60  0000 C CNN
+	1    8500 4370
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10290 3440 10290 4120
+Text Notes 9850 3980 0    50   ~ 0
+Right
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX69
+U 1 1 61851995
+P 10140 4170
+F 0 "MX69" H 10173 4393 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 10173 4319 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 9515 4145 60  0001 C CNN
+F 3 "" H 9515 4145 60  0001 C CNN
+	1    10140 4170
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D69
+U 1 1 6185198F
+P 10090 4370
+F 0 "D69" H 10218 4320 60  0000 L CNN
+F 1 "D" V 10240 4320 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 10090 4370 60  0001 C CNN
+F 3 "" H 10090 4370 60  0000 C CNN
+	1    10090 4370
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9560 4520 10090 4520
+Connection ~ 9560 4520
+$Comp
+L KeyboardMasterList:D D68
+U 1 1 6185196C
+P 9560 4370
+F 0 "D68" H 9688 4320 60  0000 L CNN
+F 1 "D" V 9710 4320 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 9560 4370 60  0001 C CNN
+F 3 "" H 9560 4370 60  0000 C CNN
+	1    9560 4370
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX68
+U 1 1 61851966
+P 9610 4170
+F 0 "MX68" H 9643 4393 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 9643 4319 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 8985 4145 60  0001 C CNN
+F 3 "" H 8985 4145 60  0001 C CNN
+	1    9610 4170
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX53
+U 1 1 6188095A
+P 6960 3490
+F 0 "MX53" H 6993 3713 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 6993 3639 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 6335 3465 60  0001 C CNN
+F 3 "" H 6335 3465 60  0001 C CNN
+	1    6960 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D53
+U 1 1 61880960
+P 6910 3690
+F 0 "D53" H 7038 3640 60  0000 L CNN
+F 1 "D" V 7060 3640 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 6910 3690 60  0001 C CNN
+F 3 "" H 6910 3690 60  0000 C CNN
+	1    6910 3690
+	1    0    0    -1  
+$EndComp
+Text Notes 6690 3300 0    50   ~ 0
+M
+Wire Wire Line
+	7110 2760 7110 3440
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX52
+U 1 1 6188096A
+P 6430 3490
+F 0 "MX52" H 6463 3713 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 6463 3639 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 5805 3465 60  0001 C CNN
+F 3 "" H 5805 3465 60  0001 C CNN
+	1    6430 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D52
+U 1 1 61880970
+P 6380 3690
+F 0 "D52" H 6508 3640 60  0000 L CNN
+F 1 "D" V 6530 3640 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 6380 3690 60  0001 C CNN
+F 3 "" H 6380 3690 60  0000 C CNN
+	1    6380 3690
+	1    0    0    -1  
+$EndComp
+Text Notes 6160 3300 0    50   ~ 0
+N
+Connection ~ 6380 3840
+Wire Wire Line
+	5850 3840 6380 3840
+Wire Wire Line
+	6580 2760 6580 3440
+Wire Wire Line
+	6380 3840 6910 3840
+Connection ~ 6910 3840
+Connection ~ 7440 3840
+Wire Wire Line
+	6910 3840 7440 3840
+Wire Wire Line
+	7440 3840 7970 3840
+Connection ~ 7640 3440
+Wire Wire Line
+	7640 2760 7640 3440
+$Comp
+L KeyboardMasterList:D D54
+U 1 1 61880983
+P 7440 3690
+F 0 "D54" H 7568 3640 60  0000 L CNN
+F 1 "D" V 7590 3640 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 7440 3690 60  0001 C CNN
+F 3 "" H 7440 3690 60  0000 C CNN
+	1    7440 3690
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX54
+U 1 1 61880989
+P 7490 3490
+F 0 "MX54" H 7523 3713 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 7523 3639 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 6865 3465 60  0001 C CNN
+F 3 "" H 6865 3465 60  0001 C CNN
+	1    7490 3490
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 3840
+Wire Wire Line
+	5320 3840 5850 3840
+Connection ~ 6050 3440
+Wire Wire Line
+	6050 2760 6050 3440
+Text Notes 5630 3300 0    50   ~ 0
+B
+$Comp
+L KeyboardMasterList:D D51
+U 1 1 61880995
+P 5850 3690
+F 0 "D51" H 5978 3640 60  0000 L CNN
+F 1 "D" V 6000 3640 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 5850 3690 60  0001 C CNN
+F 3 "" H 5850 3690 60  0000 C CNN
+	1    5850 3690
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX51
+U 1 1 6188099B
+P 5900 3490
+F 0 "MX51" H 5933 3713 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 5933 3639 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 5275 3465 60  0001 C CNN
+F 3 "" H 5275 3465 60  0001 C CNN
+	1    5900 3490
+	1    0    0    -1  
+$EndComp
+Connection ~ 5320 3840
+Wire Wire Line
+	4790 3840 5320 3840
+Wire Wire Line
+	5520 2760 5520 3440
+Text Notes 5100 3300 0    50   ~ 0
+V
+$Comp
+L KeyboardMasterList:D D50
+U 1 1 618809A7
+P 5320 3690
+F 0 "D50" H 5448 3640 60  0000 L CNN
+F 1 "D" V 5470 3640 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 5320 3690 60  0001 C CNN
+F 3 "" H 5320 3690 60  0000 C CNN
+	1    5320 3690
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX50
+U 1 1 618809AD
+P 5370 3490
+F 0 "MX50" H 5403 3713 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 5403 3639 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 4745 3465 60  0001 C CNN
+F 3 "" H 4745 3465 60  0001 C CNN
+	1    5370 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX48
+U 1 1 618809B5
+P 4310 3490
+F 0 "MX48" H 4343 3713 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 4343 3639 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 3685 3465 60  0001 C CNN
+F 3 "" H 3685 3465 60  0001 C CNN
+	1    4310 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D48
+U 1 1 618809BB
+P 4260 3690
+F 0 "D48" H 4388 3640 60  0000 L CNN
+F 1 "D" V 4410 3640 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4260 3690 60  0001 C CNN
+F 3 "" H 4260 3690 60  0000 C CNN
+	1    4260 3690
+	1    0    0    -1  
+$EndComp
+Text Notes 4040 3300 0    50   ~ 0
+X
+Wire Wire Line
+	4460 2760 4460 3440
+Connection ~ 4460 3440
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX47
+U 1 1 618809C5
+P 3780 3490
+F 0 "MX47" H 3813 3713 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 3813 3639 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 3155 3465 60  0001 C CNN
+F 3 "" H 3155 3465 60  0001 C CNN
+	1    3780 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D47
+U 1 1 618809CB
+P 3730 3690
+F 0 "D47" H 3858 3640 60  0000 L CNN
+F 1 "D" V 3880 3640 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3730 3690 60  0001 C CNN
+F 3 "" H 3730 3690 60  0000 C CNN
+	1    3730 3690
+	1    0    0    -1  
+$EndComp
+Text Notes 3510 3300 0    50   ~ 0
+Z
+Connection ~ 3730 3840
+Wire Wire Line
+	3200 3840 3730 3840
+Wire Wire Line
+	3930 2760 3930 3440
+Wire Wire Line
+	3730 3840 4260 3840
+Connection ~ 4260 3840
+Connection ~ 4790 3840
+Wire Wire Line
+	4260 3840 4790 3840
+Wire Wire Line
+	4990 2760 4990 3440
+$Comp
+L KeyboardMasterList:D D49
+U 1 1 618809DD
+P 4790 3690
+F 0 "D49" H 4918 3640 60  0000 L CNN
+F 1 "D" V 4940 3640 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4790 3690 60  0001 C CNN
+F 3 "" H 4790 3690 60  0000 C CNN
+	1    4790 3690
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX49
+U 1 1 618809E3
+P 4840 3490
+F 0 "MX49" H 4873 3713 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 4873 3639 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 4215 3465 60  0001 C CNN
+F 3 "" H 4215 3465 60  0001 C CNN
+	1    4840 3490
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 3840
+Wire Wire Line
+	2670 3840 3200 3840
+Connection ~ 3400 3440
+Wire Wire Line
+	3400 2760 3400 3440
+Text Notes 2980 3300 0    50   ~ 0
+Shift
+$Comp
+L KeyboardMasterList:D D46
+U 1 1 618809EF
+P 3200 3690
+F 0 "D46" H 3328 3640 60  0000 L CNN
+F 1 "D" V 3350 3640 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3200 3690 60  0001 C CNN
+F 3 "" H 3200 3690 60  0000 C CNN
+	1    3200 3690
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX46
+U 1 1 618809F5
+P 3250 3490
+F 0 "MX46" H 3283 3713 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 3283 3639 20  0000 C CNN
+F 2 "Keyboard Master List:MX-2.25U" H 2625 3465 60  0001 C CNN
+F 3 "" H 2625 3465 60  0001 C CNN
+	1    3250 3490
+	1    0    0    -1  
+$EndComp
+Connection ~ 2670 3840
+Wire Wire Line
+	2140 3840 2670 3840
+Connection ~ 2870 3440
+Wire Wire Line
+	2870 2760 2870 3440
+Text Notes 2450 3300 0    50   ~ 0
+F16
+$Comp
+L KeyboardMasterList:D D45
+U 1 1 61880A01
+P 2670 3690
+F 0 "D45" H 2798 3640 60  0000 L CNN
+F 1 "D" V 2820 3640 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2670 3690 60  0001 C CNN
+F 3 "" H 2670 3690 60  0000 C CNN
+	1    2670 3690
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX45
+U 1 1 61880A07
+P 2720 3490
+F 0 "MX45" H 2753 3713 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 2753 3639 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 2095 3465 60  0001 C CNN
+F 3 "" H 2095 3465 60  0001 C CNN
+	1    2720 3490
+	1    0    0    -1  
+$EndComp
+Text Notes 9340 3300 0    50   ~ 0
+Up
+Wire Wire Line
+	9760 2760 9760 3440
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX57
+U 1 1 61880A11
+P 9080 3490
+F 0 "MX57" H 9113 3713 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 9113 3639 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1.75U" H 8455 3465 60  0001 C CNN
+F 3 "" H 8455 3465 60  0001 C CNN
+	1    9080 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D57
+U 1 1 61880A17
+P 9030 3690
+F 0 "D57" H 9158 3640 60  0000 L CNN
+F 1 "D" V 9180 3640 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 9030 3690 60  0001 C CNN
+F 3 "" H 9030 3690 60  0000 C CNN
+	1    9030 3690
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 3840 9030 3840
+Wire Wire Line
+	9230 2760 9230 3440
+Connection ~ 9230 3440
+Text Notes 9880 3300 0    50   ~ 0
+LGui
+Connection ~ 8500 3840
+Wire Wire Line
+	7970 3840 8500 3840
+Connection ~ 8700 3440
+Wire Wire Line
+	8700 2760 8700 3440
+$Comp
+L KeyboardMasterList:D D56
+U 1 1 61880A28
+P 8500 3690
+F 0 "D56" H 8628 3640 60  0000 L CNN
+F 1 "D" V 8650 3640 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 8500 3690 60  0001 C CNN
+F 3 "" H 8500 3690 60  0000 C CNN
+	1    8500 3690
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX56
+U 1 1 61880A2E
+P 8550 3490
+F 0 "MX56" H 8583 3713 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 8583 3639 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 7925 3465 60  0001 C CNN
+F 3 "" H 7925 3465 60  0001 C CNN
+	1    8550 3490
+	1    0    0    -1  
+$EndComp
+Connection ~ 7970 3840
+Connection ~ 8170 3440
+Wire Wire Line
+	8170 2760 8170 3440
+$Comp
+L KeyboardMasterList:D D55
+U 1 1 61880A39
+P 7970 3690
+F 0 "D55" H 8098 3640 60  0000 L CNN
+F 1 "D" V 8120 3640 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 7970 3690 60  0001 C CNN
+F 3 "" H 7970 3690 60  0000 C CNN
+	1    7970 3690
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX55
+U 1 1 61880A3F
+P 8020 3490
+F 0 "MX55" H 8053 3713 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 8053 3639 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 7395 3465 60  0001 C CNN
+F 3 "" H 7395 3465 60  0001 C CNN
+	1    8020 3490
+	1    0    0    -1  
+$EndComp
+Connection ~ 10290 3440
+Connection ~ 9030 3840
+Connection ~ 9760 3440
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX59
+U 1 1 61880A4A
+P 10140 3490
+F 0 "MX59" H 10173 3713 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 10173 3639 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 9515 3465 60  0001 C CNN
+F 3 "" H 9515 3465 60  0001 C CNN
+	1    10140 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D59
+U 1 1 61880A50
+P 10090 3690
+F 0 "D59" H 10218 3640 60  0000 L CNN
+F 1 "D" V 10240 3640 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 10090 3690 60  0001 C CNN
+F 3 "" H 10090 3690 60  0000 C CNN
+	1    10090 3690
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9560 3840 10090 3840
+Connection ~ 9560 3840
+Wire Wire Line
+	9030 3840 9560 3840
+$Comp
+L KeyboardMasterList:D D58
+U 1 1 61880A5B
+P 9560 3690
+F 0 "D58" H 9688 3640 60  0000 L CNN
+F 1 "D" V 9710 3640 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 9560 3690 60  0001 C CNN
+F 3 "" H 9560 3690 60  0000 C CNN
+	1    9560 3690
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX58
+U 1 1 61880A61
+P 9610 3490
+F 0 "MX58" H 9643 3713 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 9643 3639 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 8985 3465 60  0001 C CNN
+F 3 "" H 8985 3465 60  0001 C CNN
+	1    9610 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX39
+U 1 1 6189AC40
+P 6960 2810
+F 0 "MX39" H 6993 3033 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 6993 2959 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 6335 2785 60  0001 C CNN
+F 3 "" H 6335 2785 60  0001 C CNN
+	1    6960 2810
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D39
+U 1 1 6189AC46
+P 6910 3010
+F 0 "D39" H 7038 2960 60  0000 L CNN
+F 1 "D" V 7060 2960 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 6910 3010 60  0001 C CNN
+F 3 "" H 6910 3010 60  0000 C CNN
+	1    6910 3010
+	1    0    0    -1  
+$EndComp
+Connection ~ 7110 2760
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX38
+U 1 1 6189AC50
+P 6430 2810
+F 0 "MX38" H 6463 3033 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 6463 2959 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 5805 2785 60  0001 C CNN
+F 3 "" H 5805 2785 60  0001 C CNN
+	1    6430 2810
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D38
+U 1 1 6189AC56
+P 6380 3010
+F 0 "D38" H 6508 2960 60  0000 L CNN
+F 1 "D" V 6530 2960 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 6380 3010 60  0001 C CNN
+F 3 "" H 6380 3010 60  0000 C CNN
+	1    6380 3010
+	1    0    0    -1  
+$EndComp
+Connection ~ 6380 3160
+Wire Wire Line
+	5850 3160 6380 3160
+Connection ~ 6580 2760
+Wire Wire Line
+	6380 3160 6910 3160
+Connection ~ 6910 3160
+Connection ~ 7440 3160
+Wire Wire Line
+	6910 3160 7440 3160
+Wire Wire Line
+	7440 3160 7970 3160
+Connection ~ 7640 2760
+$Comp
+L KeyboardMasterList:D D40
+U 1 1 6189AC69
+P 7440 3010
+F 0 "D40" H 7568 2960 60  0000 L CNN
+F 1 "D" V 7590 2960 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 7440 3010 60  0001 C CNN
+F 3 "" H 7440 3010 60  0000 C CNN
+	1    7440 3010
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX40
+U 1 1 6189AC6F
+P 7490 2810
+F 0 "MX40" H 7523 3033 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 7523 2959 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 6865 2785 60  0001 C CNN
+F 3 "" H 6865 2785 60  0001 C CNN
+	1    7490 2810
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 3160
+Wire Wire Line
+	5320 3160 5850 3160
+Connection ~ 6050 2760
+$Comp
+L KeyboardMasterList:D D37
+U 1 1 6189AC7B
+P 5850 3010
+F 0 "D37" H 5978 2960 60  0000 L CNN
+F 1 "D" V 6000 2960 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 5850 3010 60  0001 C CNN
+F 3 "" H 5850 3010 60  0000 C CNN
+	1    5850 3010
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX37
+U 1 1 6189AC81
+P 5900 2810
+F 0 "MX37" H 5933 3033 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 5933 2959 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 5275 2785 60  0001 C CNN
+F 3 "" H 5275 2785 60  0001 C CNN
+	1    5900 2810
+	1    0    0    -1  
+$EndComp
+Connection ~ 5320 3160
+Wire Wire Line
+	4790 3160 5320 3160
+Connection ~ 5520 2760
+$Comp
+L KeyboardMasterList:D D36
+U 1 1 6189AC8D
+P 5320 3010
+F 0 "D36" H 5448 2960 60  0000 L CNN
+F 1 "D" V 5470 2960 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 5320 3010 60  0001 C CNN
+F 3 "" H 5320 3010 60  0000 C CNN
+	1    5320 3010
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX36
+U 1 1 6189AC93
+P 5370 2810
+F 0 "MX36" H 5403 3033 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 5403 2959 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 4745 2785 60  0001 C CNN
+F 3 "" H 4745 2785 60  0001 C CNN
+	1    5370 2810
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX34
+U 1 1 6189AC9B
+P 4310 2810
+F 0 "MX34" H 4343 3033 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 4343 2959 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 3685 2785 60  0001 C CNN
+F 3 "" H 3685 2785 60  0001 C CNN
+	1    4310 2810
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D34
+U 1 1 6189ACA1
+P 4260 3010
+F 0 "D34" H 4388 2960 60  0000 L CNN
+F 1 "D" V 4410 2960 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4260 3010 60  0001 C CNN
+F 3 "" H 4260 3010 60  0000 C CNN
+	1    4260 3010
+	1    0    0    -1  
+$EndComp
+Connection ~ 4460 2760
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX33
+U 1 1 6189ACAB
+P 3780 2810
+F 0 "MX33" H 3813 3033 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 3813 2959 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 3155 2785 60  0001 C CNN
+F 3 "" H 3155 2785 60  0001 C CNN
+	1    3780 2810
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D33
+U 1 1 6189ACB1
+P 3730 3010
+F 0 "D33" H 3858 2960 60  0000 L CNN
+F 1 "D" V 3880 2960 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3730 3010 60  0001 C CNN
+F 3 "" H 3730 3010 60  0000 C CNN
+	1    3730 3010
+	1    0    0    -1  
+$EndComp
+Connection ~ 3730 3160
+Wire Wire Line
+	3200 3160 3730 3160
+Connection ~ 3930 2760
+Wire Wire Line
+	3730 3160 4260 3160
+Connection ~ 4260 3160
+Connection ~ 4790 3160
+Wire Wire Line
+	4260 3160 4790 3160
+Connection ~ 4990 2760
+$Comp
+L KeyboardMasterList:D D35
+U 1 1 6189ACC3
+P 4790 3010
+F 0 "D35" H 4918 2960 60  0000 L CNN
+F 1 "D" V 4940 2960 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4790 3010 60  0001 C CNN
+F 3 "" H 4790 3010 60  0000 C CNN
+	1    4790 3010
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX35
+U 1 1 6189ACC9
+P 4840 2810
+F 0 "MX35" H 4873 3033 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 4873 2959 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 4215 2785 60  0001 C CNN
+F 3 "" H 4215 2785 60  0001 C CNN
+	1    4840 2810
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 3160
+Wire Wire Line
+	2670 3160 3200 3160
+Connection ~ 3400 2760
+$Comp
+L KeyboardMasterList:D D32
+U 1 1 6189ACD5
+P 3200 3010
+F 0 "D32" H 3328 2960 60  0000 L CNN
+F 1 "D" V 3350 2960 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3200 3010 60  0001 C CNN
+F 3 "" H 3200 3010 60  0000 C CNN
+	1    3200 3010
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX32
+U 1 1 6189ACDB
+P 3250 2810
+F 0 "MX32" H 3283 3033 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 3283 2959 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1.75U" H 2625 2785 60  0001 C CNN
+F 3 "" H 2625 2785 60  0001 C CNN
+	1    3250 2810
+	1    0    0    -1  
+$EndComp
+Connection ~ 2670 3160
+Wire Wire Line
+	2140 3160 2670 3160
+Connection ~ 2870 2760
+Text Notes 2450 2620 0    50   ~ 0
+F15
+$Comp
+L KeyboardMasterList:D D31
+U 1 1 6189ACE7
+P 2670 3010
+F 0 "D31" H 2798 2960 60  0000 L CNN
+F 1 "D" V 2820 2960 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2670 3010 60  0001 C CNN
+F 3 "" H 2670 3010 60  0000 C CNN
+	1    2670 3010
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX31
+U 1 1 6189ACED
+P 2720 2810
+F 0 "MX31" H 2753 3033 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 2753 2959 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 2095 2785 60  0001 C CNN
+F 3 "" H 2095 2785 60  0001 C CNN
+	1    2720 2810
+	1    0    0    -1  
+$EndComp
+Text Notes 9320 2620 0    50   ~ 0
+Enter
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX43
+U 1 1 6189ACF7
+P 9080 2810
+F 0 "MX43" H 9113 3033 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 9113 2959 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 8455 2785 60  0001 C CNN
+F 3 "" H 8455 2785 60  0001 C CNN
+	1    9080 2810
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D43
+U 1 1 6189ACFD
+P 9030 3010
+F 0 "D43" H 9158 2960 60  0000 L CNN
+F 1 "D" V 9180 2960 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 9030 3010 60  0001 C CNN
+F 3 "" H 9030 3010 60  0000 C CNN
+	1    9030 3010
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 3160 9030 3160
+Connection ~ 9230 2760
+Connection ~ 8500 3160
+Wire Wire Line
+	7970 3160 8500 3160
+Connection ~ 8700 2760
+$Comp
+L KeyboardMasterList:D D42
+U 1 1 6189AD0E
+P 8500 3010
+F 0 "D42" H 8628 2960 60  0000 L CNN
+F 1 "D" V 8650 2960 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 8500 3010 60  0001 C CNN
+F 3 "" H 8500 3010 60  0000 C CNN
+	1    8500 3010
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX42
+U 1 1 6189AD14
+P 8550 2810
+F 0 "MX42" H 8583 3033 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 8583 2959 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 7925 2785 60  0001 C CNN
+F 3 "" H 7925 2785 60  0001 C CNN
+	1    8550 2810
+	1    0    0    -1  
+$EndComp
+Connection ~ 7970 3160
+Connection ~ 8170 2760
+$Comp
+L KeyboardMasterList:D D41
+U 1 1 6189AD1F
+P 7970 3010
+F 0 "D41" H 8098 2960 60  0000 L CNN
+F 1 "D" V 8120 2960 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 7970 3010 60  0001 C CNN
+F 3 "" H 7970 3010 60  0000 C CNN
+	1    7970 3010
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX41
+U 1 1 6189AD25
+P 8020 2810
+F 0 "MX41" H 8053 3033 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 8053 2959 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 7395 2785 60  0001 C CNN
+F 3 "" H 7395 2785 60  0001 C CNN
+	1    8020 2810
+	1    0    0    -1  
+$EndComp
+Connection ~ 9030 3160
+Connection ~ 9760 2760
+Wire Wire Line
+	9030 3160 9560 3160
+$Comp
+L KeyboardMasterList:D D44
+U 1 1 6189AD41
+P 9560 3010
+F 0 "D44" H 9688 2960 60  0000 L CNN
+F 1 "D" V 9710 2960 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 9560 3010 60  0001 C CNN
+F 3 "" H 9560 3010 60  0000 C CNN
+	1    9560 3010
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX44
+U 1 1 6189AD47
+P 9610 2810
+F 0 "MX44" H 9643 3033 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 9643 2959 20  0000 C CNN
+F 2 "Keyboard Master List:MX-2.25U" H 8985 2785 60  0001 C CNN
+F 3 "" H 8985 2785 60  0001 C CNN
+	1    9610 2810
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX24
+U 1 1 618ACD55
+P 6960 2120
+F 0 "MX24" H 6993 2343 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 6993 2269 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 6335 2095 60  0001 C CNN
+F 3 "" H 6335 2095 60  0001 C CNN
+	1    6960 2120
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D24
+U 1 1 618ACD5B
+P 6910 2320
+F 0 "D24" H 7038 2270 60  0000 L CNN
+F 1 "D" V 7060 2270 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 6910 2320 60  0001 C CNN
+F 3 "" H 6910 2320 60  0000 C CNN
+	1    6910 2320
+	1    0    0    -1  
+$EndComp
+Text Notes 6690 1930 0    50   ~ 0
+U
+Wire Wire Line
+	7110 1390 7110 2070
+Connection ~ 7110 2070
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX23
+U 1 1 618ACD65
+P 6430 2120
+F 0 "MX23" H 6463 2343 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 6463 2269 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 5805 2095 60  0001 C CNN
+F 3 "" H 5805 2095 60  0001 C CNN
+	1    6430 2120
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D23
+U 1 1 618ACD6B
+P 6380 2320
+F 0 "D23" H 6508 2270 60  0000 L CNN
+F 1 "D" V 6530 2270 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 6380 2320 60  0001 C CNN
+F 3 "" H 6380 2320 60  0000 C CNN
+	1    6380 2320
+	1    0    0    -1  
+$EndComp
+Text Notes 6160 1930 0    50   ~ 0
+Y
+Connection ~ 6380 2470
+Wire Wire Line
+	5850 2470 6380 2470
+Wire Wire Line
+	6580 1390 6580 2070
+Connection ~ 6580 2070
+Wire Wire Line
+	6380 2470 6910 2470
+Connection ~ 6910 2470
+Connection ~ 7440 2470
+Wire Wire Line
+	6910 2470 7440 2470
+Wire Wire Line
+	7440 2470 7970 2470
+Connection ~ 7640 2070
+Wire Wire Line
+	7640 1390 7640 2070
+Text Notes 7220 1930 0    50   ~ 0
+I
+$Comp
+L KeyboardMasterList:D D25
+U 1 1 618ACD7E
+P 7440 2320
+F 0 "D25" H 7568 2270 60  0000 L CNN
+F 1 "D" V 7590 2270 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 7440 2320 60  0001 C CNN
+F 3 "" H 7440 2320 60  0000 C CNN
+	1    7440 2320
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX25
+U 1 1 618ACD84
+P 7490 2120
+F 0 "MX25" H 7523 2343 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 7523 2269 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 6865 2095 60  0001 C CNN
+F 3 "" H 6865 2095 60  0001 C CNN
+	1    7490 2120
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 2470
+Wire Wire Line
+	5320 2470 5850 2470
+Connection ~ 6050 2070
+Wire Wire Line
+	6050 1390 6050 2070
+Text Notes 5630 1930 0    50   ~ 0
+T
+$Comp
+L KeyboardMasterList:D D22
+U 1 1 618ACD90
+P 5850 2320
+F 0 "D22" H 5978 2270 60  0000 L CNN
+F 1 "D" V 6000 2270 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 5850 2320 60  0001 C CNN
+F 3 "" H 5850 2320 60  0000 C CNN
+	1    5850 2320
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX22
+U 1 1 618ACD96
+P 5900 2120
+F 0 "MX22" H 5933 2343 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 5933 2269 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 5275 2095 60  0001 C CNN
+F 3 "" H 5275 2095 60  0001 C CNN
+	1    5900 2120
+	1    0    0    -1  
+$EndComp
+Connection ~ 5320 2470
+Wire Wire Line
+	4790 2470 5320 2470
+Connection ~ 5520 2070
+Wire Wire Line
+	5520 1390 5520 2070
+$Comp
+L KeyboardMasterList:D D21
+U 1 1 618ACDA2
+P 5320 2320
+F 0 "D21" H 5448 2270 60  0000 L CNN
+F 1 "D" V 5470 2270 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 5320 2320 60  0001 C CNN
+F 3 "" H 5320 2320 60  0000 C CNN
+	1    5320 2320
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX21
+U 1 1 618ACDA8
+P 5370 2120
+F 0 "MX21" H 5403 2343 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 5403 2269 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 4745 2095 60  0001 C CNN
+F 3 "" H 4745 2095 60  0001 C CNN
+	1    5370 2120
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX19
+U 1 1 618ACDB0
+P 4310 2120
+F 0 "MX19" H 4343 2343 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 4343 2269 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 3685 2095 60  0001 C CNN
+F 3 "" H 3685 2095 60  0001 C CNN
+	1    4310 2120
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D19
+U 1 1 618ACDB6
+P 4260 2320
+F 0 "D19" H 4388 2270 60  0000 L CNN
+F 1 "D" V 4410 2270 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4260 2320 60  0001 C CNN
+F 3 "" H 4260 2320 60  0000 C CNN
+	1    4260 2320
+	1    0    0    -1  
+$EndComp
+Text Notes 4040 1930 0    50   ~ 0
+W
+Wire Wire Line
+	4460 1390 4460 2070
+Connection ~ 4460 2070
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX18
+U 1 1 618ACDC0
+P 3780 2120
+F 0 "MX18" H 3813 2343 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 3813 2269 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 3155 2095 60  0001 C CNN
+F 3 "" H 3155 2095 60  0001 C CNN
+	1    3780 2120
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D18
+U 1 1 618ACDC6
+P 3730 2320
+F 0 "D18" H 3858 2270 60  0000 L CNN
+F 1 "D" V 3880 2270 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3730 2320 60  0001 C CNN
+F 3 "" H 3730 2320 60  0000 C CNN
+	1    3730 2320
+	1    0    0    -1  
+$EndComp
+Text Notes 3510 1930 0    50   ~ 0
+Q
+Connection ~ 3730 2470
+Wire Wire Line
+	3200 2470 3730 2470
+Wire Wire Line
+	3930 1390 3930 2070
+Connection ~ 3930 2070
+Wire Wire Line
+	3730 2470 4260 2470
+Connection ~ 4260 2470
+Connection ~ 4790 2470
+Wire Wire Line
+	4260 2470 4790 2470
+Connection ~ 4990 2070
+Wire Wire Line
+	4990 1390 4990 2070
+Text Notes 4570 1930 0    50   ~ 0
+E
+$Comp
+L KeyboardMasterList:D D20
+U 1 1 618ACDD8
+P 4790 2320
+F 0 "D20" H 4918 2270 60  0000 L CNN
+F 1 "D" V 4940 2270 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4790 2320 60  0001 C CNN
+F 3 "" H 4790 2320 60  0000 C CNN
+	1    4790 2320
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX20
+U 1 1 618ACDDE
+P 4840 2120
+F 0 "MX20" H 4873 2343 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 4873 2269 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 4215 2095 60  0001 C CNN
+F 3 "" H 4215 2095 60  0001 C CNN
+	1    4840 2120
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 2470
+Wire Wire Line
+	2670 2470 3200 2470
+Connection ~ 3400 2070
+Wire Wire Line
+	3400 1390 3400 2070
+Text Notes 2980 1930 0    50   ~ 0
+Tab
+$Comp
+L KeyboardMasterList:D D17
+U 1 1 618ACDEA
+P 3200 2320
+F 0 "D17" H 3328 2270 60  0000 L CNN
+F 1 "D" V 3350 2270 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3200 2320 60  0001 C CNN
+F 3 "" H 3200 2320 60  0000 C CNN
+	1    3200 2320
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX17
+U 1 1 618ACDF0
+P 3250 2120
+F 0 "MX17" H 3283 2343 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 3283 2269 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1.5U" H 2625 2095 60  0001 C CNN
+F 3 "" H 2625 2095 60  0001 C CNN
+	1    3250 2120
+	1    0    0    -1  
+$EndComp
+Connection ~ 2670 2470
+Wire Wire Line
+	2140 2470 2670 2470
+Connection ~ 2870 2070
+Wire Wire Line
+	2870 1390 2870 2070
+Text Notes 2450 1930 0    50   ~ 0
+F14
+$Comp
+L KeyboardMasterList:D D16
+U 1 1 618ACDFC
+P 2670 2320
+F 0 "D16" H 2798 2270 60  0000 L CNN
+F 1 "D" V 2820 2270 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2670 2320 60  0001 C CNN
+F 3 "" H 2670 2320 60  0000 C CNN
+	1    2670 2320
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX16
+U 1 1 618ACE02
+P 2720 2120
+F 0 "MX16" H 2753 2343 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 2753 2269 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 2095 2095 60  0001 C CNN
+F 3 "" H 2095 2095 60  0001 C CNN
+	1    2720 2120
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9760 1390 9760 2070
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX28
+U 1 1 618ACE0C
+P 9080 2120
+F 0 "MX28" H 9113 2343 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 9113 2269 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 8455 2095 60  0001 C CNN
+F 3 "" H 8455 2095 60  0001 C CNN
+	1    9080 2120
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D28
+U 1 1 618ACE12
+P 9030 2320
+F 0 "D28" H 9158 2270 60  0000 L CNN
+F 1 "D" V 9180 2270 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 9030 2320 60  0001 C CNN
+F 3 "" H 9030 2320 60  0000 C CNN
+	1    9030 2320
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2470 9030 2470
+Wire Wire Line
+	9230 1390 9230 2070
+Connection ~ 9230 2070
+Wire Wire Line
+	10290 1390 10290 2070
+Text Notes 9790 1930 0    50   ~ 0
+BSlash
+Connection ~ 8500 2470
+Wire Wire Line
+	7970 2470 8500 2470
+Connection ~ 8700 2070
+Wire Wire Line
+	8700 1390 8700 2070
+Text Notes 8280 1930 0    50   ~ 0
+P
+$Comp
+L KeyboardMasterList:D D27
+U 1 1 618ACE23
+P 8500 2320
+F 0 "D27" H 8628 2270 60  0000 L CNN
+F 1 "D" V 8650 2270 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 8500 2320 60  0001 C CNN
+F 3 "" H 8500 2320 60  0000 C CNN
+	1    8500 2320
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX27
+U 1 1 618ACE29
+P 8550 2120
+F 0 "MX27" H 8583 2343 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 8583 2269 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 7925 2095 60  0001 C CNN
+F 3 "" H 7925 2095 60  0001 C CNN
+	1    8550 2120
+	1    0    0    -1  
+$EndComp
+Connection ~ 7970 2470
+Connection ~ 8170 2070
+Wire Wire Line
+	8170 1390 8170 2070
+Text Notes 7750 1930 0    50   ~ 0
+O
+$Comp
+L KeyboardMasterList:D D26
+U 1 1 618ACE34
+P 7970 2320
+F 0 "D26" H 8098 2270 60  0000 L CNN
+F 1 "D" V 8120 2270 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 7970 2320 60  0001 C CNN
+F 3 "" H 7970 2320 60  0000 C CNN
+	1    7970 2320
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX26
+U 1 1 618ACE3A
+P 8020 2120
+F 0 "MX26" H 8053 2343 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 8053 2269 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 7395 2095 60  0001 C CNN
+F 3 "" H 7395 2095 60  0001 C CNN
+	1    8020 2120
+	1    0    0    -1  
+$EndComp
+Connection ~ 10290 2070
+Connection ~ 9030 2470
+Connection ~ 9760 2070
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX30
+U 1 1 618ACE45
+P 10140 2120
+F 0 "MX30" H 10173 2343 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 10173 2269 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1.5U" H 9515 2095 60  0001 C CNN
+F 3 "" H 9515 2095 60  0001 C CNN
+	1    10140 2120
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D30
+U 1 1 618ACE4B
+P 10090 2320
+F 0 "D30" H 10218 2270 60  0000 L CNN
+F 1 "D" V 10240 2270 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 10090 2320 60  0001 C CNN
+F 3 "" H 10090 2320 60  0000 C CNN
+	1    10090 2320
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9560 2470 10090 2470
+Connection ~ 9560 2470
+Wire Wire Line
+	9030 2470 9560 2470
+$Comp
+L KeyboardMasterList:D D29
+U 1 1 618ACE56
+P 9560 2320
+F 0 "D29" H 9688 2270 60  0000 L CNN
+F 1 "D" V 9710 2270 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 9560 2320 60  0001 C CNN
+F 3 "" H 9560 2320 60  0000 C CNN
+	1    9560 2320
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX29
+U 1 1 618ACE5C
+P 9610 2120
+F 0 "MX29" H 9643 2343 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 9643 2269 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 8985 2095 60  0001 C CNN
+F 3 "" H 8985 2095 60  0001 C CNN
+	1    9610 2120
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7110 2070 7110 2760
+Wire Wire Line
+	6580 2070 6580 2760
+Wire Wire Line
+	7640 2070 7640 2760
+Wire Wire Line
+	6050 2070 6050 2760
+Wire Wire Line
+	5520 2070 5520 2760
+Wire Wire Line
+	4460 2070 4460 2760
+Wire Wire Line
+	3930 2070 3930 2760
+Wire Wire Line
+	4990 2070 4990 2760
+Wire Wire Line
+	3400 2070 3400 2760
+Wire Wire Line
+	2870 2070 2870 2760
+Wire Wire Line
+	9760 2070 9760 2760
+Wire Wire Line
+	9230 2070 9230 2760
+Wire Wire Line
+	8700 2070 8700 2760
+Wire Wire Line
+	8170 2070 8170 2760
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX9
+U 1 1 618C7981
+P 6960 1440
+F 0 "MX9" H 6993 1663 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 6993 1589 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 6335 1415 60  0001 C CNN
+F 3 "" H 6335 1415 60  0001 C CNN
+	1    6960 1440
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D9
+U 1 1 618C7987
+P 6910 1640
+F 0 "D9" H 7038 1590 60  0000 L CNN
+F 1 "D" V 7060 1590 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 6910 1640 60  0001 C CNN
+F 3 "" H 6910 1640 60  0000 C CNN
+	1    6910 1640
+	1    0    0    -1  
+$EndComp
+Text Notes 6690 1250 0    50   ~ 0
+7
+Wire Wire Line
+	7110 710  7110 1390
+Connection ~ 7110 1390
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX8
+U 1 1 618C7991
+P 6430 1440
+F 0 "MX8" H 6463 1663 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 6463 1589 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 5805 1415 60  0001 C CNN
+F 3 "" H 5805 1415 60  0001 C CNN
+	1    6430 1440
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D8
+U 1 1 618C7997
+P 6380 1640
+F 0 "D8" H 6508 1590 60  0000 L CNN
+F 1 "D" V 6530 1590 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 6380 1640 60  0001 C CNN
+F 3 "" H 6380 1640 60  0000 C CNN
+	1    6380 1640
+	1    0    0    -1  
+$EndComp
+Text Notes 6160 1250 0    50   ~ 0
+6
+Connection ~ 6380 1790
+Wire Wire Line
+	5850 1790 6380 1790
+Wire Wire Line
+	6580 710  6580 1390
+Connection ~ 6580 1390
+Wire Wire Line
+	6380 1790 6910 1790
+Connection ~ 6910 1790
+Connection ~ 7440 1790
+Wire Wire Line
+	6910 1790 7440 1790
+Wire Wire Line
+	7440 1790 7970 1790
+Connection ~ 7640 1390
+Wire Wire Line
+	7640 710  7640 1390
+Text Notes 7220 1250 0    50   ~ 0
+8
+$Comp
+L KeyboardMasterList:D D10
+U 1 1 618C79AA
+P 7440 1640
+F 0 "D10" H 7568 1590 60  0000 L CNN
+F 1 "D" V 7590 1590 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 7440 1640 60  0001 C CNN
+F 3 "" H 7440 1640 60  0000 C CNN
+	1    7440 1640
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX10
+U 1 1 618C79B0
+P 7490 1440
+F 0 "MX10" H 7523 1663 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 7523 1589 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 6865 1415 60  0001 C CNN
+F 3 "" H 6865 1415 60  0001 C CNN
+	1    7490 1440
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 1790
+Wire Wire Line
+	5320 1790 5850 1790
+Connection ~ 6050 1390
+Wire Wire Line
+	6050 710  6050 1390
+Text Notes 5630 1250 0    50   ~ 0
+5
+$Comp
+L KeyboardMasterList:D D7
+U 1 1 618C79BC
+P 5850 1640
+F 0 "D7" H 5978 1590 60  0000 L CNN
+F 1 "D" V 6000 1590 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 5850 1640 60  0001 C CNN
+F 3 "" H 5850 1640 60  0000 C CNN
+	1    5850 1640
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX7
+U 1 1 618C79C2
+P 5900 1440
+F 0 "MX7" H 5933 1663 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 5933 1589 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 5275 1415 60  0001 C CNN
+F 3 "" H 5275 1415 60  0001 C CNN
+	1    5900 1440
+	1    0    0    -1  
+$EndComp
+Connection ~ 5320 1790
+Wire Wire Line
+	4790 1790 5320 1790
+Connection ~ 5520 1390
+Wire Wire Line
+	5520 710  5520 1390
+Text Notes 5100 1250 0    50   ~ 0
+4
+$Comp
+L KeyboardMasterList:D D6
+U 1 1 618C79CE
+P 5320 1640
+F 0 "D6" H 5448 1590 60  0000 L CNN
+F 1 "D" V 5470 1590 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 5320 1640 60  0001 C CNN
+F 3 "" H 5320 1640 60  0000 C CNN
+	1    5320 1640
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX6
+U 1 1 618C79D4
+P 5370 1440
+F 0 "MX6" H 5403 1663 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 5403 1589 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 4745 1415 60  0001 C CNN
+F 3 "" H 4745 1415 60  0001 C CNN
+	1    5370 1440
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX4
+U 1 1 618C79DC
+P 4310 1440
+F 0 "MX4" H 4343 1663 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 4343 1589 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 3685 1415 60  0001 C CNN
+F 3 "" H 3685 1415 60  0001 C CNN
+	1    4310 1440
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D4
+U 1 1 618C79E2
+P 4260 1640
+F 0 "D4" H 4388 1590 60  0000 L CNN
+F 1 "D" V 4410 1590 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4260 1640 60  0001 C CNN
+F 3 "" H 4260 1640 60  0000 C CNN
+	1    4260 1640
+	1    0    0    -1  
+$EndComp
+Text Notes 4040 1250 0    50   ~ 0
+2
+Wire Wire Line
+	4460 710  4460 1390
+Connection ~ 4460 1390
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX3
+U 1 1 618C79EC
+P 3780 1440
+F 0 "MX3" H 3813 1663 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 3813 1589 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 3155 1415 60  0001 C CNN
+F 3 "" H 3155 1415 60  0001 C CNN
+	1    3780 1440
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D3
+U 1 1 618C79F2
+P 3730 1640
+F 0 "D3" H 3858 1590 60  0000 L CNN
+F 1 "D" V 3880 1590 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3730 1640 60  0001 C CNN
+F 3 "" H 3730 1640 60  0000 C CNN
+	1    3730 1640
+	1    0    0    -1  
+$EndComp
+Text Notes 3510 1250 0    50   ~ 0
+1
+Connection ~ 3730 1790
+Wire Wire Line
+	3200 1790 3730 1790
+Wire Wire Line
+	3930 710  3930 1390
+Connection ~ 3930 1390
+Wire Wire Line
+	3730 1790 4260 1790
+Connection ~ 4260 1790
+Connection ~ 4790 1790
+Wire Wire Line
+	4260 1790 4790 1790
+Connection ~ 4990 1390
+Wire Wire Line
+	4990 710  4990 1390
+Text Notes 4570 1250 0    50   ~ 0
+3
+$Comp
+L KeyboardMasterList:D D5
+U 1 1 618C7A04
+P 4790 1640
+F 0 "D5" H 4918 1590 60  0000 L CNN
+F 1 "D" V 4940 1590 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4790 1640 60  0001 C CNN
+F 3 "" H 4790 1640 60  0000 C CNN
+	1    4790 1640
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX5
+U 1 1 618C7A0A
+P 4840 1440
+F 0 "MX5" H 4873 1663 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 4873 1589 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 4215 1415 60  0001 C CNN
+F 3 "" H 4215 1415 60  0001 C CNN
+	1    4840 1440
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 1790
+Wire Wire Line
+	2670 1790 3200 1790
+Connection ~ 3400 1390
+Wire Wire Line
+	3400 710  3400 1390
+$Comp
+L KeyboardMasterList:D D2
+U 1 1 618C7A16
+P 3200 1640
+F 0 "D2" H 3328 1590 60  0000 L CNN
+F 1 "D" V 3350 1590 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3200 1640 60  0001 C CNN
+F 3 "" H 3200 1640 60  0000 C CNN
+	1    3200 1640
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX2
+U 1 1 618C7A1C
+P 3250 1440
+F 0 "MX2" H 3283 1663 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 3283 1589 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 2625 1415 60  0001 C CNN
+F 3 "" H 2625 1415 60  0001 C CNN
+	1    3250 1440
+	1    0    0    -1  
+$EndComp
+Connection ~ 2670 1790
+Wire Wire Line
+	2140 1790 2670 1790
+Connection ~ 2870 1390
+Wire Wire Line
+	2870 710  2870 1390
+Text Notes 2450 1250 0    50   ~ 0
+F13
+$Comp
+L KeyboardMasterList:D D1
+U 1 1 618C7A28
+P 2670 1640
+F 0 "D1" H 2798 1590 60  0000 L CNN
+F 1 "D" V 2820 1590 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2670 1640 60  0001 C CNN
+F 3 "" H 2670 1640 60  0000 C CNN
+	1    2670 1640
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX1
+U 1 1 618C7A2E
+P 2720 1440
+F 0 "MX1" H 2753 1663 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 2753 1589 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 2095 1415 60  0001 C CNN
+F 3 "" H 2095 1415 60  0001 C CNN
+	1    2720 1440
+	1    0    0    -1  
+$EndComp
+Text Notes 9270 1250 0    50   ~ 0
+Equals
+Wire Wire Line
+	9760 710  9760 1390
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX13
+U 1 1 618C7A38
+P 9080 1440
+F 0 "MX13" H 9113 1663 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 9113 1589 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 8455 1415 60  0001 C CNN
+F 3 "" H 8455 1415 60  0001 C CNN
+	1    9080 1440
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D13
+U 1 1 618C7A3E
+P 9030 1640
+F 0 "D13" H 9158 1590 60  0000 L CNN
+F 1 "D" V 9180 1590 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 9030 1640 60  0001 C CNN
+F 3 "" H 9030 1640 60  0000 C CNN
+	1    9030 1640
+	1    0    0    -1  
+$EndComp
+Text Notes 8770 1250 0    50   ~ 0
+Minus
+Wire Wire Line
+	8500 1790 9030 1790
+Wire Wire Line
+	9230 710  9230 1390
+Connection ~ 9230 1390
+Wire Wire Line
+	10290 710  10290 1390
+Text Notes 9780 1250 0    50   ~ 0
+BSpace
+Connection ~ 8500 1790
+Wire Wire Line
+	7970 1790 8500 1790
+Connection ~ 8700 1390
+Wire Wire Line
+	8700 710  8700 1390
+Text Notes 8280 1250 0    50   ~ 0
+0
+$Comp
+L KeyboardMasterList:D D12
+U 1 1 618C7A4F
+P 8500 1640
+F 0 "D12" H 8628 1590 60  0000 L CNN
+F 1 "D" V 8650 1590 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 8500 1640 60  0001 C CNN
+F 3 "" H 8500 1640 60  0000 C CNN
+	1    8500 1640
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX12
+U 1 1 618C7A55
+P 8550 1440
+F 0 "MX12" H 8583 1663 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 8583 1589 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 7925 1415 60  0001 C CNN
+F 3 "" H 7925 1415 60  0001 C CNN
+	1    8550 1440
+	1    0    0    -1  
+$EndComp
+Connection ~ 7970 1790
+Connection ~ 8170 1390
+Wire Wire Line
+	8170 710  8170 1390
+Text Notes 7750 1250 0    50   ~ 0
+9
+$Comp
+L KeyboardMasterList:D D11
+U 1 1 618C7A60
+P 7970 1640
+F 0 "D11" H 8098 1590 60  0000 L CNN
+F 1 "D" V 8120 1590 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 7970 1640 60  0001 C CNN
+F 3 "" H 7970 1640 60  0000 C CNN
+	1    7970 1640
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX11
+U 1 1 618C7A66
+P 8020 1440
+F 0 "MX11" H 8053 1663 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 8053 1589 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 7395 1415 60  0001 C CNN
+F 3 "" H 7395 1415 60  0001 C CNN
+	1    8020 1440
+	1    0    0    -1  
+$EndComp
+Connection ~ 10290 1390
+Connection ~ 9030 1790
+Connection ~ 9760 1390
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX15
+U 1 1 618C7A71
+P 10140 1440
+F 0 "MX15" H 10173 1663 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 10173 1589 20  0000 C CNN
+F 2 "Keyboard Master List:MX-2U" H 9515 1415 60  0001 C CNN
+F 3 "" H 9515 1415 60  0001 C CNN
+	1    10140 1440
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D15
+U 1 1 618C7A77
+P 10090 1640
+F 0 "D15" H 10218 1590 60  0000 L CNN
+F 1 "D" V 10240 1590 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 10090 1640 60  0001 C CNN
+F 3 "" H 10090 1640 60  0000 C CNN
+	1    10090 1640
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9560 1790 10090 1790
+Connection ~ 9560 1790
+Wire Wire Line
+	9030 1790 9560 1790
+$Comp
+L KeyboardMasterList:D D14
+U 1 1 618C7A82
+P 9560 1640
+F 0 "D14" H 9688 1590 60  0000 L CNN
+F 1 "D" V 9710 1590 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 9560 1640 60  0001 C CNN
+F 3 "" H 9560 1640 60  0000 C CNN
+	1    9560 1640
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX14
+U 1 1 618C7A88
+P 9610 1440
+F 0 "MX14" H 9643 1663 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 9643 1589 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 8985 1415 60  0001 C CNN
+F 3 "" H 8985 1415 60  0001 C CNN
+	1    9610 1440
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 60E97577
+P 3660 5270
+F 0 "C5" H 3752 5316 50  0000 L CNN
+F 1 "0.1u" H 3752 5225 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3660 5270 50  0001 C CNN
+F 3 "~" H 3660 5270 50  0001 C CNN
+	1    3660 5270
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 4520 4260 4520
+Wire Wire Line
+	6050 3440 6050 4120
+Wire Wire Line
+	4260 4520 5850 4520
+Text Notes 5580 3980 0    50   ~ 0
+Space
+Text Notes 8260 3980 0    50   ~ 0
+RCtrl
+Connection ~ 5850 4520
+Wire Wire Line
+	5850 4520 7440 4520
+Wire Wire Line
+	7640 3440 7640 4120
+Text Notes 7230 3980 0    50   ~ 0
+RAlt
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX64
+U 1 1 618519B9
+P 7490 4170
+F 0 "MX64" H 7523 4393 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 7523 4319 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 6865 4145 60  0001 C CNN
+F 3 "" H 6865 4145 60  0001 C CNN
+	1    7490 4170
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D64
+U 1 1 618519B3
+P 7440 4370
+F 0 "D64" H 7568 4320 60  0000 L CNN
+F 1 "D" V 7590 4320 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 7440 4370 60  0001 C CNN
+F 3 "" H 7440 4370 60  0000 C CNN
+	1    7440 4370
+	1    0    0    -1  
+$EndComp
+Connection ~ 7440 4520
+Wire Wire Line
+	8700 3440 8700 4120
+Connection ~ 7970 4520
+Wire Wire Line
+	7970 4520 8500 4520
+Wire Wire Line
+	7440 4520 7970 4520
+Wire Wire Line
+	8170 3440 8170 4120
+Text Notes 7750 3980 0    50   ~ 0
+Fn
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX65
+U 1 1 618519A7
+P 8020 4170
+F 0 "MX65" H 8053 4393 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 8053 4319 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 7395 4145 60  0001 C CNN
+F 3 "" H 7395 4145 60  0001 C CNN
+	1    8020 4170
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:D D65
+U 1 1 618519A1
+P 7970 4370
+F 0 "D65" H 8098 4320 60  0000 L CNN
+F 1 "D" V 8120 4320 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 7970 4370 60  0001 C CNN
+F 3 "" H 7970 4370 60  0000 C CNN
+	1    7970 4370
+	1    0    0    -1  
+$EndComp
+Connection ~ 8500 4520
+Text Notes 8830 3980 0    50   ~ 0
+Left
+$Comp
+L KeyboardMasterList:D D67
+U 1 1 61A10FEC
+P 9030 4370
+F 0 "D67" H 9158 4320 60  0000 L CNN
+F 1 "D" V 9180 4320 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 9030 4370 60  0001 C CNN
+F 3 "" H 9030 4370 60  0000 C CNN
+	1    9030 4370
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX67
+U 1 1 61A10FF2
+P 9080 4170
+F 0 "MX67" H 9113 4393 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 9113 4319 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 8455 4145 60  0001 C CNN
+F 3 "" H 8455 4145 60  0001 C CNN
+	1    9080 4170
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 4520 9030 4520
+Wire Wire Line
+	9230 3440 9230 4120
+Connection ~ 9030 4520
+Wire Wire Line
+	9030 4520 9560 4520
+Text Notes 4570 3300 0    50   ~ 0
+C
+Text Notes 8760 3300 0    50   ~ 0
+RShift
+Text Notes 7690 3300 0    50   ~ 0
+Period
+Text Notes 7130 3300 0    50   ~ 0
+Comma
+Text Notes 8260 3300 0    50   ~ 0
+Slash
+Text Notes 8770 2620 0    50   ~ 0
+Quote
+Text Notes 8230 2610 0    50   ~ 0
+Colon
+Text Notes 7750 2620 0    50   ~ 0
+L
+Text Notes 7220 2620 0    50   ~ 0
+K
+Text Notes 6690 2620 0    50   ~ 0
+J
+Text Notes 6160 2620 0    50   ~ 0
+H
+Text Notes 5630 2620 0    50   ~ 0
+G
+Text Notes 5100 2620 0    50   ~ 0
+F
+Text Notes 4570 2620 0    50   ~ 0
+D
+Text Notes 3510 2620 0    50   ~ 0
+A
+Text Notes 2970 2620 0    50   ~ 0
+Caps
+Text Notes 4040 2620 0    50   ~ 0
+S
+Text Notes 5100 1930 0    50   ~ 0
+R
+Text Notes 8730 1930 0    50   ~ 0
+LBrace
+Text Notes 9250 1930 0    50   ~ 0
+RBrace
+Text GLabel 2870 710  0    50   Input ~ 0
+COL0
+Text GLabel 3400 710  0    50   Input ~ 0
+COL1
+Text GLabel 3930 710  0    50   Input ~ 0
+COL2
+Text GLabel 4460 710  0    50   Input ~ 0
+COL3
+Text GLabel 4990 710  0    50   Input ~ 0
+COL4
+Text GLabel 5520 710  0    50   Input ~ 0
+COL5
+Text GLabel 6050 710  0    50   Input ~ 0
+COL6
+Text GLabel 7110 710  0    50   Input ~ 0
+COL8
+Text GLabel 7650 710  0    50   Input ~ 0
+COL9
+Text GLabel 8170 710  0    50   Input ~ 0
+COL10
+Text GLabel 8700 710  0    50   Input ~ 0
+COL11
+Text GLabel 6580 710  0    50   Input ~ 0
+COL7
+Text GLabel 9230 710  0    50   Input ~ 0
+COL12
+Text GLabel 9760 710  0    50   Input ~ 0
+COL13
+Text GLabel 10290 710  0    50   Input ~ 0
+COL14
+Text GLabel 2140 1790 1    50   Input ~ 0
+ROW0
+Text GLabel 2140 2470 1    50   Input ~ 0
+ROW1
+Text GLabel 2140 3160 1    50   Input ~ 0
+ROW2
+Text GLabel 2140 3840 1    50   Input ~ 0
+ROW3
+Text GLabel 2140 4520 1    50   Input ~ 0
+ROW4
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 61777C16
+P 3350 6950
+F 0 "U1" V 2640 6450 50  0000 C CNN
+F 1 "ATmega32U4-AU" V 2750 6290 50  0000 C CNN
+F 2 "Keebio Parts:ATMEGA32U4-AU" H 3350 6950 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3350 6950 50  0001 C CNN
+	1    3350 6950
+	0    -1   -1   0   
+$EndComp
+Text Notes 2980 1250 0    50   ~ 0
+Esc
+$Comp
+L KeyboardMasterList:D D70
+U 1 1 6200E61D
+P 10090 3010
+F 0 "D70" H 10218 2960 60  0000 L CNN
+F 1 "D" V 10240 2960 60  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 10090 3010 60  0001 C CNN
+F 3 "" H 10090 3010 60  0000 C CNN
+	1    10090 3010
+	1    0    0    -1  
+$EndComp
+Text Notes 9830 2620 0    50   ~ 0
+ENC
+Wire Wire Line
+	9560 3160 10090 3160
+Text GLabel 10290 2580 0    50   Input ~ 0
+C_ENC
+Text GLabel 10090 2960 1    50   Input ~ 0
+R_ENC
+Wire Wire Line
+	10290 2070 10290 3440
+Text GLabel 6640 5010 0    50   Input ~ 0
+C_ENC
+Text GLabel 7290 5010 1    50   Input ~ 0
+R_ENC
+NoConn ~ 2450 7550
+NoConn ~ 4050 6350
+Text GLabel 9010 5440 2    50   Input ~ 0
+VCC
+Text GLabel 9010 5170 2    50   Input ~ 0
+VCC
+Text GLabel 8710 5530 0    50   Input ~ 0
+SDA
+$Comp
+L Device:R R?
+U 1 1 620F1605
+P 8860 5440
+F 0 "R?" V 9010 5450 50  0000 C CNN
+F 1 "10k" V 8940 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8790 5440 50  0001 C CNN
+F 3 "~" H 8860 5440 50  0001 C CNN
+	1    8860 5440
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8490 5170 8710 5170
+Wire Wire Line
+	8490 5780 8710 5780
+$Comp
+L Device:R R?
+U 1 1 62139DB6
+P 8860 5170
+F 0 "R?" V 9010 5180 50  0000 C CNN
+F 1 "10k" V 8940 5180 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8790 5170 50  0001 C CNN
+F 3 "~" H 8860 5170 50  0001 C CNN
+	1    8860 5170
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8490 5170 8490 5780
+Wire Wire Line
+	8710 5630 8710 5440
+$Comp
+L KeyboardMasterList:OLED-kbd OL1
+U 1 1 60EDA0A7
+P 9460 5880
+F 0 "OL1" H 9330 6390 51  0000 L CNN
+F 1 "OLED-kbd" H 9300 6300 47  0000 L CNN
+F 2 "Keyboard Master List:OLED" H 9460 5980 60  0001 C CNN
+F 3 "" H 9460 5980 60  0001 C CNN
+	1    9460 5880
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
