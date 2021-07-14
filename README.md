@@ -11,7 +11,10 @@ I wanted to make a split keyboard, but it was overly ambitious (considering the 
 **none for now**
 
 ### pcb images/renders:
-**none for now**
+#### pcb front:
+![pcb front](https://github.com/feynmantf/unsplit-keyboard/blob/main/final/images/uskb%20front.png)
+#### pcb back:
+![pcb back](https://github.com/feynmantf/unsplit-keyboard/blob/main/final/images/uskb%20back.png)
 
 ## parts needed to build the board (not included in these files)
 - keyswitches (x69)
