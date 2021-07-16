@@ -1,0 +1,4 @@
+Circuit: .title KiCad schematic
+
+Fatal Error: Unknown subcircuit called in:
+   x1 xtal1 xtal2 gnd xtal
