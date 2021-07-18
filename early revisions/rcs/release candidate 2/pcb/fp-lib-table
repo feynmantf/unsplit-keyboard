@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Keyboard Master List")(type KiCad)(uri "D:/Git/unsplit-keyboard/final/kicad-libraries/Keyboard Master List.pretty")(options "")(descr ""))
+  (lib (name "Keebio Parts")(type KiCad)(uri "D:/Git/unsplit-keyboard/final/kicad-libraries/Keebio Parts.pretty")(options "")(descr ""))
+)
