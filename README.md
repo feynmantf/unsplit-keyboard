@@ -29,7 +29,7 @@ I wanted to make a split keyboard, but it was overly ambitious (considering the 
 (specs for the following are in the BOM, along with the jlc part numbers)
 - switch diodes (x70)
 - capacitors (x11)
-- resistors (x7)
+- resistors (x9)
 - reset switch (x1)
 - xtal crystal (x1)
 - usb-c port (x1)
