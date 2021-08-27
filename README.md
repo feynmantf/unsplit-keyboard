@@ -1,4 +1,4 @@
-#WIP!! DOES NOT WORK - I will get back to working on it when the semester ends/when I have the time
+# WIP!! DOES NOT WORK - I will get back to working on it when the semester ends/when I have the time
 
 # unsplit keyboard
 USKB PCB, Layout, and Case files (plus other useful stuff like firmware/images)
