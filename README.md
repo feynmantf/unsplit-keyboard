@@ -1,11 +1,11 @@
 # WIP!! DOES NOT WORK - I will get back to working on it when the semester ends/when I have the time
 
-# unsplit keyboard
-USKB PCB, Layout, and Case files (plus other useful stuff like firmware/images)
+# kaluza kb
+kaluza kb pcb, layout, and case files (plus other useful stuff like firmware/images)
 (documentation in progress)
 
-## name scheme
-I wanted to make a split keyboard, but it was overly ambitious (considering the amount of pins on the microcontroller) so I made it a keyboard that can probably work as split (with modifications) but is just easier to make a single piece. Therefore, "unsplit." Also there is mention of microcontrollers but I removed them after the two that I bought were dead on arrival. The pcb and case have been modified in order to make the keyboard simpler/look better without the microcontrollers.
+## design logic
+i wanted a keyboard that was both 65% and had extra function keys. i also wanted an oled panel and rotary encoder. and, as an added bonus, i *love* seeing diodes on a keyboard. therefore, all of these features have been included
 
 ## sample images
 **in progress !!**
@@ -15,33 +15,32 @@ I wanted to make a split keyboard, but it was overly ambitious (considering the 
 
 ### pcb images/renders:
 #### pcb front:
-![pcb front](https://github.com/feynmantf/unsplit-keyboard/blob/main/final/images/uskb%20front.png)
+![pcb front]()
 #### pcb back:
-![pcb back](https://github.com/feynmantf/unsplit-keyboard/blob/main/final/images/uskb%20back.png)
+![pcb back]()
 
 ## parts needed to build the board (not included in these files)
 ### parts you must source
-- keyswitches (x69)
-- keycaps (base kit and spacebar in 6.25u)
-- pcb or plate mount stabilizers (2u x3 and 6.25u x1)
+- keyswitches (x80)
+- keycaps (base kit and spacebar)
+- pcb or plate mount stabilizers (2u x4 and 6.25u x1)
 - rotary knob (x1)
 - rotary encoder (ec11 with switch) (x1)
 - oled (0.91 inch, SSD1306) (x1)
-### smt parts/sourced by pcb manufacturer
-(specs for the following are in the BOM, along with the jlc part numbers)
-- switch diodes (x70)
-- capacitors (x11)
-- resistors (x9)
-- reset switch (x1)
-- xtal crystal (x1)
-- usb-c port (x1)
-- atmega32-u4-au (x1)
+- switch diodes (x80)
+- elite-c v4 (x1)
+
+### parts to get manufactured
+- pcb
+- plate (carbon fiber or sheet metal) (2mm)
+- case (3d printed)
+- leaf springs (carbon fiber) (1mm)
 
 ## basic instructions
 **in progress !!**
 - buy all the parts listed above
-- get the pcb printed (from jlcpcb or some other service) (BOM and CPL files included)
-- get the plate and case printed
+- get the pcb printed (from jlcpcb or some other service)
+- get the plate, case, and leaf springs printed
 - flash firmware and test the board to make sure everything works
 - clip stabilizers into plate or screw them into pcb as necessary
 - align and place plate on top of pcb
@@ -50,5 +49,6 @@ I wanted to make a split keyboard, but it was overly ambitious (considering the 
 - solder rotary encoder onto pcb (locations marked on pcb)
 - solder oled panel onto pcb (locations marked on pcb)
 - test everything again
+- screw leaf springs into pcb (locations marked on pcb)
 - put assembled pcb and plate in the case, and screw the case together
 - you should be done now !!
