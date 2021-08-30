@@ -10,7 +10,7 @@ i wanted a keyboard that was both 65% and had extra function keys. i also wanted
 ## sample images
 
 
-### case images/renders
+### case images/renders:
 
 
 ### pcb images/renders:
@@ -23,7 +23,7 @@ i wanted a keyboard that was both 65% and had extra function keys. i also wanted
 ### parts you must source
 - keyswitches (x80)
 - keycaps (base kit and spacebar)
-- pcb or plate mount stabilizers (2u x4 and 6.25u x1)
+- pcb stabilizers (2u x4 and 6.25u x1)
 - rotary knob (x1)
 - rotary encoder (ec11 with switch) (x1)
 - oled (0.91 inch, SSD1306) (x1)
@@ -37,12 +37,11 @@ i wanted a keyboard that was both 65% and had extra function keys. i also wanted
 - leaf springs (carbon fiber) (1mm)
 
 ## basic instructions
-**in progress !!**
 - buy all the parts listed above
 - get the pcb printed (from jlcpcb or some other service)
 - get the plate, case, and leaf springs printed
 - flash firmware and test the board to make sure everything works
-- clip stabilizers into plate or screw them into pcb as necessary
+- screw stabilizers into pcb
 - align and place plate on top of pcb
 - clip switches into place and slot them into the pcb
 - solder switches to the pcb (locations marked on pcb)
