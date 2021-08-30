@@ -5,7 +5,7 @@ kaluza kb pcb, layout, and case files (plus other useful stuff like firmware/ima
 (documentation in progress)
 
 ## design logic
-i wanted a keyboard that was both 65% and had extra function keys. i also wanted an oled panel and rotary encoder. and, as an added bonus, i *love* seeing diodes on a keyboard. therefore, all of these features have been included
+i wanted a keyboard that was both 65% and had extra function keys. i also wanted an oled panel and rotary encoder. and, as an added bonus, i love seeing through hole components on a keyboard. therefore, all of these features have been included
 
 ## sample images
 **in progress !!**
