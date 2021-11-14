@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Keebio Parts")(type KiCad)(uri "D:/Documents (HDD)/Git/kaluza-kb/final/library/Keebio Parts.pretty")(options "")(descr ""))
+  (lib (name "Keyboard Master List")(type KiCad)(uri "D:/Documents (HDD)/Git/kaluza-kb/final/library/Keyboard Master List.pretty")(options "")(descr ""))
+)

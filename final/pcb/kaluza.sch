@@ -13,2006 +13,2215 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:GND #PWR?
-U 1 1 61321304
-P 8900 2600
-F 0 "#PWR?" H 8900 2350 50  0001 C CNN
-F 1 "GND" V 8900 2450 50  0000 R CNN
-F 2 "" H 8900 2600 50  0001 C CNN
-F 3 "" H 8900 2600 50  0001 C CNN
-	1    8900 2600
-	0    -1   -1   0   
-$EndComp
-Text GLabel 1300 5600 0    50   Input ~ 0
+Text GLabel 1200 5650 0    50   Input ~ 0
 ROT_A
-Text GLabel 1300 5700 0    50   Input ~ 0
+Text GLabel 1200 5750 0    50   Input ~ 0
 ROT_B
-Text GLabel 1300 6000 0    50   Input ~ 0
+Text GLabel 1200 6050 0    50   Input ~ 0
 SDA
-Text GLabel 1300 6100 0    50   Input ~ 0
+Text GLabel 1200 6150 0    50   Input ~ 0
 SCL
-Text GLabel 1300 6200 0    50   Input ~ 0
+Text GLabel 1200 6250 0    50   Input ~ 0
 COL_0
-Text GLabel 1300 6300 0    50   Input ~ 0
+Text GLabel 1200 6350 0    50   Input ~ 0
 COL_1
-Text GLabel 1300 6400 0    50   Input ~ 0
+Text GLabel 1200 6450 0    50   Input ~ 0
 COL_2
-Text GLabel 1300 6500 0    50   Input ~ 0
+Text GLabel 1200 6550 0    50   Input ~ 0
 COL_3
-Text GLabel 1300 6600 0    50   Input ~ 0
+Text GLabel 1200 6650 0    50   Input ~ 0
 COL_4
-Text GLabel 1300 6700 0    50   Input ~ 0
+Text GLabel 1200 6750 0    50   Input ~ 0
 COL_5
-Text GLabel 2700 5600 2    50   Input ~ 0
+Text GLabel 2600 5650 2    50   Input ~ 0
 COL_6
-Text GLabel 2700 6000 2    50   Input ~ 0
+Text GLabel 2600 6050 2    50   Input ~ 0
 COL_7
-Text GLabel 2700 6100 2    50   Input ~ 0
+Text GLabel 2600 6150 2    50   Input ~ 0
 COL_8
-Text GLabel 2700 6200 2    50   Input ~ 0
+Text GLabel 2600 6250 2    50   Input ~ 0
 COL_9
-Text GLabel 2700 6300 2    50   Input ~ 0
+Text GLabel 2600 6350 2    50   Input ~ 0
 COL_10
-Text GLabel 2700 6400 2    50   Input ~ 0
+Text GLabel 2600 6450 2    50   Input ~ 0
 COL_11
-Text GLabel 2700 6500 2    50   Input ~ 0
+Text GLabel 2600 6550 2    50   Input ~ 0
 COL_12
-Text GLabel 2700 6600 2    50   Input ~ 0
+Text GLabel 2600 6650 2    50   Input ~ 0
 COL_13
-Text GLabel 2700 6700 2    50   Input ~ 0
+Text GLabel 2600 6750 2    50   Input ~ 0
 COL_14
-Text GLabel 1800 7100 3    50   Input ~ 0
+Text GLabel 1700 7150 3    50   Input ~ 0
 ROW0
-Text GLabel 1900 7100 3    50   Input ~ 0
+Text GLabel 1800 7150 3    50   Input ~ 0
 ROW1
-Text GLabel 2000 7100 3    50   Input ~ 0
+Text GLabel 1900 7150 3    50   Input ~ 0
 ROW2
-Text GLabel 2100 7100 3    50   Input ~ 0
+Text GLabel 2000 7150 3    50   Input ~ 0
 ROW3
-Text GLabel 2200 7100 3    50   Input ~ 0
+Text GLabel 2100 7150 3    50   Input ~ 0
 ROW4
-Text GLabel 8900 2700 2    50   Input ~ 0
-ROT_A
-Text GLabel 8900 2500 2    50   Input ~ 0
-ROT_B
 Wire Wire Line
-	1000 900  1000 1700
+	1350 1200 1350 2000
 Wire Wire Line
-	1000 1700 1000 2500
-Connection ~ 1000 1700
-Connection ~ 1000 2500
+	1350 2000 1350 2800
+Connection ~ 1350 2000
+Connection ~ 1350 2800
 Wire Wire Line
-	1000 2500 1000 3300
-Connection ~ 1000 3300
+	1350 2800 1350 3600
+Connection ~ 1350 3600
 Wire Wire Line
-	1000 3300 1000 4100
+	1350 3600 1350 4400
 Wire Wire Line
-	1500 900  1500 1700
-Connection ~ 1500 1700
+	1850 1200 1850 2000
+Connection ~ 1850 2000
 Wire Wire Line
-	1500 1700 1500 2500
-Connection ~ 1500 2500
+	1850 2000 1850 2800
+Connection ~ 1850 2800
 Wire Wire Line
-	1500 2500 1500 3300
-Connection ~ 1500 3300
+	1850 2800 1850 3600
+Connection ~ 1850 3600
 Wire Wire Line
-	1500 3300 1500 4100
+	1850 3600 1850 4400
 Wire Wire Line
-	2000 4100 2000 3300
-Connection ~ 2000 1700
+	2350 4400 2350 3600
+Connection ~ 2350 2000
 Wire Wire Line
-	2000 1700 2000 900 
-Connection ~ 2000 2500
+	2350 2000 2350 1200
+Connection ~ 2350 2800
 Wire Wire Line
-	2000 2500 2000 1700
-Connection ~ 2000 3300
+	2350 2800 2350 2000
+Connection ~ 2350 3600
 Wire Wire Line
-	2000 3300 2000 2500
+	2350 3600 2350 2800
 Wire Wire Line
-	2500 900  2500 1700
-Connection ~ 2500 1700
+	2850 1200 2850 2000
+Connection ~ 2850 2000
 Wire Wire Line
-	2500 1700 2500 2500
-Connection ~ 2500 2500
+	2850 2000 2850 2800
+Connection ~ 2850 2800
 Wire Wire Line
-	2500 2500 2500 3300
+	2850 2800 2850 3600
 Wire Wire Line
-	3000 3300 3000 2500
-Connection ~ 3000 1700
+	3350 3600 3350 2800
+Connection ~ 3350 2000
 Wire Wire Line
-	3000 1700 3000 900 
-Connection ~ 3000 2500
+	3350 2000 3350 1200
+Connection ~ 3350 2800
 Wire Wire Line
-	3000 2500 3000 1700
+	3350 2800 3350 2000
 Wire Wire Line
-	3500 900  3500 1700
-Connection ~ 3500 1700
+	3850 1200 3850 2000
+Connection ~ 3850 2000
 Wire Wire Line
-	3500 1700 3500 2500
-Connection ~ 3500 2500
+	3850 2000 3850 2800
+Connection ~ 3850 2800
 Wire Wire Line
-	3500 2500 3500 3300
+	3850 2800 3850 3600
 Wire Wire Line
-	4000 3300 4000 2500
-Connection ~ 4000 1700
+	4350 3600 4350 2800
+Connection ~ 4350 2000
 Wire Wire Line
-	4000 1700 4000 900 
-Connection ~ 4000 2500
+	4350 2000 4350 1200
+Connection ~ 4350 2800
 Wire Wire Line
-	4000 2500 4000 1700
+	4350 2800 4350 2000
 Wire Wire Line
-	4500 900  4500 1700
-Connection ~ 4500 1700
+	4850 1200 4850 2000
+Connection ~ 4850 2000
 Wire Wire Line
-	4500 1700 4500 2500
-Connection ~ 4500 2500
+	4850 2000 4850 2800
+Connection ~ 4850 2800
 Wire Wire Line
-	4500 2500 4500 3300
+	4850 2800 4850 3600
 Wire Wire Line
-	5000 3300 5000 2500
-Connection ~ 5000 1700
+	5350 3600 5350 2800
+Connection ~ 5350 2000
 Wire Wire Line
-	5000 1700 5000 900 
-Connection ~ 5000 2500
+	5350 2000 5350 1200
+Connection ~ 5350 2800
 Wire Wire Line
-	5000 2500 5000 1700
+	5350 2800 5350 2000
 Wire Wire Line
-	5500 900  5500 1700
-Connection ~ 5500 1700
+	5850 1200 5850 2000
+Connection ~ 5850 2000
 Wire Wire Line
-	5500 1700 5500 2500
-Connection ~ 5500 2500
+	5850 2000 5850 2800
+Connection ~ 5850 2800
 Wire Wire Line
-	5500 2500 5500 3300
-Connection ~ 5500 3300
+	5850 2800 5850 3600
+Connection ~ 5850 3600
 Wire Wire Line
-	5500 3300 5500 4100
+	5850 3600 5850 4400
 Wire Wire Line
-	6000 4100 6000 3300
-Connection ~ 6000 1700
+	6350 4400 6350 3600
+Connection ~ 6350 2000
 Wire Wire Line
-	6000 1700 6000 900 
-Connection ~ 6000 2500
+	6350 2000 6350 1200
+Connection ~ 6350 2800
 Wire Wire Line
-	6000 2500 6000 1700
-Connection ~ 6000 3300
+	6350 2800 6350 2000
+Connection ~ 6350 3600
 Wire Wire Line
-	6000 3300 6000 2500
+	6350 3600 6350 2800
 Wire Wire Line
-	6500 900  6500 1700
-Connection ~ 6500 1700
+	6850 1200 6850 2000
+Connection ~ 6850 2000
 Wire Wire Line
-	6500 1700 6500 2500
-Connection ~ 6500 2500
+	6850 2000 6850 2800
+Connection ~ 6850 2800
 Wire Wire Line
-	6500 2500 6500 3300
-Connection ~ 6500 3300
+	6850 2800 6850 3600
+Connection ~ 6850 3600
 Wire Wire Line
-	6500 3300 6500 4100
+	6850 3600 6850 4400
 Wire Wire Line
-	7000 4100 7000 3300
-Connection ~ 7000 1700
+	7350 4400 7350 3600
+Connection ~ 7350 2000
 Wire Wire Line
-	7000 1700 7000 900 
-Connection ~ 7000 2500
+	7350 2000 7350 1200
+Connection ~ 7350 2800
 Wire Wire Line
-	7000 2500 7000 1700
-Connection ~ 7000 3300
+	7350 2800 7350 2000
+Connection ~ 7350 3600
 Wire Wire Line
-	7000 3300 7000 2500
+	7350 3600 7350 2800
 Wire Wire Line
-	7500 900  7500 1700
-Connection ~ 7500 1700
+	7850 1200 7850 2000
+Connection ~ 7850 2000
+Connection ~ 7850 3600
 Wire Wire Line
-	7500 1700 7500 2500
-Connection ~ 7500 2500
+	7850 3600 7850 4400
 Wire Wire Line
-	7500 2500 7500 3300
-Connection ~ 7500 3300
+	8350 2000 8350 1200
 Wire Wire Line
-	7500 3300 7500 4100
+	1150 1700 1650 1700
+Connection ~ 1650 1700
 Wire Wire Line
-	8000 4100 8000 3300
+	1650 1700 2150 1700
+Connection ~ 2150 1700
 Wire Wire Line
-	8000 1700 8000 900 
+	2150 1700 2650 1700
+Connection ~ 2650 1700
 Wire Wire Line
-	8000 1700 8000 2500
+	2650 1700 3150 1700
+Connection ~ 3150 1700
 Wire Wire Line
-	8000 2500 8300 2500
-Connection ~ 8000 1700
+	3150 1700 3650 1700
+Connection ~ 3650 1700
 Wire Wire Line
-	8000 2500 8000 3300
-Connection ~ 8000 2500
-Connection ~ 8000 3300
+	3650 1700 4150 1700
+Connection ~ 4150 1700
 Wire Wire Line
-	800  1400 1300 1400
-Connection ~ 1300 1400
+	4150 1700 4650 1700
+Connection ~ 4650 1700
 Wire Wire Line
-	1300 1400 1800 1400
-Connection ~ 1800 1400
+	4650 1700 5150 1700
+Connection ~ 5150 1700
 Wire Wire Line
-	1800 1400 2300 1400
-Connection ~ 2300 1400
+	5150 1700 5650 1700
+Connection ~ 5650 1700
 Wire Wire Line
-	2300 1400 2800 1400
-Connection ~ 2800 1400
+	5650 1700 6150 1700
+Connection ~ 6150 1700
 Wire Wire Line
-	2800 1400 3300 1400
-Connection ~ 3300 1400
+	6150 1700 6650 1700
+Connection ~ 6650 1700
 Wire Wire Line
-	3300 1400 3800 1400
-Connection ~ 3800 1400
+	6650 1700 7150 1700
+Connection ~ 7150 1700
 Wire Wire Line
-	3800 1400 4300 1400
-Connection ~ 4300 1400
+	7150 1700 7650 1700
+Connection ~ 7650 1700
 Wire Wire Line
-	4300 1400 4800 1400
-Connection ~ 4800 1400
+	7650 1700 8150 1700
 Wire Wire Line
-	4800 1400 5300 1400
-Connection ~ 5300 1400
+	8150 2500 7650 2500
+Connection ~ 1650 2500
 Wire Wire Line
-	5300 1400 5800 1400
-Connection ~ 5800 1400
+	1650 2500 1150 2500
+Connection ~ 2150 2500
 Wire Wire Line
-	5800 1400 6300 1400
-Connection ~ 6300 1400
+	2150 2500 1650 2500
+Connection ~ 2650 2500
 Wire Wire Line
-	6300 1400 6800 1400
-Connection ~ 6800 1400
+	2650 2500 2150 2500
+Connection ~ 3150 2500
 Wire Wire Line
-	6800 1400 7300 1400
-Connection ~ 7300 1400
+	3150 2500 2650 2500
+Connection ~ 3650 2500
 Wire Wire Line
-	7300 1400 7800 1400
+	3650 2500 3150 2500
+Connection ~ 4150 2500
 Wire Wire Line
-	7800 2200 7300 2200
-Connection ~ 1300 2200
+	4150 2500 3650 2500
+Connection ~ 4650 2500
 Wire Wire Line
-	1300 2200 800  2200
-Connection ~ 1800 2200
+	4650 2500 4150 2500
+Connection ~ 5150 2500
 Wire Wire Line
-	1800 2200 1300 2200
-Connection ~ 2300 2200
+	5150 2500 4650 2500
+Connection ~ 5650 2500
 Wire Wire Line
-	2300 2200 1800 2200
-Connection ~ 2800 2200
+	5650 2500 5150 2500
+Connection ~ 6150 2500
 Wire Wire Line
-	2800 2200 2300 2200
-Connection ~ 3300 2200
+	6150 2500 5650 2500
+Connection ~ 6650 2500
 Wire Wire Line
-	3300 2200 2800 2200
-Connection ~ 3800 2200
+	6650 2500 6150 2500
+Connection ~ 7150 2500
 Wire Wire Line
-	3800 2200 3300 2200
-Connection ~ 4300 2200
+	7150 2500 6650 2500
+Connection ~ 7650 2500
 Wire Wire Line
-	4300 2200 3800 2200
-Connection ~ 4800 2200
+	7650 2500 7150 2500
 Wire Wire Line
-	4800 2200 4300 2200
-Connection ~ 5300 2200
+	1150 3300 1650 3300
+Connection ~ 1650 3300
 Wire Wire Line
-	5300 2200 4800 2200
-Connection ~ 5800 2200
+	1650 3300 2150 3300
+Connection ~ 2150 3300
 Wire Wire Line
-	5800 2200 5300 2200
-Connection ~ 6300 2200
+	2150 3300 2650 3300
+Connection ~ 2650 3300
 Wire Wire Line
-	6300 2200 5800 2200
-Connection ~ 6800 2200
+	2650 3300 3150 3300
+Connection ~ 3150 3300
 Wire Wire Line
-	6800 2200 6300 2200
-Connection ~ 7300 2200
+	3150 3300 3650 3300
+Connection ~ 3650 3300
 Wire Wire Line
-	7300 2200 6800 2200
+	3650 3300 4150 3300
+Connection ~ 4150 3300
 Wire Wire Line
-	800  3000 1300 3000
-Connection ~ 1300 3000
+	4150 3300 4650 3300
+Connection ~ 4650 3300
 Wire Wire Line
-	1300 3000 1800 3000
-Connection ~ 1800 3000
+	4650 3300 5150 3300
+Connection ~ 5150 3300
 Wire Wire Line
-	1800 3000 2300 3000
-Connection ~ 2300 3000
+	5150 3300 5650 3300
+Connection ~ 5650 3300
 Wire Wire Line
-	2300 3000 2800 3000
-Connection ~ 2800 3000
+	5650 3300 6150 3300
+Connection ~ 6150 3300
 Wire Wire Line
-	2800 3000 3300 3000
-Connection ~ 3300 3000
+	6150 3300 6650 3300
+Connection ~ 6650 3300
 Wire Wire Line
-	3300 3000 3800 3000
-Connection ~ 3800 3000
+	6650 3300 7150 3300
+Connection ~ 7150 3300
 Wire Wire Line
-	3800 3000 4300 3000
-Connection ~ 4300 3000
+	1150 4900 1650 4900
+Connection ~ 1650 4900
 Wire Wire Line
-	4300 3000 4800 3000
-Connection ~ 4800 3000
+	1650 4900 2150 4900
+Connection ~ 2150 4900
 Wire Wire Line
-	4800 3000 5300 3000
-Connection ~ 5300 3000
+	2150 4900 4150 4900
+Connection ~ 4150 4900
 Wire Wire Line
-	5300 3000 5800 3000
-Connection ~ 5800 3000
+	4150 4900 5650 4900
+Connection ~ 5650 4900
 Wire Wire Line
-	5800 3000 6300 3000
-Connection ~ 6300 3000
+	5650 4900 6150 4900
+Connection ~ 6150 4900
 Wire Wire Line
-	6300 3000 6800 3000
-Connection ~ 6800 3000
+	6150 4900 6650 4900
+Connection ~ 6650 4900
 Wire Wire Line
-	6800 3000 7300 3000
+	6650 4900 7150 4900
+Connection ~ 7150 4900
 Wire Wire Line
-	7300 3000 8300 3000
+	7150 4900 7650 4900
+Connection ~ 7650 4900
 Wire Wire Line
-	8300 3000 8300 2700
-Connection ~ 7300 3000
+	7650 4900 8150 4900
 Wire Wire Line
-	800  4600 1300 4600
-Connection ~ 1300 4600
+	1150 4100 1650 4100
+Connection ~ 1650 4100
 Wire Wire Line
-	1300 4600 1800 4600
-Connection ~ 1800 4600
+	1650 4100 2150 4100
+Connection ~ 2150 4100
 Wire Wire Line
-	1800 4600 3800 4600
-Connection ~ 3800 4600
+	2150 4100 2650 4100
+Connection ~ 2650 4100
 Wire Wire Line
-	3800 4600 5300 4600
-Connection ~ 5300 4600
+	2650 4100 3150 4100
+Connection ~ 3150 4100
 Wire Wire Line
-	5300 4600 5800 4600
-Connection ~ 5800 4600
+	3150 4100 3650 4100
+Connection ~ 3650 4100
 Wire Wire Line
-	5800 4600 6300 4600
-Connection ~ 6300 4600
+	3650 4100 4150 4100
+Connection ~ 4150 4100
 Wire Wire Line
-	6300 4600 6800 4600
-Connection ~ 6800 4600
+	4150 4100 4650 4100
+Connection ~ 4650 4100
 Wire Wire Line
-	6800 4600 7300 4600
-Connection ~ 7300 4600
+	4650 4100 5150 4100
+Connection ~ 5150 4100
 Wire Wire Line
-	7300 4600 7800 4600
+	5150 4100 5650 4100
+Connection ~ 5650 4100
 Wire Wire Line
-	800  3800 1300 3800
-Connection ~ 1300 3800
+	5650 4100 6150 4100
+Connection ~ 6150 4100
 Wire Wire Line
-	1300 3800 1800 3800
-Connection ~ 1800 3800
+	6150 4100 6650 4100
+Connection ~ 6650 4100
 Wire Wire Line
-	1800 3800 2300 3800
-Connection ~ 2300 3800
+	6650 4100 7150 4100
+Connection ~ 7150 4100
 Wire Wire Line
-	2300 3800 2800 3800
-Connection ~ 2800 3800
-Wire Wire Line
-	2800 3800 3300 3800
-Connection ~ 3300 3800
-Wire Wire Line
-	3300 3800 3800 3800
-Connection ~ 3800 3800
-Wire Wire Line
-	3800 3800 4300 3800
-Connection ~ 4300 3800
-Wire Wire Line
-	4300 3800 4800 3800
-Connection ~ 4800 3800
-Wire Wire Line
-	4800 3800 5300 3800
-Connection ~ 5300 3800
-Wire Wire Line
-	5300 3800 5800 3800
-Connection ~ 5800 3800
-Wire Wire Line
-	5800 3800 6300 3800
-Connection ~ 6300 3800
-Wire Wire Line
-	6300 3800 6800 3800
-Connection ~ 6800 3800
-Wire Wire Line
-	6800 3800 7300 3800
-Connection ~ 7300 3800
-Wire Wire Line
-	7300 3800 7800 3800
-Text GLabel 4100 6850 3    50   Input ~ 0
+	7150 4100 7650 4100
+Text GLabel 3750 7050 3    50   Input ~ 0
 SDA
-Text GLabel 4250 6850 3    50   Input ~ 0
+Text GLabel 3900 7050 3    50   Input ~ 0
 SCL
-Text GLabel 4400 6850 3    50   Input ~ 0
+Text GLabel 4050 7050 3    50   Input ~ 0
 VCC
-Text GLabel 4550 6850 3    50   Input ~ 0
+Text GLabel 4200 7050 3    50   Input ~ 0
 GND
-Text GLabel 1300 5900 0    50   Input ~ 0
+Text GLabel 1200 5950 0    50   Input ~ 0
 GND
-Text GLabel 1300 5800 0    50   Input ~ 0
+Text GLabel 1200 5850 0    50   Input ~ 0
 GND
-Text GLabel 2700 5800 2    50   Input ~ 0
+Text GLabel 2600 5850 2    50   Input ~ 0
 RESET
-Text GLabel 2700 5700 2    50   Input ~ 0
+Text GLabel 2600 5750 2    50   Input ~ 0
 GND
-Text GLabel 2700 5900 2    50   Input ~ 0
+Text GLabel 2600 5950 2    50   Input ~ 0
 VCC
-Text GLabel 5700 5550 0    50   Input ~ 0
+Text GLabel 5250 6350 0    50   Input ~ 0
 GND
-Text GLabel 5700 5650 0    50   Input ~ 0
+Text GLabel 5250 6200 0    50   Input ~ 0
 VCC
-$Comp
-L power:GND #PWR?
-U 1 1 61464128
-P 5700 5550
-F 0 "#PWR?" H 5700 5300 50  0001 C CNN
-F 1 "GND" V 5700 5400 50  0000 R CNN
-F 2 "" H 5700 5550 50  0001 C CNN
-F 3 "" H 5700 5550 50  0001 C CNN
-	1    5700 5550
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:VCC #PWR?
 U 1 1 61475368
-P 5700 5650
-F 0 "#PWR?" H 5700 5500 50  0001 C CNN
-F 1 "VCC" V 5715 5778 50  0000 L CNN
-F 2 "" H 5700 5650 50  0001 C CNN
-F 3 "" H 5700 5650 50  0001 C CNN
-	1    5700 5650
-	0    1    1    0   
+P 5400 6100
+F 0 "#PWR?" H 5400 5950 50  0001 C CNN
+F 1 "VCC" H 5415 6228 50  0000 L CNN
+F 2 "" H 5400 6100 50  0001 C CNN
+F 3 "" H 5400 6100 50  0001 C CNN
+	1    5400 6100
+	1    0    0    -1  
 $EndComp
 $Comp
 L keebio:Elite-C U?
 U 1 1 612A9F40
-P 2000 6150
-F 0 "U?" H 2000 6987 60  0000 C CNN
-F 1 "Elite-C" H 2000 6881 60  0000 C CNN
-F 2 "Keebio Parts:Elite-C-ZigZag" V 3050 3650 60  0001 C CNN
-F 3 "" V 3050 3650 60  0001 C CNN
-	1    2000 6150
+P 1900 6200
+F 0 "U?" H 1900 7037 60  0000 C CNN
+F 1 "Elite-C" H 1900 6931 60  0000 C CNN
+F 2 "Keebio Parts:Elite-C-ZigZag" V 2950 3700 60  0001 C CNN
+F 3 "" V 2950 3700 60  0001 C CNN
+	1    1900 6200
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Rotary_Encoder_Switch SW?
-U 1 1 612ABC6D
-P 8600 2600
-F 0 "SW?" H 8600 2967 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 8600 2876 50  0000 C CNN
-F 2 "Keebio Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 8450 2760 50  0001 C CNN
-F 3 "~" H 8600 2860 50  0001 C CNN
-	1    8600 2600
-	-1   0    0    1   
 $EndComp
 $Comp
 L KeyboardMasterList:OLED-kbd OL?
 U 1 1 612B035C
-P 4350 6100
-F 0 "OL?" V 4311 5772 51  0000 R CNN
-F 1 "OLED-kbd" V 4221 5772 47  0000 R CNN
-F 2 "Keyboard Master List:OLED" H 4350 6200 60  0001 C CNN
-F 3 "" H 4350 6200 60  0001 C CNN
-	1    4350 6100
+P 4000 6300
+F 0 "OL?" V 3961 5972 51  0000 R CNN
+F 1 "OLED-kbd" V 3871 5972 47  0000 R CNN
+F 2 "Keyboard Master List:OLED" H 4000 6400 60  0001 C CNN
+F 3 "" H 4000 6400 60  0001 C CNN
+	1    4000 6300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612B5F39
-P 850 1750
-F 0 "MX?" H 883 1973 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 883 1899 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 225 1725 60  0001 C CNN
-F 3 "" H 225 1725 60  0001 C CNN
-	1    850  1750
+P 1200 2050
+F 0 "MX?" H 1233 2273 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 1233 2199 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 575 2025 60  0001 C CNN
+F 3 "" H 575 2025 60  0001 C CNN
+	1    1200 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612B9324
-P 1350 950
-F 0 "MX?" H 1383 1173 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 1383 1099 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 725 925 60  0001 C CNN
-F 3 "" H 725 925 60  0001 C CNN
-	1    1350 950 
+P 1700 1250
+F 0 "MX?" H 1733 1473 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 1733 1399 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1075 1225 60  0001 C CNN
+F 3 "" H 1075 1225 60  0001 C CNN
+	1    1700 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612B9AA6
-P 1350 1750
-F 0 "MX?" H 1383 1973 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 1383 1899 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 725 1725 60  0001 C CNN
-F 3 "" H 725 1725 60  0001 C CNN
-	1    1350 1750
+P 1700 2050
+F 0 "MX?" H 1733 2273 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 1733 2199 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1075 2025 60  0001 C CNN
+F 3 "" H 1075 2025 60  0001 C CNN
+	1    1700 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612BEDC8
-P 850 2550
-F 0 "MX?" H 883 2773 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 883 2699 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 225 2525 60  0001 C CNN
-F 3 "" H 225 2525 60  0001 C CNN
-	1    850  2550
+P 1200 2850
+F 0 "MX?" H 1233 3073 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 1233 2999 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 575 2825 60  0001 C CNN
+F 3 "" H 575 2825 60  0001 C CNN
+	1    1200 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612BEDCE
-P 850 3350
-F 0 "MX?" H 883 3573 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 883 3499 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 225 3325 60  0001 C CNN
-F 3 "" H 225 3325 60  0001 C CNN
-	1    850  3350
+P 1200 3650
+F 0 "MX?" H 1233 3873 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 1233 3799 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 575 3625 60  0001 C CNN
+F 3 "" H 575 3625 60  0001 C CNN
+	1    1200 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612BEDD4
-P 1350 2550
-F 0 "MX?" H 1383 2773 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 1383 2699 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 725 2525 60  0001 C CNN
-F 3 "" H 725 2525 60  0001 C CNN
-	1    1350 2550
+P 1700 2850
+F 0 "MX?" H 1733 3073 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 1733 2999 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1075 2825 60  0001 C CNN
+F 3 "" H 1075 2825 60  0001 C CNN
+	1    1700 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612BEDDA
-P 1350 3350
-F 0 "MX?" H 1383 3573 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 1383 3499 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 725 3325 60  0001 C CNN
-F 3 "" H 725 3325 60  0001 C CNN
-	1    1350 3350
+P 1700 3650
+F 0 "MX?" H 1733 3873 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 1733 3799 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1075 3625 60  0001 C CNN
+F 3 "" H 1075 3625 60  0001 C CNN
+	1    1700 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612C0494
-P 850 4150
-F 0 "MX?" H 883 4373 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 883 4299 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 225 4125 60  0001 C CNN
-F 3 "" H 225 4125 60  0001 C CNN
-	1    850  4150
+P 1200 4450
+F 0 "MX?" H 1233 4673 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 1233 4599 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 575 4425 60  0001 C CNN
+F 3 "" H 575 4425 60  0001 C CNN
+	1    1200 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612C049A
-P 1350 4150
-F 0 "MX?" H 1383 4373 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 1383 4299 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 725 4125 60  0001 C CNN
-F 3 "" H 725 4125 60  0001 C CNN
-	1    1350 4150
+P 1700 4450
+F 0 "MX?" H 1733 4673 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 1733 4599 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1075 4425 60  0001 C CNN
+F 3 "" H 1075 4425 60  0001 C CNN
+	1    1700 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612B47CA
-P 850 950
-F 0 "MX?" H 883 1173 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 883 1099 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 225 925 60  0001 C CNN
-F 3 "" H 225 925 60  0001 C CNN
-	1    850  950 
+P 1200 1250
+F 0 "MX?" H 1233 1473 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 1233 1399 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 575 1225 60  0001 C CNN
+F 3 "" H 575 1225 60  0001 C CNN
+	1    1200 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612C9E8B
-P 1850 1750
-F 0 "MX?" H 1883 1973 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 1883 1899 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1225 1725 60  0001 C CNN
-F 3 "" H 1225 1725 60  0001 C CNN
-	1    1850 1750
+P 2200 2050
+F 0 "MX?" H 2233 2273 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 2233 2199 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1575 2025 60  0001 C CNN
+F 3 "" H 1575 2025 60  0001 C CNN
+	1    2200 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612C9E91
-P 2350 950
-F 0 "MX?" H 2383 1173 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 2383 1099 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1725 925 60  0001 C CNN
-F 3 "" H 1725 925 60  0001 C CNN
-	1    2350 950 
+P 2700 1250
+F 0 "MX?" H 2733 1473 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 2733 1399 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2075 1225 60  0001 C CNN
+F 3 "" H 2075 1225 60  0001 C CNN
+	1    2700 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612C9E97
-P 2350 1750
-F 0 "MX?" H 2383 1973 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 2383 1899 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1725 1725 60  0001 C CNN
-F 3 "" H 1725 1725 60  0001 C CNN
-	1    2350 1750
+P 2700 2050
+F 0 "MX?" H 2733 2273 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 2733 2199 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2075 2025 60  0001 C CNN
+F 3 "" H 2075 2025 60  0001 C CNN
+	1    2700 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612C9E9D
-P 1850 2550
-F 0 "MX?" H 1883 2773 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 1883 2699 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1225 2525 60  0001 C CNN
-F 3 "" H 1225 2525 60  0001 C CNN
-	1    1850 2550
+P 2200 2850
+F 0 "MX?" H 2233 3073 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 2233 2999 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1575 2825 60  0001 C CNN
+F 3 "" H 1575 2825 60  0001 C CNN
+	1    2200 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612C9EA3
-P 1850 3350
-F 0 "MX?" H 1883 3573 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 1883 3499 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1225 3325 60  0001 C CNN
-F 3 "" H 1225 3325 60  0001 C CNN
-	1    1850 3350
+P 2200 3650
+F 0 "MX?" H 2233 3873 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 2233 3799 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1575 3625 60  0001 C CNN
+F 3 "" H 1575 3625 60  0001 C CNN
+	1    2200 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612C9EA9
-P 2350 2550
-F 0 "MX?" H 2383 2773 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 2383 2699 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1725 2525 60  0001 C CNN
-F 3 "" H 1725 2525 60  0001 C CNN
-	1    2350 2550
+P 2700 2850
+F 0 "MX?" H 2733 3073 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 2733 2999 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2075 2825 60  0001 C CNN
+F 3 "" H 2075 2825 60  0001 C CNN
+	1    2700 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612C9EAF
-P 2350 3350
-F 0 "MX?" H 2383 3573 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 2383 3499 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1725 3325 60  0001 C CNN
-F 3 "" H 1725 3325 60  0001 C CNN
-	1    2350 3350
+P 2700 3650
+F 0 "MX?" H 2733 3873 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 2733 3799 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2075 3625 60  0001 C CNN
+F 3 "" H 2075 3625 60  0001 C CNN
+	1    2700 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612C9EC1
-P 1850 950
-F 0 "MX?" H 1883 1173 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 1883 1099 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1225 925 60  0001 C CNN
-F 3 "" H 1225 925 60  0001 C CNN
-	1    1850 950 
+P 2200 1250
+F 0 "MX?" H 2233 1473 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 2233 1399 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1575 1225 60  0001 C CNN
+F 3 "" H 1575 1225 60  0001 C CNN
+	1    2200 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612CF2FD
-P 2850 1750
-F 0 "MX?" H 2883 1973 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 2883 1899 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2225 1725 60  0001 C CNN
-F 3 "" H 2225 1725 60  0001 C CNN
-	1    2850 1750
+P 3200 2050
+F 0 "MX?" H 3233 2273 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 3233 2199 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2575 2025 60  0001 C CNN
+F 3 "" H 2575 2025 60  0001 C CNN
+	1    3200 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612CF303
-P 3350 950
-F 0 "MX?" H 3383 1173 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 3383 1099 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2725 925 60  0001 C CNN
-F 3 "" H 2725 925 60  0001 C CNN
-	1    3350 950 
+P 3700 1250
+F 0 "MX?" H 3733 1473 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 3733 1399 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3075 1225 60  0001 C CNN
+F 3 "" H 3075 1225 60  0001 C CNN
+	1    3700 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612CF309
-P 3350 1750
-F 0 "MX?" H 3383 1973 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 3383 1899 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2725 1725 60  0001 C CNN
-F 3 "" H 2725 1725 60  0001 C CNN
-	1    3350 1750
+P 3700 2050
+F 0 "MX?" H 3733 2273 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 3733 2199 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3075 2025 60  0001 C CNN
+F 3 "" H 3075 2025 60  0001 C CNN
+	1    3700 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612CF30F
-P 2850 2550
-F 0 "MX?" H 2883 2773 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 2883 2699 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2225 2525 60  0001 C CNN
-F 3 "" H 2225 2525 60  0001 C CNN
-	1    2850 2550
+P 3200 2850
+F 0 "MX?" H 3233 3073 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 3233 2999 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2575 2825 60  0001 C CNN
+F 3 "" H 2575 2825 60  0001 C CNN
+	1    3200 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612CF315
-P 2850 3350
-F 0 "MX?" H 2883 3573 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 2883 3499 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2225 3325 60  0001 C CNN
-F 3 "" H 2225 3325 60  0001 C CNN
-	1    2850 3350
+P 3200 3650
+F 0 "MX?" H 3233 3873 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 3233 3799 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2575 3625 60  0001 C CNN
+F 3 "" H 2575 3625 60  0001 C CNN
+	1    3200 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612CF31B
-P 3350 2550
-F 0 "MX?" H 3383 2773 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 3383 2699 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2725 2525 60  0001 C CNN
-F 3 "" H 2725 2525 60  0001 C CNN
-	1    3350 2550
+P 3700 2850
+F 0 "MX?" H 3733 3073 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 3733 2999 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3075 2825 60  0001 C CNN
+F 3 "" H 3075 2825 60  0001 C CNN
+	1    3700 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612CF321
-P 3350 3350
-F 0 "MX?" H 3383 3573 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 3383 3499 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2725 3325 60  0001 C CNN
-F 3 "" H 2725 3325 60  0001 C CNN
-	1    3350 3350
+P 3700 3650
+F 0 "MX?" H 3733 3873 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 3733 3799 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3075 3625 60  0001 C CNN
+F 3 "" H 3075 3625 60  0001 C CNN
+	1    3700 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612CF333
-P 2850 950
-F 0 "MX?" H 2883 1173 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 2883 1099 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2225 925 60  0001 C CNN
-F 3 "" H 2225 925 60  0001 C CNN
-	1    2850 950 
+P 3200 1250
+F 0 "MX?" H 3233 1473 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 3233 1399 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2575 1225 60  0001 C CNN
+F 3 "" H 2575 1225 60  0001 C CNN
+	1    3200 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612D09E1
-P 3850 1750
-F 0 "MX?" H 3883 1973 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 3883 1899 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3225 1725 60  0001 C CNN
-F 3 "" H 3225 1725 60  0001 C CNN
-	1    3850 1750
+P 4200 2050
+F 0 "MX?" H 4233 2273 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 4233 2199 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3575 2025 60  0001 C CNN
+F 3 "" H 3575 2025 60  0001 C CNN
+	1    4200 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612D09E7
-P 4350 950
-F 0 "MX?" H 4383 1173 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 4383 1099 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3725 925 60  0001 C CNN
-F 3 "" H 3725 925 60  0001 C CNN
-	1    4350 950 
+P 4700 1250
+F 0 "MX?" H 4733 1473 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 4733 1399 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4075 1225 60  0001 C CNN
+F 3 "" H 4075 1225 60  0001 C CNN
+	1    4700 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612D09ED
-P 4350 1750
-F 0 "MX?" H 4383 1973 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 4383 1899 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3725 1725 60  0001 C CNN
-F 3 "" H 3725 1725 60  0001 C CNN
-	1    4350 1750
+P 4700 2050
+F 0 "MX?" H 4733 2273 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 4733 2199 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4075 2025 60  0001 C CNN
+F 3 "" H 4075 2025 60  0001 C CNN
+	1    4700 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612D09F3
-P 3850 2550
-F 0 "MX?" H 3883 2773 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 3883 2699 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3225 2525 60  0001 C CNN
-F 3 "" H 3225 2525 60  0001 C CNN
-	1    3850 2550
+P 4200 2850
+F 0 "MX?" H 4233 3073 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 4233 2999 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3575 2825 60  0001 C CNN
+F 3 "" H 3575 2825 60  0001 C CNN
+	1    4200 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612D09F9
-P 3850 3350
-F 0 "MX?" H 3883 3573 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 3883 3499 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3225 3325 60  0001 C CNN
-F 3 "" H 3225 3325 60  0001 C CNN
-	1    3850 3350
+P 4200 3650
+F 0 "MX?" H 4233 3873 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 4233 3799 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3575 3625 60  0001 C CNN
+F 3 "" H 3575 3625 60  0001 C CNN
+	1    4200 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612D09FF
-P 4350 2550
-F 0 "MX?" H 4383 2773 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 4383 2699 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3725 2525 60  0001 C CNN
-F 3 "" H 3725 2525 60  0001 C CNN
-	1    4350 2550
+P 4700 2850
+F 0 "MX?" H 4733 3073 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 4733 2999 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4075 2825 60  0001 C CNN
+F 3 "" H 4075 2825 60  0001 C CNN
+	1    4700 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612D0A05
-P 4350 3350
-F 0 "MX?" H 4383 3573 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 4383 3499 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3725 3325 60  0001 C CNN
-F 3 "" H 3725 3325 60  0001 C CNN
-	1    4350 3350
+P 4700 3650
+F 0 "MX?" H 4733 3873 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 4733 3799 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4075 3625 60  0001 C CNN
+F 3 "" H 4075 3625 60  0001 C CNN
+	1    4700 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612D0A17
-P 3850 950
-F 0 "MX?" H 3883 1173 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 3883 1099 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3225 925 60  0001 C CNN
-F 3 "" H 3225 925 60  0001 C CNN
-	1    3850 950 
+P 4200 1250
+F 0 "MX?" H 4233 1473 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 4233 1399 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3575 1225 60  0001 C CNN
+F 3 "" H 3575 1225 60  0001 C CNN
+	1    4200 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1CF1
-P 4850 1750
-F 0 "MX?" H 4883 1973 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 4883 1899 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4225 1725 60  0001 C CNN
-F 3 "" H 4225 1725 60  0001 C CNN
-	1    4850 1750
+P 5200 2050
+F 0 "MX?" H 5233 2273 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 5233 2199 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4575 2025 60  0001 C CNN
+F 3 "" H 4575 2025 60  0001 C CNN
+	1    5200 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1CF7
-P 5350 950
-F 0 "MX?" H 5383 1173 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 5383 1099 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4725 925 60  0001 C CNN
-F 3 "" H 4725 925 60  0001 C CNN
-	1    5350 950 
+P 5700 1250
+F 0 "MX?" H 5733 1473 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 5733 1399 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5075 1225 60  0001 C CNN
+F 3 "" H 5075 1225 60  0001 C CNN
+	1    5700 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1CFD
-P 5350 1750
-F 0 "MX?" H 5383 1973 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 5383 1899 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4725 1725 60  0001 C CNN
-F 3 "" H 4725 1725 60  0001 C CNN
-	1    5350 1750
+P 5700 2050
+F 0 "MX?" H 5733 2273 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 5733 2199 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5075 2025 60  0001 C CNN
+F 3 "" H 5075 2025 60  0001 C CNN
+	1    5700 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D03
-P 4850 2550
-F 0 "MX?" H 4883 2773 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 4883 2699 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4225 2525 60  0001 C CNN
-F 3 "" H 4225 2525 60  0001 C CNN
-	1    4850 2550
+P 5200 2850
+F 0 "MX?" H 5233 3073 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 5233 2999 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4575 2825 60  0001 C CNN
+F 3 "" H 4575 2825 60  0001 C CNN
+	1    5200 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D09
-P 4850 3350
-F 0 "MX?" H 4883 3573 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 4883 3499 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4225 3325 60  0001 C CNN
-F 3 "" H 4225 3325 60  0001 C CNN
-	1    4850 3350
+P 5200 3650
+F 0 "MX?" H 5233 3873 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 5233 3799 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4575 3625 60  0001 C CNN
+F 3 "" H 4575 3625 60  0001 C CNN
+	1    5200 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D0F
-P 5350 2550
-F 0 "MX?" H 5383 2773 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 5383 2699 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4725 2525 60  0001 C CNN
-F 3 "" H 4725 2525 60  0001 C CNN
-	1    5350 2550
+P 5700 2850
+F 0 "MX?" H 5733 3073 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 5733 2999 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5075 2825 60  0001 C CNN
+F 3 "" H 5075 2825 60  0001 C CNN
+	1    5700 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D15
-P 5350 3350
-F 0 "MX?" H 5383 3573 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 5383 3499 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4725 3325 60  0001 C CNN
-F 3 "" H 4725 3325 60  0001 C CNN
-	1    5350 3350
+P 5700 3650
+F 0 "MX?" H 5733 3873 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 5733 3799 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5075 3625 60  0001 C CNN
+F 3 "" H 5075 3625 60  0001 C CNN
+	1    5700 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D21
-P 5350 4150
-F 0 "MX?" H 5383 4373 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 5383 4299 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4725 4125 60  0001 C CNN
-F 3 "" H 4725 4125 60  0001 C CNN
-	1    5350 4150
+P 5700 4450
+F 0 "MX?" H 5733 4673 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 5733 4599 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5075 4425 60  0001 C CNN
+F 3 "" H 5075 4425 60  0001 C CNN
+	1    5700 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D27
-P 4850 950
-F 0 "MX?" H 4883 1173 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 4883 1099 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4225 925 60  0001 C CNN
-F 3 "" H 4225 925 60  0001 C CNN
-	1    4850 950 
+P 5200 1250
+F 0 "MX?" H 5233 1473 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 5233 1399 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4575 1225 60  0001 C CNN
+F 3 "" H 4575 1225 60  0001 C CNN
+	1    5200 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D2D
-P 5850 1750
-F 0 "MX?" H 5883 1973 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 5883 1899 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5225 1725 60  0001 C CNN
-F 3 "" H 5225 1725 60  0001 C CNN
-	1    5850 1750
+P 6200 2050
+F 0 "MX?" H 6233 2273 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 6233 2199 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5575 2025 60  0001 C CNN
+F 3 "" H 5575 2025 60  0001 C CNN
+	1    6200 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D33
-P 6350 950
-F 0 "MX?" H 6383 1173 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 6383 1099 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5725 925 60  0001 C CNN
-F 3 "" H 5725 925 60  0001 C CNN
-	1    6350 950 
+P 6700 1250
+F 0 "MX?" H 6733 1473 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 6733 1399 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6075 1225 60  0001 C CNN
+F 3 "" H 6075 1225 60  0001 C CNN
+	1    6700 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D39
-P 6350 1750
-F 0 "MX?" H 6383 1973 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 6383 1899 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5725 1725 60  0001 C CNN
-F 3 "" H 5725 1725 60  0001 C CNN
-	1    6350 1750
+P 6700 2050
+F 0 "MX?" H 6733 2273 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 6733 2199 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6075 2025 60  0001 C CNN
+F 3 "" H 6075 2025 60  0001 C CNN
+	1    6700 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D3F
-P 5850 2550
-F 0 "MX?" H 5883 2773 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 5883 2699 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5225 2525 60  0001 C CNN
-F 3 "" H 5225 2525 60  0001 C CNN
-	1    5850 2550
+P 6200 2850
+F 0 "MX?" H 6233 3073 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 6233 2999 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5575 2825 60  0001 C CNN
+F 3 "" H 5575 2825 60  0001 C CNN
+	1    6200 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D45
-P 5850 3350
-F 0 "MX?" H 5883 3573 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 5883 3499 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5225 3325 60  0001 C CNN
-F 3 "" H 5225 3325 60  0001 C CNN
-	1    5850 3350
+P 6200 3650
+F 0 "MX?" H 6233 3873 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 6233 3799 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5575 3625 60  0001 C CNN
+F 3 "" H 5575 3625 60  0001 C CNN
+	1    6200 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D4B
-P 6350 2550
-F 0 "MX?" H 6383 2773 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 6383 2699 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5725 2525 60  0001 C CNN
-F 3 "" H 5725 2525 60  0001 C CNN
-	1    6350 2550
+P 6700 2850
+F 0 "MX?" H 6733 3073 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 6733 2999 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6075 2825 60  0001 C CNN
+F 3 "" H 6075 2825 60  0001 C CNN
+	1    6700 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D51
-P 6350 3350
-F 0 "MX?" H 6383 3573 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 6383 3499 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5725 3325 60  0001 C CNN
-F 3 "" H 5725 3325 60  0001 C CNN
-	1    6350 3350
+P 6700 3650
+F 0 "MX?" H 6733 3873 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 6733 3799 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6075 3625 60  0001 C CNN
+F 3 "" H 6075 3625 60  0001 C CNN
+	1    6700 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D57
-P 5850 4150
-F 0 "MX?" H 5883 4373 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 5883 4299 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5225 4125 60  0001 C CNN
-F 3 "" H 5225 4125 60  0001 C CNN
-	1    5850 4150
+P 6200 4450
+F 0 "MX?" H 6233 4673 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 6233 4599 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5575 4425 60  0001 C CNN
+F 3 "" H 5575 4425 60  0001 C CNN
+	1    6200 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D5D
-P 6350 4150
-F 0 "MX?" H 6383 4373 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 6383 4299 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5725 4125 60  0001 C CNN
-F 3 "" H 5725 4125 60  0001 C CNN
-	1    6350 4150
+P 6700 4450
+F 0 "MX?" H 6733 4673 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 6733 4599 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6075 4425 60  0001 C CNN
+F 3 "" H 6075 4425 60  0001 C CNN
+	1    6700 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D63
-P 5850 950
-F 0 "MX?" H 5883 1173 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 5883 1099 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5225 925 60  0001 C CNN
-F 3 "" H 5225 925 60  0001 C CNN
-	1    5850 950 
+P 6200 1250
+F 0 "MX?" H 6233 1473 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 6233 1399 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5575 1225 60  0001 C CNN
+F 3 "" H 5575 1225 60  0001 C CNN
+	1    6200 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D69
-P 6850 1750
-F 0 "MX?" H 6883 1973 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 6883 1899 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6225 1725 60  0001 C CNN
-F 3 "" H 6225 1725 60  0001 C CNN
-	1    6850 1750
+P 7200 2050
+F 0 "MX?" H 7233 2273 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 7233 2199 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6575 2025 60  0001 C CNN
+F 3 "" H 6575 2025 60  0001 C CNN
+	1    7200 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D6F
-P 7350 950
-F 0 "MX?" H 7383 1173 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 7383 1099 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6725 925 60  0001 C CNN
-F 3 "" H 6725 925 60  0001 C CNN
-	1    7350 950 
+P 7700 1250
+F 0 "MX?" H 7733 1473 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 7733 1399 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 7075 1225 60  0001 C CNN
+F 3 "" H 7075 1225 60  0001 C CNN
+	1    7700 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D75
-P 7350 1750
-F 0 "MX?" H 7383 1973 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 7383 1899 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6725 1725 60  0001 C CNN
-F 3 "" H 6725 1725 60  0001 C CNN
-	1    7350 1750
+P 7700 2050
+F 0 "MX?" H 7733 2273 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 7733 2199 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 7075 2025 60  0001 C CNN
+F 3 "" H 7075 2025 60  0001 C CNN
+	1    7700 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D7B
-P 6850 2550
-F 0 "MX?" H 6883 2773 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 6883 2699 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6225 2525 60  0001 C CNN
-F 3 "" H 6225 2525 60  0001 C CNN
-	1    6850 2550
+P 7200 2850
+F 0 "MX?" H 7233 3073 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 7233 2999 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6575 2825 60  0001 C CNN
+F 3 "" H 6575 2825 60  0001 C CNN
+	1    7200 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D81
-P 6850 3350
-F 0 "MX?" H 6883 3573 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 6883 3499 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6225 3325 60  0001 C CNN
-F 3 "" H 6225 3325 60  0001 C CNN
-	1    6850 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
-U 1 1 612F1D87
-P 7350 2550
-F 0 "MX?" H 7383 2773 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 7383 2699 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6725 2525 60  0001 C CNN
-F 3 "" H 6725 2525 60  0001 C CNN
-	1    7350 2550
+P 7200 3650
+F 0 "MX?" H 7233 3873 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 7233 3799 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6575 3625 60  0001 C CNN
+F 3 "" H 6575 3625 60  0001 C CNN
+	1    7200 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D8D
-P 7350 3350
-F 0 "MX?" H 7383 3573 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 7383 3499 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6725 3325 60  0001 C CNN
-F 3 "" H 6725 3325 60  0001 C CNN
-	1    7350 3350
+P 7700 3650
+F 0 "MX?" H 7733 3873 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 7733 3799 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 7075 3625 60  0001 C CNN
+F 3 "" H 7075 3625 60  0001 C CNN
+	1    7700 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D93
-P 6850 4150
-F 0 "MX?" H 6883 4373 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 6883 4299 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6225 4125 60  0001 C CNN
-F 3 "" H 6225 4125 60  0001 C CNN
-	1    6850 4150
+P 7200 4450
+F 0 "MX?" H 7233 4673 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 7233 4599 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6575 4425 60  0001 C CNN
+F 3 "" H 6575 4425 60  0001 C CNN
+	1    7200 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D99
-P 7350 4150
-F 0 "MX?" H 7383 4373 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 7383 4299 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6725 4125 60  0001 C CNN
-F 3 "" H 6725 4125 60  0001 C CNN
-	1    7350 4150
+P 7700 4450
+F 0 "MX?" H 7733 4673 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 7733 4599 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 7075 4425 60  0001 C CNN
+F 3 "" H 7075 4425 60  0001 C CNN
+	1    7700 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1D9F
-P 6850 950
-F 0 "MX?" H 6883 1173 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 6883 1099 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6225 925 60  0001 C CNN
-F 3 "" H 6225 925 60  0001 C CNN
-	1    6850 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
-U 1 1 612F1DBD
-P 7850 3350
-F 0 "MX?" H 7883 3573 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 7883 3499 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 7225 3325 60  0001 C CNN
-F 3 "" H 7225 3325 60  0001 C CNN
-	1    7850 3350
+P 7200 1250
+F 0 "MX?" H 7233 1473 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 7233 1399 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6575 1225 60  0001 C CNN
+F 3 "" H 6575 1225 60  0001 C CNN
+	1    7200 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1DCF
-P 7850 4150
-F 0 "MX?" H 7883 4373 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 7883 4299 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 7225 4125 60  0001 C CNN
-F 3 "" H 7225 4125 60  0001 C CNN
-	1    7850 4150
+P 8200 4450
+F 0 "MX?" H 8233 4673 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 8233 4599 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 7575 4425 60  0001 C CNN
+F 3 "" H 7575 4425 60  0001 C CNN
+	1    8200 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612D0A0B
-P 3850 4150
-F 0 "MX?" H 3883 4373 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 3883 4299 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3225 4125 60  0001 C CNN
-F 3 "" H 3225 4125 60  0001 C CNN
-	1    3850 4150
+P 4200 4450
+F 0 "MX?" H 4233 4673 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 4233 4599 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3575 4425 60  0001 C CNN
+F 3 "" H 3575 4425 60  0001 C CNN
+	1    4200 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612C9EB5
-P 1850 4150
-F 0 "MX?" H 1883 4373 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 1883 4299 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1225 4125 60  0001 C CNN
-F 3 "" H 1225 4125 60  0001 C CNN
-	1    1850 4150
+P 2200 4450
+F 0 "MX?" H 2233 4673 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 2233 4599 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1575 4425 60  0001 C CNN
+F 3 "" H 1575 4425 60  0001 C CNN
+	1    2200 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1DDB
-P 7850 950
-F 0 "MX?" H 7883 1173 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 7883 1099 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 7225 925 60  0001 C CNN
-F 3 "" H 7225 925 60  0001 C CNN
-	1    7850 950 
+P 8200 1250
+F 0 "MX?" H 8233 1473 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 8233 1399 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 7575 1225 60  0001 C CNN
+F 3 "" H 7575 1225 60  0001 C CNN
+	1    8200 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
 U 1 1 612F1DA5
-P 7850 1750
-F 0 "MX?" H 7883 1973 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 7883 1899 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 7225 1725 60  0001 C CNN
-F 3 "" H 7225 1725 60  0001 C CNN
-	1    7850 1750
+P 8200 2050
+F 0 "MX?" H 8233 2273 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 8233 2199 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 7575 2025 60  0001 C CNN
+F 3 "" H 7575 2025 60  0001 C CNN
+	1    8200 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 6133AAC1
-P 800 1250
-F 0 "D?" V 846 1170 50  0000 R CNN
-F 1 "SMD_123" V 755 1170 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 800 1250 50  0001 C CNN
-F 3 "~" H 800 1250 50  0001 C CNN
-	1    800  1250
+P 1150 1550
+F 0 "D?" V 1196 1470 50  0000 R CNN
+F 1 "SMD_123" V 1105 1470 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 1150 1550 50  0001 C CNN
+F 3 "~" H 1150 1550 50  0001 C CNN
+	1    1150 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 613401CA
-P 1300 1250
-F 0 "D?" V 1346 1170 50  0000 R CNN
-F 1 "SMD_123" V 1255 1170 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 1300 1250 50  0001 C CNN
-F 3 "~" H 1300 1250 50  0001 C CNN
-	1    1300 1250
+P 1650 1550
+F 0 "D?" V 1696 1470 50  0000 R CNN
+F 1 "SMD_123" V 1605 1470 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 1650 1550 50  0001 C CNN
+F 3 "~" H 1650 1550 50  0001 C CNN
+	1    1650 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61341019
-P 1800 1250
-F 0 "D?" V 1846 1170 50  0000 R CNN
-F 1 "SMD_123" V 1755 1170 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 1800 1250 50  0001 C CNN
-F 3 "~" H 1800 1250 50  0001 C CNN
-	1    1800 1250
+P 2150 1550
+F 0 "D?" V 2196 1470 50  0000 R CNN
+F 1 "SMD_123" V 2105 1470 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 2150 1550 50  0001 C CNN
+F 3 "~" H 2150 1550 50  0001 C CNN
+	1    2150 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 6134101F
-P 2300 1250
-F 0 "D?" V 2346 1170 50  0000 R CNN
-F 1 "SMD_123" V 2255 1170 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 2300 1250 50  0001 C CNN
-F 3 "~" H 2300 1250 50  0001 C CNN
-	1    2300 1250
+P 2650 1550
+F 0 "D?" V 2696 1470 50  0000 R CNN
+F 1 "SMD_123" V 2605 1470 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 2650 1550 50  0001 C CNN
+F 3 "~" H 2650 1550 50  0001 C CNN
+	1    2650 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61343572
-P 2800 1250
-F 0 "D?" V 2846 1170 50  0000 R CNN
-F 1 "SMD_123" V 2755 1170 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 2800 1250 50  0001 C CNN
-F 3 "~" H 2800 1250 50  0001 C CNN
-	1    2800 1250
+P 3150 1550
+F 0 "D?" V 3196 1470 50  0000 R CNN
+F 1 "SMD_123" V 3105 1470 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 3150 1550 50  0001 C CNN
+F 3 "~" H 3150 1550 50  0001 C CNN
+	1    3150 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61343578
-P 3300 1250
-F 0 "D?" V 3346 1170 50  0000 R CNN
-F 1 "SMD_123" V 3255 1170 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 3300 1250 50  0001 C CNN
-F 3 "~" H 3300 1250 50  0001 C CNN
-	1    3300 1250
+P 3650 1550
+F 0 "D?" V 3696 1470 50  0000 R CNN
+F 1 "SMD_123" V 3605 1470 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 3650 1550 50  0001 C CNN
+F 3 "~" H 3650 1550 50  0001 C CNN
+	1    3650 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 6134357E
-P 3800 1250
-F 0 "D?" V 3846 1170 50  0000 R CNN
-F 1 "SMD_123" V 3755 1170 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 3800 1250 50  0001 C CNN
-F 3 "~" H 3800 1250 50  0001 C CNN
-	1    3800 1250
+P 4150 1550
+F 0 "D?" V 4196 1470 50  0000 R CNN
+F 1 "SMD_123" V 4105 1470 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 4150 1550 50  0001 C CNN
+F 3 "~" H 4150 1550 50  0001 C CNN
+	1    4150 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61343584
-P 4300 1250
-F 0 "D?" V 4346 1170 50  0000 R CNN
-F 1 "SMD_123" V 4255 1170 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 4300 1250 50  0001 C CNN
-F 3 "~" H 4300 1250 50  0001 C CNN
-	1    4300 1250
+P 4650 1550
+F 0 "D?" V 4696 1470 50  0000 R CNN
+F 1 "SMD_123" V 4605 1470 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 4650 1550 50  0001 C CNN
+F 3 "~" H 4650 1550 50  0001 C CNN
+	1    4650 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61345191
-P 4800 1250
-F 0 "D?" V 4846 1170 50  0000 R CNN
-F 1 "SMD_123" V 4755 1170 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 4800 1250 50  0001 C CNN
-F 3 "~" H 4800 1250 50  0001 C CNN
-	1    4800 1250
+P 5150 1550
+F 0 "D?" V 5196 1470 50  0000 R CNN
+F 1 "SMD_123" V 5105 1470 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 5150 1550 50  0001 C CNN
+F 3 "~" H 5150 1550 50  0001 C CNN
+	1    5150 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61345197
-P 5300 1250
-F 0 "D?" V 5346 1170 50  0000 R CNN
-F 1 "SMD_123" V 5255 1170 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 5300 1250 50  0001 C CNN
-F 3 "~" H 5300 1250 50  0001 C CNN
-	1    5300 1250
+P 5650 1550
+F 0 "D?" V 5696 1470 50  0000 R CNN
+F 1 "SMD_123" V 5605 1470 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 5650 1550 50  0001 C CNN
+F 3 "~" H 5650 1550 50  0001 C CNN
+	1    5650 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 6134519D
-P 5800 1250
-F 0 "D?" V 5846 1170 50  0000 R CNN
-F 1 "SMD_123" V 5755 1170 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 5800 1250 50  0001 C CNN
-F 3 "~" H 5800 1250 50  0001 C CNN
-	1    5800 1250
+P 6150 1550
+F 0 "D?" V 6196 1470 50  0000 R CNN
+F 1 "SMD_123" V 6105 1470 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 6150 1550 50  0001 C CNN
+F 3 "~" H 6150 1550 50  0001 C CNN
+	1    6150 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 613451A3
-P 6300 1250
-F 0 "D?" V 6346 1170 50  0000 R CNN
-F 1 "SMD_123" V 6255 1170 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 6300 1250 50  0001 C CNN
-F 3 "~" H 6300 1250 50  0001 C CNN
-	1    6300 1250
+P 6650 1550
+F 0 "D?" V 6696 1470 50  0000 R CNN
+F 1 "SMD_123" V 6605 1470 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 6650 1550 50  0001 C CNN
+F 3 "~" H 6650 1550 50  0001 C CNN
+	1    6650 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 6134804E
-P 6800 1250
-F 0 "D?" V 6846 1170 50  0000 R CNN
-F 1 "SMD_123" V 6755 1170 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 6800 1250 50  0001 C CNN
-F 3 "~" H 6800 1250 50  0001 C CNN
-	1    6800 1250
+P 7150 1550
+F 0 "D?" V 7196 1470 50  0000 R CNN
+F 1 "SMD_123" V 7105 1470 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 7150 1550 50  0001 C CNN
+F 3 "~" H 7150 1550 50  0001 C CNN
+	1    7150 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61348054
-P 7300 1250
-F 0 "D?" V 7346 1170 50  0000 R CNN
-F 1 "SMD_123" V 7255 1170 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 7300 1250 50  0001 C CNN
-F 3 "~" H 7300 1250 50  0001 C CNN
-	1    7300 1250
+P 7650 1550
+F 0 "D?" V 7696 1470 50  0000 R CNN
+F 1 "SMD_123" V 7605 1470 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 7650 1550 50  0001 C CNN
+F 3 "~" H 7650 1550 50  0001 C CNN
+	1    7650 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 6134805A
-P 7800 1250
-F 0 "D?" V 7846 1170 50  0000 R CNN
-F 1 "SMD_123" V 7755 1170 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 7800 1250 50  0001 C CNN
-F 3 "~" H 7800 1250 50  0001 C CNN
-	1    7800 1250
+P 8150 1550
+F 0 "D?" V 8196 1470 50  0000 R CNN
+F 1 "SMD_123" V 8105 1470 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 8150 1550 50  0001 C CNN
+F 3 "~" H 8150 1550 50  0001 C CNN
+	1    8150 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61358AC7
-P 800 2050
-F 0 "D?" V 846 1970 50  0000 R CNN
-F 1 "SMD_123" V 755 1970 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 800 2050 50  0001 C CNN
-F 3 "~" H 800 2050 50  0001 C CNN
-	1    800  2050
+P 1150 2350
+F 0 "D?" V 1196 2270 50  0000 R CNN
+F 1 "SMD_123" V 1105 2270 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 1150 2350 50  0001 C CNN
+F 3 "~" H 1150 2350 50  0001 C CNN
+	1    1150 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61358ACD
-P 1300 2050
-F 0 "D?" V 1346 1970 50  0000 R CNN
-F 1 "SMD_123" V 1255 1970 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 1300 2050 50  0001 C CNN
-F 3 "~" H 1300 2050 50  0001 C CNN
-	1    1300 2050
+P 1650 2350
+F 0 "D?" V 1696 2270 50  0000 R CNN
+F 1 "SMD_123" V 1605 2270 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 1650 2350 50  0001 C CNN
+F 3 "~" H 1650 2350 50  0001 C CNN
+	1    1650 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61358AD3
-P 1800 2050
-F 0 "D?" V 1846 1970 50  0000 R CNN
-F 1 "SMD_123" V 1755 1970 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 1800 2050 50  0001 C CNN
-F 3 "~" H 1800 2050 50  0001 C CNN
-	1    1800 2050
+P 2150 2350
+F 0 "D?" V 2196 2270 50  0000 R CNN
+F 1 "SMD_123" V 2105 2270 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 2150 2350 50  0001 C CNN
+F 3 "~" H 2150 2350 50  0001 C CNN
+	1    2150 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61358AD9
-P 2300 2050
-F 0 "D?" V 2346 1970 50  0000 R CNN
-F 1 "SMD_123" V 2255 1970 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 2300 2050 50  0001 C CNN
-F 3 "~" H 2300 2050 50  0001 C CNN
-	1    2300 2050
+P 2650 2350
+F 0 "D?" V 2696 2270 50  0000 R CNN
+F 1 "SMD_123" V 2605 2270 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 2650 2350 50  0001 C CNN
+F 3 "~" H 2650 2350 50  0001 C CNN
+	1    2650 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61358ADF
-P 2800 2050
-F 0 "D?" V 2846 1970 50  0000 R CNN
-F 1 "SMD_123" V 2755 1970 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 2800 2050 50  0001 C CNN
-F 3 "~" H 2800 2050 50  0001 C CNN
-	1    2800 2050
+P 3150 2350
+F 0 "D?" V 3196 2270 50  0000 R CNN
+F 1 "SMD_123" V 3105 2270 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 3150 2350 50  0001 C CNN
+F 3 "~" H 3150 2350 50  0001 C CNN
+	1    3150 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61358AE5
-P 3300 2050
-F 0 "D?" V 3346 1970 50  0000 R CNN
-F 1 "SMD_123" V 3255 1970 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 3300 2050 50  0001 C CNN
-F 3 "~" H 3300 2050 50  0001 C CNN
-	1    3300 2050
+P 3650 2350
+F 0 "D?" V 3696 2270 50  0000 R CNN
+F 1 "SMD_123" V 3605 2270 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 3650 2350 50  0001 C CNN
+F 3 "~" H 3650 2350 50  0001 C CNN
+	1    3650 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61358AEB
-P 3800 2050
-F 0 "D?" V 3846 1970 50  0000 R CNN
-F 1 "SMD_123" V 3755 1970 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 3800 2050 50  0001 C CNN
-F 3 "~" H 3800 2050 50  0001 C CNN
-	1    3800 2050
+P 4150 2350
+F 0 "D?" V 4196 2270 50  0000 R CNN
+F 1 "SMD_123" V 4105 2270 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 4150 2350 50  0001 C CNN
+F 3 "~" H 4150 2350 50  0001 C CNN
+	1    4150 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61358AF1
-P 4300 2050
-F 0 "D?" V 4346 1970 50  0000 R CNN
-F 1 "SMD_123" V 4255 1970 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 4300 2050 50  0001 C CNN
-F 3 "~" H 4300 2050 50  0001 C CNN
-	1    4300 2050
+P 4650 2350
+F 0 "D?" V 4696 2270 50  0000 R CNN
+F 1 "SMD_123" V 4605 2270 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 4650 2350 50  0001 C CNN
+F 3 "~" H 4650 2350 50  0001 C CNN
+	1    4650 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61358AF7
-P 4800 2050
-F 0 "D?" V 4846 1970 50  0000 R CNN
-F 1 "SMD_123" V 4755 1970 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 4800 2050 50  0001 C CNN
-F 3 "~" H 4800 2050 50  0001 C CNN
-	1    4800 2050
+P 5150 2350
+F 0 "D?" V 5196 2270 50  0000 R CNN
+F 1 "SMD_123" V 5105 2270 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 5150 2350 50  0001 C CNN
+F 3 "~" H 5150 2350 50  0001 C CNN
+	1    5150 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61358AFD
-P 5300 2050
-F 0 "D?" V 5346 1970 50  0000 R CNN
-F 1 "SMD_123" V 5255 1970 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 5300 2050 50  0001 C CNN
-F 3 "~" H 5300 2050 50  0001 C CNN
-	1    5300 2050
+P 5650 2350
+F 0 "D?" V 5696 2270 50  0000 R CNN
+F 1 "SMD_123" V 5605 2270 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 5650 2350 50  0001 C CNN
+F 3 "~" H 5650 2350 50  0001 C CNN
+	1    5650 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61358B03
-P 5800 2050
-F 0 "D?" V 5846 1970 50  0000 R CNN
-F 1 "SMD_123" V 5755 1970 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 5800 2050 50  0001 C CNN
-F 3 "~" H 5800 2050 50  0001 C CNN
-	1    5800 2050
+P 6150 2350
+F 0 "D?" V 6196 2270 50  0000 R CNN
+F 1 "SMD_123" V 6105 2270 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 6150 2350 50  0001 C CNN
+F 3 "~" H 6150 2350 50  0001 C CNN
+	1    6150 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61358B09
-P 6300 2050
-F 0 "D?" V 6346 1970 50  0000 R CNN
-F 1 "SMD_123" V 6255 1970 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 6300 2050 50  0001 C CNN
-F 3 "~" H 6300 2050 50  0001 C CNN
-	1    6300 2050
+P 6650 2350
+F 0 "D?" V 6696 2270 50  0000 R CNN
+F 1 "SMD_123" V 6605 2270 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 6650 2350 50  0001 C CNN
+F 3 "~" H 6650 2350 50  0001 C CNN
+	1    6650 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61358B0F
-P 6800 2050
-F 0 "D?" V 6846 1970 50  0000 R CNN
-F 1 "SMD_123" V 6755 1970 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 6800 2050 50  0001 C CNN
-F 3 "~" H 6800 2050 50  0001 C CNN
-	1    6800 2050
+P 7150 2350
+F 0 "D?" V 7196 2270 50  0000 R CNN
+F 1 "SMD_123" V 7105 2270 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 7150 2350 50  0001 C CNN
+F 3 "~" H 7150 2350 50  0001 C CNN
+	1    7150 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61358B15
-P 7300 2050
-F 0 "D?" V 7346 1970 50  0000 R CNN
-F 1 "SMD_123" V 7255 1970 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 7300 2050 50  0001 C CNN
-F 3 "~" H 7300 2050 50  0001 C CNN
-	1    7300 2050
+P 7650 2350
+F 0 "D?" V 7696 2270 50  0000 R CNN
+F 1 "SMD_123" V 7605 2270 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 7650 2350 50  0001 C CNN
+F 3 "~" H 7650 2350 50  0001 C CNN
+	1    7650 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61358B1B
-P 7800 2050
-F 0 "D?" V 7846 1970 50  0000 R CNN
-F 1 "SMD_123" V 7755 1970 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 7800 2050 50  0001 C CNN
-F 3 "~" H 7800 2050 50  0001 C CNN
-	1    7800 2050
+P 8150 2350
+F 0 "D?" V 8196 2270 50  0000 R CNN
+F 1 "SMD_123" V 8105 2270 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 8150 2350 50  0001 C CNN
+F 3 "~" H 8150 2350 50  0001 C CNN
+	1    8150 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 6137538A
-P 800 2850
-F 0 "D?" V 846 2770 50  0000 R CNN
-F 1 "SMD_123" V 755 2770 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 800 2850 50  0001 C CNN
-F 3 "~" H 800 2850 50  0001 C CNN
-	1    800  2850
+P 1150 3150
+F 0 "D?" V 1196 3070 50  0000 R CNN
+F 1 "SMD_123" V 1105 3070 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 1150 3150 50  0001 C CNN
+F 3 "~" H 1150 3150 50  0001 C CNN
+	1    1150 3150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61375390
-P 1300 2850
-F 0 "D?" V 1346 2770 50  0000 R CNN
-F 1 "SMD_123" V 1255 2770 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 1300 2850 50  0001 C CNN
-F 3 "~" H 1300 2850 50  0001 C CNN
-	1    1300 2850
+P 1650 3150
+F 0 "D?" V 1696 3070 50  0000 R CNN
+F 1 "SMD_123" V 1605 3070 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 1650 3150 50  0001 C CNN
+F 3 "~" H 1650 3150 50  0001 C CNN
+	1    1650 3150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61375396
-P 1800 2850
-F 0 "D?" V 1846 2770 50  0000 R CNN
-F 1 "SMD_123" V 1755 2770 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 1800 2850 50  0001 C CNN
-F 3 "~" H 1800 2850 50  0001 C CNN
-	1    1800 2850
+P 2150 3150
+F 0 "D?" V 2196 3070 50  0000 R CNN
+F 1 "SMD_123" V 2105 3070 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 2150 3150 50  0001 C CNN
+F 3 "~" H 2150 3150 50  0001 C CNN
+	1    2150 3150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 6137539C
-P 2300 2850
-F 0 "D?" V 2346 2770 50  0000 R CNN
-F 1 "SMD_123" V 2255 2770 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 2300 2850 50  0001 C CNN
-F 3 "~" H 2300 2850 50  0001 C CNN
-	1    2300 2850
+P 2650 3150
+F 0 "D?" V 2696 3070 50  0000 R CNN
+F 1 "SMD_123" V 2605 3070 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 2650 3150 50  0001 C CNN
+F 3 "~" H 2650 3150 50  0001 C CNN
+	1    2650 3150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 613753A2
-P 2800 2850
-F 0 "D?" V 2846 2770 50  0000 R CNN
-F 1 "SMD_123" V 2755 2770 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 2800 2850 50  0001 C CNN
-F 3 "~" H 2800 2850 50  0001 C CNN
-	1    2800 2850
+P 3150 3150
+F 0 "D?" V 3196 3070 50  0000 R CNN
+F 1 "SMD_123" V 3105 3070 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 3150 3150 50  0001 C CNN
+F 3 "~" H 3150 3150 50  0001 C CNN
+	1    3150 3150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 613753A8
-P 3300 2850
-F 0 "D?" V 3346 2770 50  0000 R CNN
-F 1 "SMD_123" V 3255 2770 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 3300 2850 50  0001 C CNN
-F 3 "~" H 3300 2850 50  0001 C CNN
-	1    3300 2850
+P 3650 3150
+F 0 "D?" V 3696 3070 50  0000 R CNN
+F 1 "SMD_123" V 3605 3070 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 3650 3150 50  0001 C CNN
+F 3 "~" H 3650 3150 50  0001 C CNN
+	1    3650 3150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 613753AE
-P 3800 2850
-F 0 "D?" V 3846 2770 50  0000 R CNN
-F 1 "SMD_123" V 3755 2770 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 3800 2850 50  0001 C CNN
-F 3 "~" H 3800 2850 50  0001 C CNN
-	1    3800 2850
+P 4150 3150
+F 0 "D?" V 4196 3070 50  0000 R CNN
+F 1 "SMD_123" V 4105 3070 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 4150 3150 50  0001 C CNN
+F 3 "~" H 4150 3150 50  0001 C CNN
+	1    4150 3150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 613753B4
-P 4300 2850
-F 0 "D?" V 4346 2770 50  0000 R CNN
-F 1 "SMD_123" V 4255 2770 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 4300 2850 50  0001 C CNN
-F 3 "~" H 4300 2850 50  0001 C CNN
-	1    4300 2850
+P 4650 3150
+F 0 "D?" V 4696 3070 50  0000 R CNN
+F 1 "SMD_123" V 4605 3070 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 4650 3150 50  0001 C CNN
+F 3 "~" H 4650 3150 50  0001 C CNN
+	1    4650 3150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 613753BA
-P 4800 2850
-F 0 "D?" V 4846 2770 50  0000 R CNN
-F 1 "SMD_123" V 4755 2770 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 4800 2850 50  0001 C CNN
-F 3 "~" H 4800 2850 50  0001 C CNN
-	1    4800 2850
+P 5150 3150
+F 0 "D?" V 5196 3070 50  0000 R CNN
+F 1 "SMD_123" V 5105 3070 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 5150 3150 50  0001 C CNN
+F 3 "~" H 5150 3150 50  0001 C CNN
+	1    5150 3150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 613753C0
-P 5300 2850
-F 0 "D?" V 5346 2770 50  0000 R CNN
-F 1 "SMD_123" V 5255 2770 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 5300 2850 50  0001 C CNN
-F 3 "~" H 5300 2850 50  0001 C CNN
-	1    5300 2850
+P 5650 3150
+F 0 "D?" V 5696 3070 50  0000 R CNN
+F 1 "SMD_123" V 5605 3070 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 5650 3150 50  0001 C CNN
+F 3 "~" H 5650 3150 50  0001 C CNN
+	1    5650 3150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 613753C6
-P 5800 2850
-F 0 "D?" V 5846 2770 50  0000 R CNN
-F 1 "SMD_123" V 5755 2770 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 5800 2850 50  0001 C CNN
-F 3 "~" H 5800 2850 50  0001 C CNN
-	1    5800 2850
+P 6150 3150
+F 0 "D?" V 6196 3070 50  0000 R CNN
+F 1 "SMD_123" V 6105 3070 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 6150 3150 50  0001 C CNN
+F 3 "~" H 6150 3150 50  0001 C CNN
+	1    6150 3150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 613753CC
-P 6300 2850
-F 0 "D?" V 6346 2770 50  0000 R CNN
-F 1 "SMD_123" V 6255 2770 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 6300 2850 50  0001 C CNN
-F 3 "~" H 6300 2850 50  0001 C CNN
-	1    6300 2850
+P 6650 3150
+F 0 "D?" V 6696 3070 50  0000 R CNN
+F 1 "SMD_123" V 6605 3070 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 6650 3150 50  0001 C CNN
+F 3 "~" H 6650 3150 50  0001 C CNN
+	1    6650 3150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 613753D2
-P 6800 2850
-F 0 "D?" V 6846 2770 50  0000 R CNN
-F 1 "SMD_123" V 6755 2770 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 6800 2850 50  0001 C CNN
-F 3 "~" H 6800 2850 50  0001 C CNN
-	1    6800 2850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 613753D8
-P 7300 2850
-F 0 "D?" V 7346 2770 50  0000 R CNN
-F 1 "SMD_123" V 7255 2770 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 7300 2850 50  0001 C CNN
-F 3 "~" H 7300 2850 50  0001 C CNN
-	1    7300 2850
+P 7150 3150
+F 0 "D?" V 7196 3070 50  0000 R CNN
+F 1 "SMD_123" V 7105 3070 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 7150 3150 50  0001 C CNN
+F 3 "~" H 7150 3150 50  0001 C CNN
+	1    7150 3150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 6138378A
-P 800 3650
-F 0 "D?" V 846 3570 50  0000 R CNN
-F 1 "SMD_123" V 755 3570 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 800 3650 50  0001 C CNN
-F 3 "~" H 800 3650 50  0001 C CNN
-	1    800  3650
+P 1150 3950
+F 0 "D?" V 1196 3870 50  0000 R CNN
+F 1 "SMD_123" V 1105 3870 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 1150 3950 50  0001 C CNN
+F 3 "~" H 1150 3950 50  0001 C CNN
+	1    1150 3950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61383790
-P 1300 3650
-F 0 "D?" V 1346 3570 50  0000 R CNN
-F 1 "SMD_123" V 1255 3570 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 1300 3650 50  0001 C CNN
-F 3 "~" H 1300 3650 50  0001 C CNN
-	1    1300 3650
+P 1650 3950
+F 0 "D?" V 1696 3870 50  0000 R CNN
+F 1 "SMD_123" V 1605 3870 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 1650 3950 50  0001 C CNN
+F 3 "~" H 1650 3950 50  0001 C CNN
+	1    1650 3950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61383796
-P 1800 3650
-F 0 "D?" V 1846 3570 50  0000 R CNN
-F 1 "SMD_123" V 1755 3570 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 1800 3650 50  0001 C CNN
-F 3 "~" H 1800 3650 50  0001 C CNN
-	1    1800 3650
+P 2150 3950
+F 0 "D?" V 2196 3870 50  0000 R CNN
+F 1 "SMD_123" V 2105 3870 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 2150 3950 50  0001 C CNN
+F 3 "~" H 2150 3950 50  0001 C CNN
+	1    2150 3950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 6138379C
-P 2300 3650
-F 0 "D?" V 2346 3570 50  0000 R CNN
-F 1 "SMD_123" V 2255 3570 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 2300 3650 50  0001 C CNN
-F 3 "~" H 2300 3650 50  0001 C CNN
-	1    2300 3650
+P 2650 3950
+F 0 "D?" V 2696 3870 50  0000 R CNN
+F 1 "SMD_123" V 2605 3870 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 2650 3950 50  0001 C CNN
+F 3 "~" H 2650 3950 50  0001 C CNN
+	1    2650 3950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 613837A2
-P 2800 3650
-F 0 "D?" V 2846 3570 50  0000 R CNN
-F 1 "SMD_123" V 2755 3570 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 2800 3650 50  0001 C CNN
-F 3 "~" H 2800 3650 50  0001 C CNN
-	1    2800 3650
+P 3150 3950
+F 0 "D?" V 3196 3870 50  0000 R CNN
+F 1 "SMD_123" V 3105 3870 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 3150 3950 50  0001 C CNN
+F 3 "~" H 3150 3950 50  0001 C CNN
+	1    3150 3950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 613837A8
-P 3300 3650
-F 0 "D?" V 3346 3570 50  0000 R CNN
-F 1 "SMD_123" V 3255 3570 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 3300 3650 50  0001 C CNN
-F 3 "~" H 3300 3650 50  0001 C CNN
-	1    3300 3650
+P 3650 3950
+F 0 "D?" V 3696 3870 50  0000 R CNN
+F 1 "SMD_123" V 3605 3870 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 3650 3950 50  0001 C CNN
+F 3 "~" H 3650 3950 50  0001 C CNN
+	1    3650 3950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 613837AE
-P 3800 3650
-F 0 "D?" V 3846 3570 50  0000 R CNN
-F 1 "SMD_123" V 3755 3570 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 3800 3650 50  0001 C CNN
-F 3 "~" H 3800 3650 50  0001 C CNN
-	1    3800 3650
+P 4150 3950
+F 0 "D?" V 4196 3870 50  0000 R CNN
+F 1 "SMD_123" V 4105 3870 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 4150 3950 50  0001 C CNN
+F 3 "~" H 4150 3950 50  0001 C CNN
+	1    4150 3950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 613837B4
-P 4300 3650
-F 0 "D?" V 4346 3570 50  0000 R CNN
-F 1 "SMD_123" V 4255 3570 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 4300 3650 50  0001 C CNN
-F 3 "~" H 4300 3650 50  0001 C CNN
-	1    4300 3650
+P 4650 3950
+F 0 "D?" V 4696 3870 50  0000 R CNN
+F 1 "SMD_123" V 4605 3870 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 4650 3950 50  0001 C CNN
+F 3 "~" H 4650 3950 50  0001 C CNN
+	1    4650 3950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 613837BA
-P 4800 3650
-F 0 "D?" V 4846 3570 50  0000 R CNN
-F 1 "SMD_123" V 4755 3570 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 4800 3650 50  0001 C CNN
-F 3 "~" H 4800 3650 50  0001 C CNN
-	1    4800 3650
+P 5150 3950
+F 0 "D?" V 5196 3870 50  0000 R CNN
+F 1 "SMD_123" V 5105 3870 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 5150 3950 50  0001 C CNN
+F 3 "~" H 5150 3950 50  0001 C CNN
+	1    5150 3950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 613837C0
-P 5300 3650
-F 0 "D?" V 5346 3570 50  0000 R CNN
-F 1 "SMD_123" V 5255 3570 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 5300 3650 50  0001 C CNN
-F 3 "~" H 5300 3650 50  0001 C CNN
-	1    5300 3650
+P 5650 3950
+F 0 "D?" V 5696 3870 50  0000 R CNN
+F 1 "SMD_123" V 5605 3870 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 5650 3950 50  0001 C CNN
+F 3 "~" H 5650 3950 50  0001 C CNN
+	1    5650 3950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 613837C6
-P 5800 3650
-F 0 "D?" V 5846 3570 50  0000 R CNN
-F 1 "SMD_123" V 5755 3570 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 5800 3650 50  0001 C CNN
-F 3 "~" H 5800 3650 50  0001 C CNN
-	1    5800 3650
+P 6150 3950
+F 0 "D?" V 6196 3870 50  0000 R CNN
+F 1 "SMD_123" V 6105 3870 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 6150 3950 50  0001 C CNN
+F 3 "~" H 6150 3950 50  0001 C CNN
+	1    6150 3950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 613837CC
-P 6300 3650
-F 0 "D?" V 6346 3570 50  0000 R CNN
-F 1 "SMD_123" V 6255 3570 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 6300 3650 50  0001 C CNN
-F 3 "~" H 6300 3650 50  0001 C CNN
-	1    6300 3650
+P 6650 3950
+F 0 "D?" V 6696 3870 50  0000 R CNN
+F 1 "SMD_123" V 6605 3870 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 6650 3950 50  0001 C CNN
+F 3 "~" H 6650 3950 50  0001 C CNN
+	1    6650 3950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 613837D2
-P 6800 3650
-F 0 "D?" V 6846 3570 50  0000 R CNN
-F 1 "SMD_123" V 6755 3570 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 6800 3650 50  0001 C CNN
-F 3 "~" H 6800 3650 50  0001 C CNN
-	1    6800 3650
+P 7150 3950
+F 0 "D?" V 7196 3870 50  0000 R CNN
+F 1 "SMD_123" V 7105 3870 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 7150 3950 50  0001 C CNN
+F 3 "~" H 7150 3950 50  0001 C CNN
+	1    7150 3950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 613837D8
-P 7300 3650
-F 0 "D?" V 7346 3570 50  0000 R CNN
-F 1 "SMD_123" V 7255 3570 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 7300 3650 50  0001 C CNN
-F 3 "~" H 7300 3650 50  0001 C CNN
-	1    7300 3650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 613837DE
-P 7800 3650
-F 0 "D?" V 7846 3570 50  0000 R CNN
-F 1 "SMD_123" V 7755 3570 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 7800 3650 50  0001 C CNN
-F 3 "~" H 7800 3650 50  0001 C CNN
-	1    7800 3650
+P 7650 3950
+F 0 "D?" V 7696 3870 50  0000 R CNN
+F 1 "SMD_123" V 7605 3870 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 7650 3950 50  0001 C CNN
+F 3 "~" H 7650 3950 50  0001 C CNN
+	1    7650 3950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61414075
-P 800 4450
-F 0 "D?" V 846 4370 50  0000 R CNN
-F 1 "SMD_123" V 755 4370 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 800 4450 50  0001 C CNN
-F 3 "~" H 800 4450 50  0001 C CNN
-	1    800  4450
+P 1150 4750
+F 0 "D?" V 1196 4670 50  0000 R CNN
+F 1 "SMD_123" V 1105 4670 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 1150 4750 50  0001 C CNN
+F 3 "~" H 1150 4750 50  0001 C CNN
+	1    1150 4750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 6141407B
-P 1300 4450
-F 0 "D?" V 1346 4370 50  0000 R CNN
-F 1 "SMD_123" V 1255 4370 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 1300 4450 50  0001 C CNN
-F 3 "~" H 1300 4450 50  0001 C CNN
-	1    1300 4450
+P 1650 4750
+F 0 "D?" V 1696 4670 50  0000 R CNN
+F 1 "SMD_123" V 1605 4670 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 1650 4750 50  0001 C CNN
+F 3 "~" H 1650 4750 50  0001 C CNN
+	1    1650 4750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61414081
-P 1800 4450
-F 0 "D?" V 1846 4370 50  0000 R CNN
-F 1 "SMD_123" V 1755 4370 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 1800 4450 50  0001 C CNN
-F 3 "~" H 1800 4450 50  0001 C CNN
-	1    1800 4450
+P 2150 4750
+F 0 "D?" V 2196 4670 50  0000 R CNN
+F 1 "SMD_123" V 2105 4670 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 2150 4750 50  0001 C CNN
+F 3 "~" H 2150 4750 50  0001 C CNN
+	1    2150 4750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 61414099
-P 3800 4450
-F 0 "D?" V 3846 4370 50  0000 R CNN
-F 1 "SMD_123" V 3755 4370 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 3800 4450 50  0001 C CNN
-F 3 "~" H 3800 4450 50  0001 C CNN
-	1    3800 4450
+P 4150 4750
+F 0 "D?" V 4196 4670 50  0000 R CNN
+F 1 "SMD_123" V 4105 4670 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 4150 4750 50  0001 C CNN
+F 3 "~" H 4150 4750 50  0001 C CNN
+	1    4150 4750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 614140AB
-P 5300 4450
-F 0 "D?" V 5346 4370 50  0000 R CNN
-F 1 "SMD_123" V 5255 4370 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 5300 4450 50  0001 C CNN
-F 3 "~" H 5300 4450 50  0001 C CNN
-	1    5300 4450
+P 5650 4750
+F 0 "D?" V 5696 4670 50  0000 R CNN
+F 1 "SMD_123" V 5605 4670 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 5650 4750 50  0001 C CNN
+F 3 "~" H 5650 4750 50  0001 C CNN
+	1    5650 4750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 614140B1
-P 5800 4450
-F 0 "D?" V 5846 4370 50  0000 R CNN
-F 1 "SMD_123" V 5755 4370 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 5800 4450 50  0001 C CNN
-F 3 "~" H 5800 4450 50  0001 C CNN
-	1    5800 4450
+P 6150 4750
+F 0 "D?" V 6196 4670 50  0000 R CNN
+F 1 "SMD_123" V 6105 4670 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 6150 4750 50  0001 C CNN
+F 3 "~" H 6150 4750 50  0001 C CNN
+	1    6150 4750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 614140B7
-P 6300 4450
-F 0 "D?" V 6346 4370 50  0000 R CNN
-F 1 "SMD_123" V 6255 4370 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 6300 4450 50  0001 C CNN
-F 3 "~" H 6300 4450 50  0001 C CNN
-	1    6300 4450
+P 6650 4750
+F 0 "D?" V 6696 4670 50  0000 R CNN
+F 1 "SMD_123" V 6605 4670 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 6650 4750 50  0001 C CNN
+F 3 "~" H 6650 4750 50  0001 C CNN
+	1    6650 4750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 614140BD
-P 6800 4450
-F 0 "D?" V 6846 4370 50  0000 R CNN
-F 1 "SMD_123" V 6755 4370 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 6800 4450 50  0001 C CNN
-F 3 "~" H 6800 4450 50  0001 C CNN
-	1    6800 4450
+P 7150 4750
+F 0 "D?" V 7196 4670 50  0000 R CNN
+F 1 "SMD_123" V 7105 4670 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 7150 4750 50  0001 C CNN
+F 3 "~" H 7150 4750 50  0001 C CNN
+	1    7150 4750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 614140C3
-P 7300 4450
-F 0 "D?" V 7346 4370 50  0000 R CNN
-F 1 "SMD_123" V 7255 4370 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 7300 4450 50  0001 C CNN
-F 3 "~" H 7300 4450 50  0001 C CNN
-	1    7300 4450
+P 7650 4750
+F 0 "D?" V 7696 4670 50  0000 R CNN
+F 1 "SMD_123" V 7605 4670 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 7650 4750 50  0001 C CNN
+F 3 "~" H 7650 4750 50  0001 C CNN
+	1    7650 4750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 614140C9
-P 7800 4450
-F 0 "D?" V 7846 4370 50  0000 R CNN
-F 1 "SMD_123" V 7755 4370 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 7800 4450 50  0001 C CNN
-F 3 "~" H 7800 4450 50  0001 C CNN
-	1    7800 4450
+P 8150 4750
+F 0 "D?" V 8196 4670 50  0000 R CNN
+F 1 "SMD_123" V 8105 4670 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 8150 4750 50  0001 C CNN
+F 3 "~" H 8150 4750 50  0001 C CNN
+	1    8150 4750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4000 3300 4000 4100
-Connection ~ 4000 3300
+	4350 3600 4350 4400
+Connection ~ 4350 3600
+$Comp
+L power:GND #PWR?
+U 1 1 61464128
+P 5400 6400
+F 0 "#PWR?" H 5400 6150 50  0001 C CNN
+F 1 "GND" H 5550 6250 50  0000 R CNN
+F 2 "" H 5400 6400 50  0001 C CNN
+F 3 "" H 5400 6400 50  0001 C CNN
+	1    5400 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 6200 5400 6200
+Wire Wire Line
+	5400 6200 5400 6100
+Wire Wire Line
+	5250 6350 5400 6350
+Wire Wire Line
+	5400 6350 5400 6400
+Text GLabel 9250 3700 2    50   Input ~ 0
+GND
+$Comp
+L Device:Rotary_Encoder_Switch SW?
+U 1 1 612ABC6D
+P 8950 3700
+F 0 "SW?" H 8950 4067 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 8950 3976 50  0000 C CNN
+F 2 "Keebio Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 8800 3860 50  0001 C CNN
+F 3 "~" H 8950 3960 50  0001 C CNN
+	1    8950 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8650 4100 8650 3800
+Wire Wire Line
+	7650 4100 8650 4100
+Wire Wire Line
+	8350 3600 8650 3600
+Text GLabel 9250 3600 2    50   Input ~ 0
+ROT_B
+Text GLabel 9250 3800 2    50   Input ~ 0
+ROT_A
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 61929C07
+P 8200 2850
+F 0 "MX?" H 8233 3073 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 8233 2999 20  0000 C CNN
+F 2 "Keebio Parts:MX-Alps-Choc-1U" H 7575 2825 60  0001 C CNN
+F 3 "" H 7575 2825 60  0001 C CNN
+	1    8200 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61929C11
+P 8150 3150
+F 0 "D?" V 8196 3070 50  0000 R CNN
+F 1 "SMD_123" V 8105 3070 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 8150 3150 50  0001 C CNN
+F 3 "~" H 8150 3150 50  0001 C CNN
+	1    8150 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8350 2000 8350 2800
+Connection ~ 8350 2000
+Connection ~ 8350 2800
+Text Notes 950  1450 0    50   ~ 0
+Esc
+Text Notes 1450 1450 0    50   ~ 0
+1
+Text Notes 1950 1450 0    50   ~ 0
+2
+Text Notes 2450 1450 0    50   ~ 0
+3
+Text Notes 2950 1450 0    50   ~ 0
+4
+Text Notes 3950 1450 0    50   ~ 0
+6
+Text Notes 4450 1450 0    50   ~ 0
+7
+Text Notes 4950 1450 0    50   ~ 0
+8
+Text Notes 5450 1450 0    50   ~ 0
+9
+Text Notes 5950 1450 0    50   ~ 0
+0
+Text Notes 6450 1450 0    50   ~ 0
+-
+Text Notes 6950 1450 0    50   ~ 0
+=
+Text Notes 7450 1450 0    50   ~ 0
+Del
+Text Notes 7950 1450 0    50   ~ 0
+F13
+Text Notes 950  2250 0    50   ~ 0
+Tab
+Text Notes 1450 2250 0    50   ~ 0
+Q
+Text Notes 1950 2250 0    50   ~ 0
+W
+Text Notes 2450 2250 0    50   ~ 0
+E
+Text Notes 2950 2250 0    50   ~ 0
+R
+Text Notes 4450 2250 0    50   ~ 0
+U
+Text Notes 4950 2250 0    50   ~ 0
+I
+Text Notes 5450 2250 0    50   ~ 0
+O
+Text Notes 6450 2250 0    50   ~ 0
+[
+Text Notes 6950 2250 0    50   ~ 0
+]
+Text Notes 7450 2250 0    50   ~ 0
+\
+Text Notes 7950 2250 0    50   ~ 0
+F14
+Text Notes 1450 3050 0    50   ~ 0
+A
+Text Notes 1950 3050 0    50   ~ 0
+S
+Text Notes 2450 3050 0    50   ~ 0
+D
+Text Notes 2950 3050 0    50   ~ 0
+F
+Text Notes 3450 3050 0    50   ~ 0
+G
+Text Notes 3950 3050 0    50   ~ 0
+H
+Text Notes 4950 3050 0    50   ~ 0
+K
+Text Notes 5450 3050 0    50   ~ 0
+L
+Text Notes 5950 3050 0    50   ~ 0
+;
+Text Notes 6450 3050 0    50   ~ 0
+'
+Text Notes 7950 3050 0    50   ~ 0
+F15
+Text Notes 900  3850 0    50   ~ 0
+Shift
+Text Notes 1450 3850 0    50   ~ 0
+Z
+Text Notes 1950 3850 0    50   ~ 0
+X
+Text Notes 2450 3850 0    50   ~ 0
+C
+Text Notes 2950 3850 0    50   ~ 0
+V
+Text Notes 3450 3850 0    50   ~ 0
+B
+Text Notes 3900 3850 0    50   ~ 0
+N
+Text Notes 4450 3850 0    50   ~ 0
+M
+Text Notes 4950 3850 0    50   ~ 0
+,
+Text Notes 5450 3850 0    50   ~ 0
+.
+Text Notes 5950 3850 0    50   ~ 0
+/
+Text Notes 6400 3850 0    50   ~ 0
+RShift\n
+Text Notes 6950 3850 0    50   ~ 0
+Up
+Text Notes 7450 3850 0    50   ~ 0
+Fn
+Text Notes 8400 3850 0    50   ~ 0
+Mute
+Text Notes 950  4650 0    50   ~ 0
+Ctrl
+Text Notes 1450 4650 0    50   ~ 0
+Win
+Text Notes 3850 4650 0    50   ~ 0
+Space
+Text Notes 5450 4650 0    50   ~ 0
+Alt
+Text Notes 5950 4650 0    50   ~ 0
+Win
+Text Notes 6950 4650 0    50   ~ 0
+Left
+Text Notes 7900 4650 0    50   ~ 0
+Right
+Text Notes 3450 1450 0    50   ~ 0
+5
+Text Notes 900  3050 0    50   ~ 0
+Caps
+Text Notes 1950 4650 0    50   ~ 0
+Alt
+Text Notes 3450 2250 0    50   ~ 0
+T
+Text Notes 3950 2250 0    50   ~ 0
+Y
+Text Notes 4450 3050 0    50   ~ 0
+J
+Text Notes 5950 2250 0    50   ~ 0
+P
+Text Notes 6900 3050 0    50   ~ 0
+Enter
+Text Notes 6400 4650 0    50   ~ 0
+RCtrl
+Text Notes 7400 4650 0    50   ~ 0
+Down
+Wire Wire Line
+	8350 2800 8350 3600
+Connection ~ 7650 4100
+Connection ~ 8350 3600
+Wire Wire Line
+	8350 3600 8350 4400
+Wire Wire Line
+	7850 2000 7850 3600
+Wire Wire Line
+	7150 3300 8150 3300
+Text GLabel 850  4900 0    50   Input ~ 0
+ROW4
+Text GLabel 850  4100 0    50   Input ~ 0
+ROW3
+Text GLabel 850  3300 0    50   Input ~ 0
+ROW2
+Text GLabel 850  2500 0    50   Input ~ 0
+ROW1
+Text GLabel 850  1700 0    50   Input ~ 0
+ROW0
+Wire Wire Line
+	1150 1700 850  1700
+Connection ~ 1150 1700
+Wire Wire Line
+	1150 2500 850  2500
+Connection ~ 1150 2500
+Wire Wire Line
+	1150 3300 850  3300
+Connection ~ 1150 3300
+Wire Wire Line
+	1150 4100 850  4100
+Connection ~ 1150 4100
+Wire Wire Line
+	1150 4900 850  4900
+Connection ~ 1150 4900
+Text GLabel 1350 900  1    50   Input ~ 0
+COL_0
+Text GLabel 1850 900  1    50   Input ~ 0
+COL_1
+Text GLabel 2350 900  1    50   Input ~ 0
+COL_2
+Text GLabel 2850 900  1    50   Input ~ 0
+COL_3
+Text GLabel 3350 900  1    50   Input ~ 0
+COL_4
+Text GLabel 3850 900  1    50   Input ~ 0
+COL_5
+Text GLabel 4350 900  1    50   Input ~ 0
+COL_6
+Text GLabel 4850 900  1    50   Input ~ 0
+COL_7
+Text GLabel 5350 900  1    50   Input ~ 0
+COL_8
+Text GLabel 5850 900  1    50   Input ~ 0
+COL_9
+Text GLabel 6350 900  1    50   Input ~ 0
+COL_10
+Text GLabel 6850 900  1    50   Input ~ 0
+COL_11
+Text GLabel 7350 900  1    50   Input ~ 0
+COL_12
+Text GLabel 7850 900  1    50   Input ~ 0
+COL_13
+Text GLabel 8350 900  1    50   Input ~ 0
+COL_14
+Wire Wire Line
+	1350 1200 1350 900 
+Connection ~ 1350 1200
+Wire Wire Line
+	1850 1200 1850 900 
+Wire Wire Line
+	2350 1200 2350 900 
+Wire Wire Line
+	2850 1200 2850 900 
+Wire Wire Line
+	3350 1200 3350 900 
+Wire Wire Line
+	3850 1200 3850 900 
+Wire Wire Line
+	4350 1200 4350 900 
+Wire Wire Line
+	4850 1200 4850 900 
+Wire Wire Line
+	5350 1200 5350 900 
+Wire Wire Line
+	5850 1200 5850 900 
+Wire Wire Line
+	6350 1200 6350 900 
+Wire Wire Line
+	6850 1200 6850 900 
+Wire Wire Line
+	7350 1200 7350 900 
+Wire Wire Line
+	7850 1200 7850 900 
+Wire Wire Line
+	8350 1200 8350 900 
+Connection ~ 1850 1200
+Connection ~ 2350 1200
+Connection ~ 2850 1200
+Connection ~ 3350 1200
+Connection ~ 3850 1200
+Connection ~ 4350 1200
+Connection ~ 4850 1200
+Connection ~ 5350 1200
+Connection ~ 5850 1200
+Connection ~ 6350 1200
+Connection ~ 6850 1200
+Connection ~ 7350 1200
+Connection ~ 7850 1200
+Connection ~ 8350 1200
 $EndSCHEMATC
