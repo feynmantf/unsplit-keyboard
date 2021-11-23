@@ -62,19 +62,13 @@ ROW3
 Text GLabel 2100 7150 3    50   Input ~ 0
 ROW4
 Wire Wire Line
-	1350 1200 1350 2000
-Wire Wire Line
 	1350 2000 1350 2800
-Connection ~ 1350 2000
 Connection ~ 1350 2800
 Wire Wire Line
 	1350 2800 1350 3600
 Connection ~ 1350 3600
 Wire Wire Line
 	1350 3600 1350 4400
-Wire Wire Line
-	1850 1200 1850 2000
-Connection ~ 1850 2000
 Wire Wire Line
 	1850 2000 1850 2800
 Connection ~ 1850 2800
@@ -86,16 +80,12 @@ Wire Wire Line
 Wire Wire Line
 	2350 4400 2350 3600
 Connection ~ 2350 2000
-Wire Wire Line
-	2350 2000 2350 1200
 Connection ~ 2350 2800
 Wire Wire Line
 	2350 2800 2350 2000
 Connection ~ 2350 3600
 Wire Wire Line
 	2350 3600 2350 2800
-Wire Wire Line
-	2850 1200 2850 2000
 Connection ~ 2850 2000
 Wire Wire Line
 	2850 2000 2850 2800
@@ -105,8 +95,6 @@ Wire Wire Line
 Wire Wire Line
 	3350 3600 3350 2800
 Connection ~ 3350 2000
-Wire Wire Line
-	3350 2000 3350 1200
 Connection ~ 3350 2800
 Wire Wire Line
 	3350 2800 3350 2000
@@ -194,20 +182,6 @@ Wire Wire Line
 	7850 3600 7850 4400
 Wire Wire Line
 	8350 2000 8350 1200
-Wire Wire Line
-	1150 1700 1650 1700
-Connection ~ 1650 1700
-Wire Wire Line
-	1650 1700 2150 1700
-Connection ~ 2150 1700
-Wire Wire Line
-	2150 1700 2650 1700
-Connection ~ 2650 1700
-Wire Wire Line
-	2650 1700 3150 1700
-Connection ~ 3150 1700
-Wire Wire Line
-	3150 1700 3650 1700
 Connection ~ 3650 1700
 Wire Wire Line
 	3650 1700 4150 1700
@@ -437,20 +411,9 @@ U 1 1 612B5F39
 P 1200 2050
 F 0 "MX16" H 1233 2273 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 1233 2199 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 575 2025 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1.5U" H 575 2025 60  0001 C CNN
 F 3 "" H 575 2025 60  0001 C CNN
 	1    1200 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX2
-U 1 1 612B9324
-P 1700 1250
-F 0 "MX2" H 1733 1473 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 1733 1399 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1075 1225 60  0001 C CNN
-F 3 "" H 1075 1225 60  0001 C CNN
-	1    1700 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -459,7 +422,7 @@ U 1 1 612B9AA6
 P 1700 2050
 F 0 "MX17" H 1733 2273 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 1733 2199 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1075 2025 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 1075 2025 60  0001 C CNN
 F 3 "" H 1075 2025 60  0001 C CNN
 	1    1700 2050
 	1    0    0    -1  
@@ -470,7 +433,7 @@ U 1 1 612BEDC8
 P 1200 2850
 F 0 "MX31" H 1233 3073 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 1233 2999 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 575 2825 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1.75U" H 575 2825 60  0001 C CNN
 F 3 "" H 575 2825 60  0001 C CNN
 	1    1200 2850
 	1    0    0    -1  
@@ -481,7 +444,7 @@ U 1 1 612BEDCE
 P 1200 3650
 F 0 "MX45" H 1233 3873 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 1233 3799 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 575 3625 60  0001 C CNN
+F 2 "Keyboard Master List:MX-2.25U" H 575 3625 60  0001 C CNN
 F 3 "" H 575 3625 60  0001 C CNN
 	1    1200 3650
 	1    0    0    -1  
@@ -492,7 +455,7 @@ U 1 1 612BEDD4
 P 1700 2850
 F 0 "MX32" H 1733 3073 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 1733 2999 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1075 2825 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 1075 2825 60  0001 C CNN
 F 3 "" H 1075 2825 60  0001 C CNN
 	1    1700 2850
 	1    0    0    -1  
@@ -503,7 +466,7 @@ U 1 1 612BEDDA
 P 1700 3650
 F 0 "MX46" H 1733 3873 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 1733 3799 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1075 3625 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 1075 3625 60  0001 C CNN
 F 3 "" H 1075 3625 60  0001 C CNN
 	1    1700 3650
 	1    0    0    -1  
@@ -514,7 +477,7 @@ U 1 1 612C0494
 P 1200 4450
 F 0 "MX59" H 1233 4673 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 1233 4599 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 575 4425 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1.25U" H 575 4425 60  0001 C CNN
 F 3 "" H 575 4425 60  0001 C CNN
 	1    1200 4450
 	1    0    0    -1  
@@ -525,20 +488,9 @@ U 1 1 612C049A
 P 1700 4450
 F 0 "MX60" H 1733 4673 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 1733 4599 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1075 4425 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1.25U" H 1075 4425 60  0001 C CNN
 F 3 "" H 1075 4425 60  0001 C CNN
 	1    1700 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX1
-U 1 1 612B47CA
-P 1200 1250
-F 0 "MX1" H 1233 1473 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 1233 1399 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 575 1225 60  0001 C CNN
-F 3 "" H 575 1225 60  0001 C CNN
-	1    1200 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -547,20 +499,9 @@ U 1 1 612C9E8B
 P 2200 2050
 F 0 "MX18" H 2233 2273 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 2233 2199 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1575 2025 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 1575 2025 60  0001 C CNN
 F 3 "" H 1575 2025 60  0001 C CNN
 	1    2200 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX4
-U 1 1 612C9E91
-P 2700 1250
-F 0 "MX4" H 2733 1473 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 2733 1399 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2075 1225 60  0001 C CNN
-F 3 "" H 2075 1225 60  0001 C CNN
-	1    2700 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -569,7 +510,7 @@ U 1 1 612C9E97
 P 2700 2050
 F 0 "MX19" H 2733 2273 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 2733 2199 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2075 2025 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 2075 2025 60  0001 C CNN
 F 3 "" H 2075 2025 60  0001 C CNN
 	1    2700 2050
 	1    0    0    -1  
@@ -580,7 +521,7 @@ U 1 1 612C9E9D
 P 2200 2850
 F 0 "MX33" H 2233 3073 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 2233 2999 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1575 2825 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 1575 2825 60  0001 C CNN
 F 3 "" H 1575 2825 60  0001 C CNN
 	1    2200 2850
 	1    0    0    -1  
@@ -591,7 +532,7 @@ U 1 1 612C9EA3
 P 2200 3650
 F 0 "MX47" H 2233 3873 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 2233 3799 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1575 3625 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 1575 3625 60  0001 C CNN
 F 3 "" H 1575 3625 60  0001 C CNN
 	1    2200 3650
 	1    0    0    -1  
@@ -602,7 +543,7 @@ U 1 1 612C9EA9
 P 2700 2850
 F 0 "MX34" H 2733 3073 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 2733 2999 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2075 2825 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 2075 2825 60  0001 C CNN
 F 3 "" H 2075 2825 60  0001 C CNN
 	1    2700 2850
 	1    0    0    -1  
@@ -613,20 +554,9 @@ U 1 1 612C9EAF
 P 2700 3650
 F 0 "MX48" H 2733 3873 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 2733 3799 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2075 3625 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 2075 3625 60  0001 C CNN
 F 3 "" H 2075 3625 60  0001 C CNN
 	1    2700 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX3
-U 1 1 612C9EC1
-P 2200 1250
-F 0 "MX3" H 2233 1473 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 2233 1399 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1575 1225 60  0001 C CNN
-F 3 "" H 1575 1225 60  0001 C CNN
-	1    2200 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -635,7 +565,7 @@ U 1 1 612CF2FD
 P 3200 2050
 F 0 "MX20" H 3233 2273 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 3233 2199 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2575 2025 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 2575 2025 60  0001 C CNN
 F 3 "" H 2575 2025 60  0001 C CNN
 	1    3200 2050
 	1    0    0    -1  
@@ -646,7 +576,7 @@ U 1 1 612CF303
 P 3700 1250
 F 0 "MX6" H 3733 1473 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 3733 1399 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3075 1225 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 3075 1225 60  0001 C CNN
 F 3 "" H 3075 1225 60  0001 C CNN
 	1    3700 1250
 	1    0    0    -1  
@@ -657,7 +587,7 @@ U 1 1 612CF309
 P 3700 2050
 F 0 "MX21" H 3733 2273 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 3733 2199 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3075 2025 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 3075 2025 60  0001 C CNN
 F 3 "" H 3075 2025 60  0001 C CNN
 	1    3700 2050
 	1    0    0    -1  
@@ -668,7 +598,7 @@ U 1 1 612CF30F
 P 3200 2850
 F 0 "MX35" H 3233 3073 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 3233 2999 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2575 2825 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 2575 2825 60  0001 C CNN
 F 3 "" H 2575 2825 60  0001 C CNN
 	1    3200 2850
 	1    0    0    -1  
@@ -679,7 +609,7 @@ U 1 1 612CF315
 P 3200 3650
 F 0 "MX49" H 3233 3873 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 3233 3799 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2575 3625 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 2575 3625 60  0001 C CNN
 F 3 "" H 2575 3625 60  0001 C CNN
 	1    3200 3650
 	1    0    0    -1  
@@ -690,7 +620,7 @@ U 1 1 612CF31B
 P 3700 2850
 F 0 "MX36" H 3733 3073 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 3733 2999 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3075 2825 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 3075 2825 60  0001 C CNN
 F 3 "" H 3075 2825 60  0001 C CNN
 	1    3700 2850
 	1    0    0    -1  
@@ -701,20 +631,9 @@ U 1 1 612CF321
 P 3700 3650
 F 0 "MX50" H 3733 3873 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 3733 3799 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3075 3625 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 3075 3625 60  0001 C CNN
 F 3 "" H 3075 3625 60  0001 C CNN
 	1    3700 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX5
-U 1 1 612CF333
-P 3200 1250
-F 0 "MX5" H 3233 1473 60  0000 C CNN
-F 1 "MX-NoLED-MX_Alps_Hybrid" H 3233 1399 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 2575 1225 60  0001 C CNN
-F 3 "" H 2575 1225 60  0001 C CNN
-	1    3200 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -723,7 +642,7 @@ U 1 1 612D09E1
 P 4200 2050
 F 0 "MX22" H 4233 2273 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 4233 2199 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3575 2025 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 3575 2025 60  0001 C CNN
 F 3 "" H 3575 2025 60  0001 C CNN
 	1    4200 2050
 	1    0    0    -1  
@@ -734,7 +653,7 @@ U 1 1 612D09E7
 P 4700 1250
 F 0 "MX8" H 4733 1473 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 4733 1399 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4075 1225 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 4075 1225 60  0001 C CNN
 F 3 "" H 4075 1225 60  0001 C CNN
 	1    4700 1250
 	1    0    0    -1  
@@ -745,7 +664,7 @@ U 1 1 612D09ED
 P 4700 2050
 F 0 "MX23" H 4733 2273 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 4733 2199 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4075 2025 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 4075 2025 60  0001 C CNN
 F 3 "" H 4075 2025 60  0001 C CNN
 	1    4700 2050
 	1    0    0    -1  
@@ -756,7 +675,7 @@ U 1 1 612D09F3
 P 4200 2850
 F 0 "MX37" H 4233 3073 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 4233 2999 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3575 2825 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 3575 2825 60  0001 C CNN
 F 3 "" H 3575 2825 60  0001 C CNN
 	1    4200 2850
 	1    0    0    -1  
@@ -767,7 +686,7 @@ U 1 1 612D09F9
 P 4200 3650
 F 0 "MX51" H 4233 3873 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 4233 3799 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3575 3625 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 3575 3625 60  0001 C CNN
 F 3 "" H 3575 3625 60  0001 C CNN
 	1    4200 3650
 	1    0    0    -1  
@@ -778,7 +697,7 @@ U 1 1 612D09FF
 P 4700 2850
 F 0 "MX38" H 4733 3073 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 4733 2999 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4075 2825 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 4075 2825 60  0001 C CNN
 F 3 "" H 4075 2825 60  0001 C CNN
 	1    4700 2850
 	1    0    0    -1  
@@ -789,7 +708,7 @@ U 1 1 612D0A05
 P 4700 3650
 F 0 "MX52" H 4733 3873 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 4733 3799 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4075 3625 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 4075 3625 60  0001 C CNN
 F 3 "" H 4075 3625 60  0001 C CNN
 	1    4700 3650
 	1    0    0    -1  
@@ -800,7 +719,7 @@ U 1 1 612D0A17
 P 4200 1250
 F 0 "MX7" H 4233 1473 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 4233 1399 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3575 1225 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 3575 1225 60  0001 C CNN
 F 3 "" H 3575 1225 60  0001 C CNN
 	1    4200 1250
 	1    0    0    -1  
@@ -811,7 +730,7 @@ U 1 1 612F1CF1
 P 5200 2050
 F 0 "MX24" H 5233 2273 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 5233 2199 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4575 2025 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 4575 2025 60  0001 C CNN
 F 3 "" H 4575 2025 60  0001 C CNN
 	1    5200 2050
 	1    0    0    -1  
@@ -822,7 +741,7 @@ U 1 1 612F1CF7
 P 5700 1250
 F 0 "MX10" H 5733 1473 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 5733 1399 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5075 1225 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 5075 1225 60  0001 C CNN
 F 3 "" H 5075 1225 60  0001 C CNN
 	1    5700 1250
 	1    0    0    -1  
@@ -833,7 +752,7 @@ U 1 1 612F1CFD
 P 5700 2050
 F 0 "MX25" H 5733 2273 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 5733 2199 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5075 2025 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 5075 2025 60  0001 C CNN
 F 3 "" H 5075 2025 60  0001 C CNN
 	1    5700 2050
 	1    0    0    -1  
@@ -844,7 +763,7 @@ U 1 1 612F1D03
 P 5200 2850
 F 0 "MX39" H 5233 3073 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 5233 2999 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4575 2825 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 4575 2825 60  0001 C CNN
 F 3 "" H 4575 2825 60  0001 C CNN
 	1    5200 2850
 	1    0    0    -1  
@@ -855,7 +774,7 @@ U 1 1 612F1D09
 P 5200 3650
 F 0 "MX53" H 5233 3873 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 5233 3799 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4575 3625 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 4575 3625 60  0001 C CNN
 F 3 "" H 4575 3625 60  0001 C CNN
 	1    5200 3650
 	1    0    0    -1  
@@ -866,7 +785,7 @@ U 1 1 612F1D0F
 P 5700 2850
 F 0 "MX40" H 5733 3073 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 5733 2999 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5075 2825 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 5075 2825 60  0001 C CNN
 F 3 "" H 5075 2825 60  0001 C CNN
 	1    5700 2850
 	1    0    0    -1  
@@ -877,7 +796,7 @@ U 1 1 612F1D15
 P 5700 3650
 F 0 "MX54" H 5733 3873 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 5733 3799 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5075 3625 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 5075 3625 60  0001 C CNN
 F 3 "" H 5075 3625 60  0001 C CNN
 	1    5700 3650
 	1    0    0    -1  
@@ -888,7 +807,7 @@ U 1 1 612F1D21
 P 5700 4450
 F 0 "MX63" H 5733 4673 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 5733 4599 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5075 4425 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 5075 4425 60  0001 C CNN
 F 3 "" H 5075 4425 60  0001 C CNN
 	1    5700 4450
 	1    0    0    -1  
@@ -899,7 +818,7 @@ U 1 1 612F1D27
 P 5200 1250
 F 0 "MX9" H 5233 1473 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 5233 1399 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 4575 1225 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 4575 1225 60  0001 C CNN
 F 3 "" H 4575 1225 60  0001 C CNN
 	1    5200 1250
 	1    0    0    -1  
@@ -910,7 +829,7 @@ U 1 1 612F1D2D
 P 6200 2050
 F 0 "MX26" H 6233 2273 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 6233 2199 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5575 2025 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 5575 2025 60  0001 C CNN
 F 3 "" H 5575 2025 60  0001 C CNN
 	1    6200 2050
 	1    0    0    -1  
@@ -921,7 +840,7 @@ U 1 1 612F1D33
 P 6700 1250
 F 0 "MX12" H 6733 1473 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 6733 1399 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6075 1225 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 6075 1225 60  0001 C CNN
 F 3 "" H 6075 1225 60  0001 C CNN
 	1    6700 1250
 	1    0    0    -1  
@@ -932,7 +851,7 @@ U 1 1 612F1D39
 P 6700 2050
 F 0 "MX27" H 6733 2273 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 6733 2199 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6075 2025 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 6075 2025 60  0001 C CNN
 F 3 "" H 6075 2025 60  0001 C CNN
 	1    6700 2050
 	1    0    0    -1  
@@ -943,7 +862,7 @@ U 1 1 612F1D3F
 P 6200 2850
 F 0 "MX41" H 6233 3073 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 6233 2999 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5575 2825 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 5575 2825 60  0001 C CNN
 F 3 "" H 5575 2825 60  0001 C CNN
 	1    6200 2850
 	1    0    0    -1  
@@ -954,7 +873,7 @@ U 1 1 612F1D45
 P 6200 3650
 F 0 "MX55" H 6233 3873 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 6233 3799 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5575 3625 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 5575 3625 60  0001 C CNN
 F 3 "" H 5575 3625 60  0001 C CNN
 	1    6200 3650
 	1    0    0    -1  
@@ -965,7 +884,7 @@ U 1 1 612F1D4B
 P 6700 2850
 F 0 "MX42" H 6733 3073 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 6733 2999 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6075 2825 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 6075 2825 60  0001 C CNN
 F 3 "" H 6075 2825 60  0001 C CNN
 	1    6700 2850
 	1    0    0    -1  
@@ -976,7 +895,7 @@ U 1 1 612F1D51
 P 6700 3650
 F 0 "MX56" H 6733 3873 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 6733 3799 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6075 3625 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1.75U" H 6075 3625 60  0001 C CNN
 F 3 "" H 6075 3625 60  0001 C CNN
 	1    6700 3650
 	1    0    0    -1  
@@ -987,7 +906,7 @@ U 1 1 612F1D57
 P 6200 4450
 F 0 "MX64" H 6233 4673 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 6233 4599 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5575 4425 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 5575 4425 60  0001 C CNN
 F 3 "" H 5575 4425 60  0001 C CNN
 	1    6200 4450
 	1    0    0    -1  
@@ -998,7 +917,7 @@ U 1 1 612F1D5D
 P 6700 4450
 F 0 "MX65" H 6733 4673 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 6733 4599 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6075 4425 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 6075 4425 60  0001 C CNN
 F 3 "" H 6075 4425 60  0001 C CNN
 	1    6700 4450
 	1    0    0    -1  
@@ -1009,7 +928,7 @@ U 1 1 612F1D63
 P 6200 1250
 F 0 "MX11" H 6233 1473 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 6233 1399 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 5575 1225 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 5575 1225 60  0001 C CNN
 F 3 "" H 5575 1225 60  0001 C CNN
 	1    6200 1250
 	1    0    0    -1  
@@ -1020,7 +939,7 @@ U 1 1 612F1D69
 P 7200 2050
 F 0 "MX28" H 7233 2273 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 7233 2199 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6575 2025 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 6575 2025 60  0001 C CNN
 F 3 "" H 6575 2025 60  0001 C CNN
 	1    7200 2050
 	1    0    0    -1  
@@ -1031,7 +950,7 @@ U 1 1 612F1D6F
 P 7700 1250
 F 0 "MX14" H 7733 1473 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 7733 1399 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 7075 1225 60  0001 C CNN
+F 2 "Keyboard Master List:MX-2U" H 7075 1225 60  0001 C CNN
 F 3 "" H 7075 1225 60  0001 C CNN
 	1    7700 1250
 	1    0    0    -1  
@@ -1042,7 +961,7 @@ U 1 1 612F1D75
 P 7700 2050
 F 0 "MX29" H 7733 2273 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 7733 2199 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 7075 2025 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1.5U" H 7075 2025 60  0001 C CNN
 F 3 "" H 7075 2025 60  0001 C CNN
 	1    7700 2050
 	1    0    0    -1  
@@ -1053,7 +972,7 @@ U 1 1 612F1D7B
 P 7200 2850
 F 0 "MX43" H 7233 3073 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 7233 2999 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6575 2825 60  0001 C CNN
+F 2 "Keyboard Master List:MX-2.25U" H 6575 2825 60  0001 C CNN
 F 3 "" H 6575 2825 60  0001 C CNN
 	1    7200 2850
 	1    0    0    -1  
@@ -1064,7 +983,7 @@ U 1 1 612F1D81
 P 7200 3650
 F 0 "MX57" H 7233 3873 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 7233 3799 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6575 3625 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 6575 3625 60  0001 C CNN
 F 3 "" H 6575 3625 60  0001 C CNN
 	1    7200 3650
 	1    0    0    -1  
@@ -1075,7 +994,7 @@ U 1 1 612F1D8D
 P 7700 3650
 F 0 "MX58" H 7733 3873 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 7733 3799 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 7075 3625 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 7075 3625 60  0001 C CNN
 F 3 "" H 7075 3625 60  0001 C CNN
 	1    7700 3650
 	1    0    0    -1  
@@ -1086,7 +1005,7 @@ U 1 1 612F1D93
 P 7200 4450
 F 0 "MX66" H 7233 4673 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 7233 4599 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6575 4425 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 6575 4425 60  0001 C CNN
 F 3 "" H 6575 4425 60  0001 C CNN
 	1    7200 4450
 	1    0    0    -1  
@@ -1097,7 +1016,7 @@ U 1 1 612F1D99
 P 7700 4450
 F 0 "MX67" H 7733 4673 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 7733 4599 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 7075 4425 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 7075 4425 60  0001 C CNN
 F 3 "" H 7075 4425 60  0001 C CNN
 	1    7700 4450
 	1    0    0    -1  
@@ -1108,7 +1027,7 @@ U 1 1 612F1D9F
 P 7200 1250
 F 0 "MX13" H 7233 1473 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 7233 1399 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 6575 1225 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 6575 1225 60  0001 C CNN
 F 3 "" H 6575 1225 60  0001 C CNN
 	1    7200 1250
 	1    0    0    -1  
@@ -1119,7 +1038,7 @@ U 1 1 612F1DCF
 P 8200 4450
 F 0 "MX68" H 8233 4673 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 8233 4599 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 7575 4425 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 7575 4425 60  0001 C CNN
 F 3 "" H 7575 4425 60  0001 C CNN
 	1    8200 4450
 	1    0    0    -1  
@@ -1130,7 +1049,7 @@ U 1 1 612D0A0B
 P 4200 4450
 F 0 "MX62" H 4233 4673 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 4233 4599 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 3575 4425 60  0001 C CNN
+F 2 "Keyboard Master List:MX-6.25U" H 3575 4425 60  0001 C CNN
 F 3 "" H 3575 4425 60  0001 C CNN
 	1    4200 4450
 	1    0    0    -1  
@@ -1141,7 +1060,7 @@ U 1 1 612C9EB5
 P 2200 4450
 F 0 "MX61" H 2233 4673 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 2233 4599 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 1575 4425 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1.25U" H 1575 4425 60  0001 C CNN
 F 3 "" H 1575 4425 60  0001 C CNN
 	1    2200 4450
 	1    0    0    -1  
@@ -1152,7 +1071,7 @@ U 1 1 612F1DDB
 P 8200 1250
 F 0 "MX15" H 8233 1473 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 8233 1399 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 7575 1225 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 7575 1225 60  0001 C CNN
 F 3 "" H 7575 1225 60  0001 C CNN
 	1    8200 1250
 	1    0    0    -1  
@@ -1163,43 +1082,10 @@ U 1 1 612F1DA5
 P 8200 2050
 F 0 "MX30" H 8233 2273 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 8233 2199 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 7575 2025 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 7575 2025 60  0001 C CNN
 F 3 "" H 7575 2025 60  0001 C CNN
 	1    8200 2050
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D1
-U 1 1 6133AAC1
-P 1150 1550
-F 0 "D1" V 1196 1470 50  0000 R CNN
-F 1 "SMD_123" V 1105 1470 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 1150 1550 50  0001 C CNN
-F 3 "~" H 1150 1550 50  0001 C CNN
-	1    1150 1550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D2
-U 1 1 613401CA
-P 1650 1550
-F 0 "D2" V 1696 1470 50  0000 R CNN
-F 1 "SMD_123" V 1605 1470 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 1650 1550 50  0001 C CNN
-F 3 "~" H 1650 1550 50  0001 C CNN
-	1    1650 1550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D3
-U 1 1 61341019
-P 2150 1550
-F 0 "D3" V 2196 1470 50  0000 R CNN
-F 1 "SMD_123" V 2105 1470 50  0000 R CNN
-F 2 "Keebio Parts:Diode-Hybrid-Back" H 2150 1550 50  0001 C CNN
-F 3 "~" H 2150 1550 50  0001 C CNN
-	1    2150 1550
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D4
@@ -1956,7 +1842,7 @@ U 1 1 61929C07
 P 8200 2850
 F 0 "MX44" H 8233 3073 60  0000 C CNN
 F 1 "MX-NoLED-MX_Alps_Hybrid" H 8233 2999 20  0000 C CNN
-F 2 "Keebio Parts:MX-Alps-Choc-1U" H 7575 2825 60  0001 C CNN
+F 2 "Keyboard Master List:MX-1U" H 7575 2825 60  0001 C CNN
 F 3 "" H 7575 2825 60  0001 C CNN
 	1    8200 2850
 	1    0    0    -1  
@@ -1976,14 +1862,6 @@ Wire Wire Line
 	8350 2000 8350 2800
 Connection ~ 8350 2000
 Connection ~ 8350 2800
-Text Notes 950  1450 0    50   ~ 0
-Esc
-Text Notes 1450 1450 0    50   ~ 0
-1
-Text Notes 1950 1450 0    50   ~ 0
-2
-Text Notes 2450 1450 0    50   ~ 0
-3
 Text Notes 2950 1450 0    50   ~ 0
 4
 Text Notes 3950 1450 0    50   ~ 0
@@ -2135,9 +2013,6 @@ ROW1
 Text GLabel 850  1700 0    50   Input ~ 0
 ROW0
 Wire Wire Line
-	1150 1700 850  1700
-Connection ~ 1150 1700
-Wire Wire Line
 	1150 2500 850  2500
 Connection ~ 1150 2500
 Wire Wire Line
@@ -2181,7 +2056,6 @@ Text GLabel 8350 900  1    50   Input ~ 0
 COL_14
 Wire Wire Line
 	1350 1200 1350 900 
-Connection ~ 1350 1200
 Wire Wire Line
 	1850 1200 1850 900 
 Wire Wire Line
@@ -2210,7 +2084,6 @@ Wire Wire Line
 	7850 1200 7850 900 
 Wire Wire Line
 	8350 1200 8350 900 
-Connection ~ 1850 1200
 Connection ~ 2350 1200
 Connection ~ 2850 1200
 Connection ~ 3350 1200
@@ -2224,4 +2097,131 @@ Connection ~ 6850 1200
 Connection ~ 7350 1200
 Connection ~ 7850 1200
 Connection ~ 8350 1200
+Connection ~ 1850 1200
+Connection ~ 1350 1200
+Wire Wire Line
+	3150 1700 3650 1700
+Connection ~ 3150 1700
+Wire Wire Line
+	2650 1700 3150 1700
+Connection ~ 2650 1700
+Wire Wire Line
+	3350 2000 3350 1200
+Connection ~ 1850 2000
+Wire Wire Line
+	2850 1200 2850 2000
+Connection ~ 1350 2000
+Connection ~ 1150 1700
+Wire Wire Line
+	1150 1700 850  1700
+Text Notes 2450 1450 0    50   ~ 0
+3
+Text Notes 1950 1450 0    50   ~ 0
+2
+Text Notes 1450 1450 0    50   ~ 0
+1
+Text Notes 950  1450 0    50   ~ 0
+Esc
+$Comp
+L Device:D D3
+U 1 1 61341019
+P 2150 1550
+F 0 "D3" V 2196 1470 50  0000 R CNN
+F 1 "SMD_123" V 2105 1470 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 2150 1550 50  0001 C CNN
+F 3 "~" H 2150 1550 50  0001 C CNN
+	1    2150 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 613401CA
+P 1650 1550
+F 0 "D2" V 1696 1470 50  0000 R CNN
+F 1 "SMD_123" V 1605 1470 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 1650 1550 50  0001 C CNN
+F 3 "~" H 1650 1550 50  0001 C CNN
+	1    1650 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 6133AAC1
+P 1150 1550
+F 0 "D1" V 1196 1470 50  0000 R CNN
+F 1 "SMD_123" V 1105 1470 50  0000 R CNN
+F 2 "Keebio Parts:Diode-Hybrid-Back" H 1150 1550 50  0001 C CNN
+F 3 "~" H 1150 1550 50  0001 C CNN
+	1    1150 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2150 1700 2650 1700
+Connection ~ 2150 1700
+Wire Wire Line
+	1650 1700 2150 1700
+Connection ~ 1650 1700
+Wire Wire Line
+	1150 1700 1650 1700
+Wire Wire Line
+	2350 2000 2350 1200
+Wire Wire Line
+	1850 1200 1850 2000
+Wire Wire Line
+	1350 1200 1350 2000
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX5
+U 1 1 612CF333
+P 3200 1250
+F 0 "MX5" H 3233 1473 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 3233 1399 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 2575 1225 60  0001 C CNN
+F 3 "" H 2575 1225 60  0001 C CNN
+	1    3200 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX4
+U 1 1 612C9E91
+P 2700 1250
+F 0 "MX4" H 2733 1473 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 2733 1399 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 2075 1225 60  0001 C CNN
+F 3 "" H 2075 1225 60  0001 C CNN
+	1    2700 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX3
+U 1 1 612C9EC1
+P 2200 1250
+F 0 "MX3" H 2233 1473 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 2233 1399 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 1575 1225 60  0001 C CNN
+F 3 "" H 1575 1225 60  0001 C CNN
+	1    2200 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX2
+U 1 1 612B9324
+P 1700 1250
+F 0 "MX2" H 1733 1473 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 1733 1399 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 1075 1225 60  0001 C CNN
+F 3 "" H 1075 1225 60  0001 C CNN
+	1    1700 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardMasterList:MX-NoLED-MX_Alps_Hybrid MX1
+U 1 1 612B47CA
+P 1200 1250
+F 0 "MX1" H 1233 1473 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 1233 1399 20  0000 C CNN
+F 2 "Keyboard Master List:MX-1U" H 575 1225 60  0001 C CNN
+F 3 "" H 575 1225 60  0001 C CNN
+	1    1200 1250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
