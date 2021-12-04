@@ -1,4 +1,4 @@
-# WIP!! DOES NOT WORK - I will get back to working on it when the semester ends/when I have the time
+# WIP!! ~~DOES NOT WORK~~ (firmware and schematic work but not PCB or any other files) - I will get back to working on it when the semester ends/when I have the time
 
 # kaluza kb
 kaluza kb pcb, layout, and case files (plus other useful stuff like firmware/images)
