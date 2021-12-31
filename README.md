@@ -1,5 +1,5 @@
 # WIP!! (firmware and schematic work but not PCB or any other files) - I will get back to working on it when the semester ends/when I have the time
-# all files in [early revisions/final but with microcontrollers]("repo/blob/master/early revisions/final but with microcontrollers")
+# all files in [early revisions/final but with microcontrollers](repo/blob/master/early revisions/final but with microcontrollers)
 
 # kaluza kb
 kaluza kb pcb, layout, and case files (plus other useful stuff like firmware/images)
