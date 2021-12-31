@@ -1,5 +1,5 @@
 # WIP!! (firmware and schematic work but not PCB or any other files) - I will get back to working on it when the semester ends/when I have the time
-all files in [early revisions/final but with microcontrollers](/early%20revisions/final%20but%20with%20microcontrollers)
+# all files in [early revisions/final but with microcontrollers](/early%20revisions/final%20but%20with%20microcontrollers) still work, i just dont like the layout lol
 
 # kaluza kb
 kaluza kb pcb, layout, and case files (plus other useful stuff like firmware/images)
