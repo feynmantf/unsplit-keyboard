@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name keebio)(type Legacy)(uri "D:/Documents (HDD)/Git/kaluza-kb/final/library/keebio components/keebio.lib")(options "")(descr ""))
-  (lib (name KeyboardMasterList)(type Legacy)(uri "D:/Documents (HDD)/Git/kaluza-kb/final/library/keyboard master components/KeyboardMasterList.lib")(options "")(descr ""))
+  (lib (name "keebio")(type "Legacy")(uri "D:/Documents (HDD)/Git/kaluza-kb/final/library/keebio components/keebio.lib")(options "")(descr ""))
+  (lib (name "KeyboardMasterList")(type "Legacy")(uri "D:/Documents (HDD)/Git/kaluza-kb/final/library/keyboard master components/KeyboardMasterList.lib")(options "")(descr ""))
+  (lib (name "kaluza-rescue")(type "Legacy")(uri "${KIPRJMOD}/kaluza-rescue.lib")(options "")(descr ""))
 )
