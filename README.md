@@ -1,4 +1,4 @@
-# WIP!! (firmware and schematic work but not PCB or any other files) - I will get back to working on it when the semester ends/when I have the time
+# WIP!! (firmware and schematic work but i havent gotten around to the new pcb layout) - I will get back to working on it when the semester ends/when I have the time
 # all files in [early revisions/final but with microcontrollers](/early%20revisions/final%20but%20with%20microcontrollers) still work, i just dont like the layout lol
 
 # kaluza kb
@@ -10,15 +10,21 @@ i wanted a keyboard that was both 65% and had extra function keys. i also wanted
 
 ## sample images (they exist for the old revisions if you want to dig through the file tree)
 
-
 ### case images/renders:
-
 
 ### pcb images/renders:
 #### pcb front:
-![pcb front]()
+![pcb front](/early%20revisions/final%20but%20with%20microcontrollers/images/USKB%20Final%20front.png)
 #### pcb back:
-![pcb back]()
+![pcb back](/early%20revisions/final%20but%20with%20microcontrollers/images/USKB%20Final%20back.png)
+### schematic:
+![schematic](/final/images/schema.png)
+
+### handwired circuit test images:
+![handwired front](/early%20revisions/manual%20wiring%20images/final%20handwired%20front%20(no%20case).JPG)
+![handwired back](early%20revisions/manual%20wiring%20images/final%20handwired%20back%20(its%20a%20mess).JPG)
+![oled panel test](/early%20revisions/manual%20wiring%20images/working%20oled%20panel.JPG)
+
 
 ## parts needed to build the board (not included in these files)
 ### parts you must source
