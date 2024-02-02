@@ -14,11 +14,11 @@ i wanted a keyboard that was both 65% and had extra function keys. i also wanted
 ### case images/renders:
 
 ### pcb images/renders:
-#### pcb front:
+#### pcb front (old version):
 ![pcb front](/early%20revisions/final%20but%20with%20microcontrollers/images/USKB%20Final%20front.png)
-#### pcb back:
+#### pcb back (old version):
 ![pcb back](/early%20revisions/final%20but%20with%20microcontrollers/images/USKB%20Final%20back.png)
-### schematic:
+### schematic (new version):
 ![schematic](/final/images/schema.png)
 
 ### handwired circuit test images:
