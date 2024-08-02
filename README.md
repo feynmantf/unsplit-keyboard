@@ -1,4 +1,5 @@
-# WIP!! (firmware and schematic work but i havent gotten around to the new pcb layout) - I will get back to working on it when the semester ends/when I have the time
+# this project has been archived and abandoned in pursuit of hall-effect
+# ~~WIP!! (firmware and schematic work but i havent gotten around to the new pcb layout) - I will get back to working on it when the semester ends/when I have the time~~
 ## all files in [early revisions/final but with microcontrollers](/early%20revisions/final%20but%20with%20microcontrollers) still work and can be manufactured (see [BOM](/early%20revisions/final%20but%20with%20microcontrollers/bom%20and%20cpl%20files) and [Gerber](/early%20revisions/final%20but%20with%20microcontrollers/gerber%20and%20drill%20files) folders), i just dont like the layout lol
 ## i plan on coming back to this project sometime before the end of 2024, but i cant promise it will look the same
 
